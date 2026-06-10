@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#06251a" />
+  <title>WC26 ⚽ Today's Matches</title>
+  <meta name="description" content="KY app for WC26 — today's World Cup 2026 matches, live." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=3" />
+</head>
+<body>
+  <div class="pitch-glow" aria-hidden="true"></div>
+
+  <header class="hero">
+    <div class="hero__top">
+      <div class="brand">
+        <svg class="brand__ball" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6">
+          <circle cx="12" cy="12" r="9.2"/>
+          <path d="M12 7.2l3.2 2.3-1.2 3.8h-4l-1.2-3.8L12 7.2Z" fill="currentColor" stroke="none"/>
+          <path d="M12 7.2V4M15.2 9.5l3-1.6M13.8 13.3l2 3M10.2 13.3l-2 3M8.8 9.5l-3-1.6"/>
+        </svg>
+        <div class="brand__text">
+          <span class="brand__name">WC<span class="brand__26">26</span></span>
+          <span class="brand__tag">KY app for WC26</span>
+        </div>
+      </div>
+      <div class="hosts" aria-label="Hosted by Canada, USA and Mexico">
+        <span>🇨🇦</span><span>🇺🇸</span><span>🇲🇽</span>
+      </div>
+    </div>
+
+    <h1 class="hero__title">Today's Matches</h1>
+    <p class="hero__hype" id="hypeLine">Loading the hype…</p>
+
+    <div class="countdown" id="countdown" hidden>
+      <svg class="countdown__icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="9"/><path d="M12 7.5V12l3 2"/>
+      </svg>
+      <div class="countdown__body">
+        <span class="countdown__label">Next kickoff</span>
+        <span class="countdown__match" id="countdownMatch"></span>
+      </div>
+      <span class="countdown__time" id="countdownTime">--:--:--</span>
+    </div>
+  </header>
+
+  <nav class="datestrip" id="datestrip" aria-label="Pick a day"></nav>
+
+  <main class="matches" id="matches"></main>
+
+  <footer class="foot">
+    <p class="foot__main">
+      <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6M18 9h1.5a2.5 2.5 0 0 0 0-5H18M9 22c0-2 .9-3 2-3.5V17M15 22c0-2-.9-3-2-3.5V17M8 22h8"/>
+      </svg>
+      <span><strong>KY app for WC26</strong> · <span id="matchCount">0</span> matches · updated <span id="updated">—</span></span>
+    </p>
+    <p class="foot__hint">Live data via football-data.org · refreshes automatically</p>
+  </footer>
+
+  <script src="data.js?v=3"></script>
+  <script src="app.js?v=3"></script>
+</body>
+</html>
