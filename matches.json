@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-12T20:34:06+00:00",
+  "updatedAt": "2026-06-12T22:10:31+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -68,12 +68,12 @@
         "crest": "https://crests.football-data.org/bosnia.svg",
         "flag": "🇧🇦"
       },
-      "status": "live",
+      "status": "finished",
       "score": {
-        "home": 0,
+        "home": 1,
         "away": 1
       },
-      "minute": 94
+      "minute": null
     },
     {
       "id": 537345,
@@ -2586,16 +2586,33 @@
             "flag": "🇧🇦"
           },
           "played": 1,
-          "won": 1,
-          "draw": 0,
+          "won": 0,
+          "draw": 1,
           "lost": 0,
           "gf": 1,
-          "ga": 0,
-          "gd": 1,
-          "pts": 3
+          "ga": 1,
+          "gd": 0,
+          "pts": 1
         },
         {
-          "position": 2,
+          "position": 1,
+          "team": {
+            "name": "Canada",
+            "tla": "CAN",
+            "crest": "https://crests.football-data.org/canada.svg",
+            "flag": "🇨🇦"
+          },
+          "played": 1,
+          "won": 0,
+          "draw": 1,
+          "lost": 0,
+          "gf": 1,
+          "ga": 1,
+          "gd": 0,
+          "pts": 1
+        },
+        {
+          "position": 3,
           "team": {
             "name": "Qatar",
             "tla": "QAT",
@@ -2612,7 +2629,7 @@
           "pts": 0
         },
         {
-          "position": 2,
+          "position": 3,
           "team": {
             "name": "Switzerland",
             "tla": "SUI",
@@ -2626,23 +2643,6 @@
           "gf": 0,
           "ga": 0,
           "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 4,
-          "team": {
-            "name": "Canada",
-            "tla": "CAN",
-            "crest": "https://crests.football-data.org/canada.svg",
-            "flag": "🇨🇦"
-          },
-          "played": 1,
-          "won": 0,
-          "draw": 0,
-          "lost": 1,
-          "gf": 0,
-          "ga": 1,
-          "gd": -1,
           "pts": 0
         }
       ]
