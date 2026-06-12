@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-12T18:26:33+00:00",
+  "updatedAt": "2026-06-12T20:34:06+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -68,12 +68,12 @@
         "crest": "https://crests.football-data.org/bosnia.svg",
         "flag": "🇧🇦"
       },
-      "status": "upcoming",
+      "status": "live",
       "score": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
-      "minute": null
+      "minute": 94
     },
     {
       "id": 537345,
@@ -2585,34 +2585,17 @@
             "crest": "https://crests.football-data.org/bosnia.svg",
             "flag": "🇧🇦"
           },
-          "played": 0,
-          "won": 0,
+          "played": 1,
+          "won": 1,
           "draw": 0,
           "lost": 0,
-          "gf": 0,
+          "gf": 1,
           "ga": 0,
-          "gd": 0,
-          "pts": 0
+          "gd": 1,
+          "pts": 3
         },
         {
-          "position": 1,
-          "team": {
-            "name": "Canada",
-            "tla": "CAN",
-            "crest": "https://crests.football-data.org/canada.svg",
-            "flag": "🇨🇦"
-          },
-          "played": 0,
-          "won": 0,
-          "draw": 0,
-          "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 1,
+          "position": 2,
           "team": {
             "name": "Qatar",
             "tla": "QAT",
@@ -2629,7 +2612,7 @@
           "pts": 0
         },
         {
-          "position": 1,
+          "position": 2,
           "team": {
             "name": "Switzerland",
             "tla": "SUI",
@@ -2643,6 +2626,23 @@
           "gf": 0,
           "ga": 0,
           "gd": 0,
+          "pts": 0
+        },
+        {
+          "position": 4,
+          "team": {
+            "name": "Canada",
+            "tla": "CAN",
+            "crest": "https://crests.football-data.org/canada.svg",
+            "flag": "🇨🇦"
+          },
+          "played": 1,
+          "won": 0,
+          "draw": 0,
+          "lost": 1,
+          "gf": 0,
+          "ga": 1,
+          "gd": -1,
           "pts": 0
         }
       ]
