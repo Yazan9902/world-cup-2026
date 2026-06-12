@@ -158,7 +158,7 @@ function cardFoot(m) {
 
 function matchCard(m, idx) {
   const el = document.createElement("article");
-  el.className = "card";
+  el.className = "card" + (m.status === "live" ? " card--live" : "");
   el.style.animationDelay = `${Math.min(idx * 60, 360)}ms`;
   el.innerHTML = `
     <div class="card__top">
@@ -186,13 +186,17 @@ function renderMatches() {
   const wrap = $("#matches");
   wrap.innerHTML = "";
 
+  const rank = { live: 0, upcoming: 1, finished: 2 };
   const todays = MATCH_DATA
     .filter((m) => m.dateStr === selectedDate)
-    .sort((a, b) => a.when - b.when);
+    .sort((a, b) => (rank[a.status] - rank[b.status]) || (a.when - b.when));
 
+  const liveCount = todays.filter((m) => m.status === "live").length;
   const heading = document.createElement("h2");
   heading.className = "day-heading";
-  heading.textContent = `${fmtDayHeading(selectedDate)} · ${todays.length} match${todays.length === 1 ? "" : "es"}`;
+  heading.innerHTML =
+    `<span>${fmtDayHeading(selectedDate)} · ${todays.length} match${todays.length === 1 ? "" : "es"}</span>` +
+    (liveCount ? `<span class="live-tally"><span class="dot"></span>${liveCount} LIVE</span>` : "");
   wrap.appendChild(heading);
 
   if (todays.length === 0) {
@@ -286,13 +290,22 @@ function pickInitialDate() {
   selectedDate = future || dates[dates.length - 1] || t;
 }
 
+// ---- skeleton placeholders while data loads ----
+function showSkeletons(n = 3) {
+  $("#matches").innerHTML =
+    `<div class="day-heading"><span style="opacity:.6">Loading today…</span></div>` +
+    Array.from({ length: n }, () => `<div class="skeleton" aria-hidden="true"></div>`).join("");
+}
+
 // ---- init + auto-refresh ----
 async function init() {
   setHype();
+  showSkeletons();
   const mode = await loadData();
 
   if (mode === "none") {
-    $("#matches").innerHTML = `<div class="empty"><div class="empty__emoji">😅</div>
+    $("#matches").innerHTML = `<div class="empty">
+      <svg class="empty__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9.2"/></svg>
       <div class="empty__title">No data yet</div>
       <p>Run <code>fetch_matches.py</code> or add fixtures in <code>data.js</code>.</p></div>`;
     return;
