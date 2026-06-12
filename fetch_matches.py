@@ -2,23 +2,21 @@
 """
 WC26 — live data fetcher
 ========================
-Pulls the FIFA World Cup 2026 fixtures + live scores from football-data.org
-and writes them to `matches.json` in the shape the frontend expects.
+Pulls FIFA World Cup 2026 fixtures + live scores + group standings
+from football-data.org and writes them to `matches.json`.
 
 The website reads matches.json — it NEVER talks to the API directly
-(the API only allows browser calls from localhost, and we don't want the
-token exposed to friends). This script is the only thing that holds the token.
+(CORS only allows localhost, and we don't want the token exposed).
 
 USAGE
 -----
     export FOOTBALL_DATA_TOKEN=your_token_here
     python3 fetch_matches.py
 
-    # or pass inline:
+    # or inline:
     FOOTBALL_DATA_TOKEN=xxxx python3 fetch_matches.py
 
-To keep scores "live" on match days, run it on a schedule (cron / GitHub
-Action) every minute or two. Free tier allows ~10 requests/minute.
+Free tier: ~10 requests/minute. This script uses 2 requests per run.
 """
 
 import json
@@ -28,24 +26,17 @@ import urllib.request
 import urllib.error
 from datetime import datetime, timezone
 
-API_URL = "https://api.football-data.org/v4/competitions/WC/matches"
+MATCHES_URL  = "https://api.football-data.org/v4/competitions/WC/matches"
+STANDINGS_URL = "https://api.football-data.org/v4/competitions/WC/standings"
 OUT_FILE = os.path.join(os.path.dirname(__file__), "matches.json")
 
-# football-data status -> our simple status
 STATUS_MAP = {
-    "SCHEDULED": "upcoming",
-    "TIMED": "upcoming",
-    "IN_PLAY": "live",
-    "PAUSED": "live",
-    "FINISHED": "finished",
-    "AWARDED": "finished",
-    "SUSPENDED": "upcoming",
-    "POSTPONED": "upcoming",
-    "CANCELLED": "upcoming",
+    "SCHEDULED": "upcoming", "TIMED": "upcoming",
+    "IN_PLAY": "live", "PAUSED": "live",
+    "FINISHED": "finished", "AWARDED": "finished",
+    "SUSPENDED": "upcoming", "POSTPONED": "upcoming", "CANCELLED": "upcoming",
 }
 
-# Map team 3-letter codes (TLA) to flag emoji. Falls back to 🏳️ for
-# placeholder slots ("Winners Group A", play-off spots, etc.).
 TLA_TO_FLAG = {
     "MEX": "🇲🇽", "CAN": "🇨🇦", "USA": "🇺🇸", "ARG": "🇦🇷", "BRA": "🇧🇷",
     "FRA": "🇫🇷", "ESP": "🇪🇸", "GER": "🇩🇪", "POR": "🇵🇹", "NED": "🇳🇱",
@@ -61,27 +52,33 @@ TLA_TO_FLAG = {
     "CPV": "🇨🇻", "CUW": "🇨🇼", "HAI": "🇭🇹", "JAM": "🇯🇲",
 }
 
-# Pretty stage labels
 STAGE_LABELS = {
-    "GROUP_STAGE": None,          # use the group name instead, e.g. "Group A"
-    "LAST_32": "Round of 32",
-    "LAST_16": "Round of 16",
-    "QUARTER_FINALS": "Quarter-final",
-    "SEMI_FINALS": "Semi-final",
-    "THIRD_PLACE": "3rd-place play-off",
-    "FINAL": "Final",
+    "GROUP_STAGE": None,
+    "LAST_32": "Round of 32", "LAST_16": "Round of 16",
+    "QUARTER_FINALS": "Quarter-final", "SEMI_FINALS": "Semi-final",
+    "THIRD_PLACE": "3rd-place play-off", "FINAL": "Final",
 }
+
+
+def fetch(url, token):
+    req = urllib.request.Request(url, headers={"X-Auth-Token": token})
+    try:
+        with urllib.request.urlopen(req, timeout=20) as r:
+            return json.load(r)
+    except urllib.error.HTTPError as e:
+        sys.exit(f"ERROR: API {url} returned {e.code} — {e.read().decode()[:200]}")
+    except Exception as e:
+        sys.exit(f"ERROR: request failed — {e}")
 
 
 def stage_label(m):
     stage = m.get("stage")
     if stage == "GROUP_STAGE" and m.get("group"):
-        # "GROUP_A" -> "Group A"
         return m["group"].replace("GROUP_", "Group ").title().replace("Group ", "Group ")
     return STAGE_LABELS.get(stage) or (stage or "").replace("_", " ").title()
 
 
-def team(obj):
+def make_team(obj):
     if not obj:
         return {"name": "TBD", "tla": "", "crest": "", "flag": "🏳️"}
     tla = obj.get("tla") or ""
@@ -94,7 +91,6 @@ def team(obj):
 
 
 def live_minute(m):
-    """Approximate live minute from kickoff if the API doesn't give one."""
     if STATUS_MAP.get(m.get("status")) != "live":
         return None
     minute = (m.get("score") or {}).get("minute")
@@ -108,19 +104,50 @@ def live_minute(m):
         return None
 
 
-def transform(m):
+def transform_match(m):
     ft = (m.get("score") or {}).get("fullTime") or {}
     return {
         "id": m.get("id"),
-        "utc": m.get("utcDate"),               # ISO UTC; frontend converts to local
+        "utc": m.get("utcDate"),
         "stage": stage_label(m),
         "matchday": m.get("matchday"),
-        "home": team(m.get("homeTeam")),
-        "away": team(m.get("awayTeam")),
+        "home": make_team(m.get("homeTeam")),
+        "away": make_team(m.get("awayTeam")),
         "status": STATUS_MAP.get(m.get("status"), "upcoming"),
         "score": {"home": ft.get("home"), "away": ft.get("away")},
         "minute": live_minute(m),
     }
+
+
+def transform_standings(raw):
+    result = []
+    for group in raw:
+        group_name = (group.get("group") or "").replace("GROUP_", "Group ").strip()
+        if not group_name:
+            continue
+        rows = []
+        for row in group.get("table", []):
+            t = row.get("team") or {}
+            tla = t.get("tla") or ""
+            rows.append({
+                "position": row.get("position", 0),
+                "team": {
+                    "name": t.get("name") or t.get("shortName") or "TBD",
+                    "tla": tla,
+                    "crest": t.get("crest") or "",
+                    "flag": TLA_TO_FLAG.get(tla, "🏳️"),
+                },
+                "played": row.get("playedGames", 0),
+                "won":    row.get("won", 0),
+                "draw":   row.get("draw", 0),
+                "lost":   row.get("lost", 0),
+                "gf":     row.get("goalsFor", 0),
+                "ga":     row.get("goalsAgainst", 0),
+                "gd":     row.get("goalDifference", 0),
+                "pts":    row.get("points", 0),
+            })
+        result.append({"group": group_name, "table": rows})
+    return result
 
 
 def main():
@@ -128,29 +155,27 @@ def main():
     if not token:
         sys.exit("ERROR: set FOOTBALL_DATA_TOKEN env var with your football-data.org token.")
 
-    req = urllib.request.Request(API_URL, headers={"X-Auth-Token": token})
-    try:
-        with urllib.request.urlopen(req, timeout=20) as r:
-            data = json.load(r)
-    except urllib.error.HTTPError as e:
-        sys.exit(f"ERROR: API returned {e.code} — {e.read().decode()[:200]}")
-    except Exception as e:
-        sys.exit(f"ERROR: request failed — {e}")
-
-    matches = [transform(m) for m in data.get("matches", [])]
+    print("Fetching matches…")
+    matches_data = fetch(MATCHES_URL, token)
+    matches = [transform_match(m) for m in matches_data.get("matches", [])]
     matches.sort(key=lambda x: x["utc"] or "")
+
+    print("Fetching standings…")
+    standings_data = fetch(STANDINGS_URL, token)
+    standings = transform_standings(standings_data.get("standings", []))
 
     payload = {
         "updatedAt": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "competition": "FIFA World Cup 2026",
         "count": len(matches),
         "matches": matches,
+        "standings": standings,
     }
     with open(OUT_FILE, "w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=2)
 
     live = sum(1 for m in matches if m["status"] == "live")
-    print(f"✓ Wrote {len(matches)} matches to {OUT_FILE}  (live now: {live})")
+    print(f"✓ Wrote {len(matches)} matches + {len(standings)} groups to {OUT_FILE}  (live: {live})")
 
 
 if __name__ == "__main__":

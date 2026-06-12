@@ -5,11 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <meta name="theme-color" content="#03190f" />
   <title>Yazan's WC Tracker ⚽ World Cup 2026</title>
-  <meta name="description" content="Yazan's WC Tracker — today's World Cup 2026 matches, live." />
+  <meta name="description" content="Yazan's WC Tracker — World Cup 2026 matches, standings & live scores." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Barlow:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=4" />
+  <link rel="stylesheet" href="styles.css?v=5" />
 </head>
 <body>
   <div class="fx" aria-hidden="true">
@@ -53,9 +53,38 @@
     </div>
   </header>
 
-  <nav class="datestrip" id="datestrip" aria-label="Pick a day"></nav>
+  <!-- Tab bar -->
+  <div class="tabs" role="tablist" aria-label="View">
+    <button class="tab tab--active" role="tab" aria-selected="true" data-tab="matches" id="tab-matches">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <circle cx="12" cy="12" r="9.2"/>
+        <path d="M12 7.2l3.2 2.3-1.2 3.8h-4l-1.2-3.8L12 7.2Z" fill="currentColor" stroke="none"/>
+      </svg>
+      Matches
+    </button>
+    <button class="tab" role="tab" aria-selected="false" data-tab="tables" id="tab-tables">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6M18 9h1.5a2.5 2.5 0 0 0 0-5H18M9 22c0-2 .9-3 2-3.5V17M15 22c0-2-.9-3-2-3.5V17M8 22h8"/>
+      </svg>
+      Tables
+    </button>
+  </div>
 
-  <main class="matches" id="matches"></main>
+  <!-- Team filter chip -->
+  <div class="filter-chip" id="filterChip" hidden>
+    <span class="filter-chip__label">Watching</span>
+    <span class="filter-chip__team" id="filterChipTeam"></span>
+    <button class="filter-chip__clear" id="filterChipClear" aria-label="Clear team filter" type="button">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
+    </button>
+  </div>
+
+  <!-- Matches panel -->
+  <nav class="datestrip" id="datestrip" aria-label="Pick a day"></nav>
+  <main class="matches" id="matches" role="main"></main>
+
+  <!-- Tables panel -->
+  <section class="standings-wrap" id="standingsWrap" aria-label="Group standings" hidden></section>
 
   <footer class="foot">
     <p class="foot__main">
@@ -67,7 +96,7 @@
     <p class="foot__hint">Live data via football-data.org · refreshes automatically</p>
   </footer>
 
-  <script src="data.js?v=4"></script>
-  <script src="app.js?v=4"></script>
+  <script src="data.js?v=5"></script>
+  <script src="app.js?v=5"></script>
 </body>
 </html>
