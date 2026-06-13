@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-13T17:56:51+00:00",
+  "updatedAt": "2026-06-13T19:19:28+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -116,12 +116,12 @@
         "crest": "https://crests.football-data.org/788.svg",
         "flag": "🇨🇭"
       },
-      "status": "upcoming",
+      "status": "live",
       "score": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "minute": null
+      "minute": 19
     },
     {
       "id": 537339,
@@ -208,9 +208,9 @@
       },
       "away": {
         "name": "Curaçao",
-        "tla": "CUR",
+        "tla": "CUW",
         "crest": "https://crests.football-data.org/curacao.svg",
-        "flag": "🏳️"
+        "flag": "🇨🇼"
       },
       "status": "upcoming",
       "score": {
@@ -832,9 +832,9 @@
       },
       "away": {
         "name": "Curaçao",
-        "tla": "CUR",
+        "tla": "CUW",
         "crest": "https://crests.football-data.org/curacao.svg",
-        "flag": "🏳️"
+        "flag": "🇨🇼"
       },
       "status": "upcoming",
       "score": {
@@ -1330,9 +1330,9 @@
       "matchday": 3,
       "home": {
         "name": "Curaçao",
-        "tla": "CUR",
+        "tla": "CUW",
         "crest": "https://crests.football-data.org/curacao.svg",
-        "flag": "🏳️"
+        "flag": "🇨🇼"
       },
       "away": {
         "name": "Ivory Coast",
@@ -2619,14 +2619,14 @@
             "crest": "https://crests.football-data.org/8030.svg",
             "flag": "🇶🇦"
           },
-          "played": 0,
+          "played": 1,
           "won": 0,
-          "draw": 0,
+          "draw": 1,
           "lost": 0,
           "gf": 0,
           "ga": 0,
           "gd": 0,
-          "pts": 0
+          "pts": 1
         },
         {
           "position": 3,
@@ -2636,14 +2636,14 @@
             "crest": "https://crests.football-data.org/788.svg",
             "flag": "🇨🇭"
           },
-          "played": 0,
+          "played": 1,
           "won": 0,
-          "draw": 0,
+          "draw": 1,
           "lost": 0,
           "gf": 0,
           "ga": 0,
           "gd": 0,
-          "pts": 0
+          "pts": 1
         }
       ]
     },
