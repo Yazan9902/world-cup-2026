@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-13T22:49:55+00:00",
+  "updatedAt": "2026-06-13T23:52:30+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -145,7 +145,7 @@
         "home": 1,
         "away": 1
       },
-      "minute": 49
+      "minute": 112
     },
     {
       "id": 537340,
@@ -2653,22 +2653,39 @@
         {
           "position": 1,
           "team": {
+            "name": "Brazil",
+            "tla": "BRA",
+            "crest": "https://crests.football-data.org/764.svg",
+            "flag": "🇧🇷"
+          },
+          "played": 1,
+          "won": 0,
+          "draw": 1,
+          "lost": 0,
+          "gf": 1,
+          "ga": 1,
+          "gd": 0,
+          "pts": 1
+        },
+        {
+          "position": 1,
+          "team": {
             "name": "Morocco",
             "tla": "MAR",
             "crest": "https://crests.football-data.org/morocco.svg",
             "flag": "🇲🇦"
           },
           "played": 1,
-          "won": 1,
-          "draw": 0,
+          "won": 0,
+          "draw": 1,
           "lost": 0,
           "gf": 1,
-          "ga": 0,
-          "gd": 1,
-          "pts": 3
+          "ga": 1,
+          "gd": 0,
+          "pts": 1
         },
         {
-          "position": 2,
+          "position": 3,
           "team": {
             "name": "Haiti",
             "tla": "HAI",
@@ -2685,7 +2702,7 @@
           "pts": 0
         },
         {
-          "position": 2,
+          "position": 3,
           "team": {
             "name": "Scotland",
             "tla": "SCO",
@@ -2699,23 +2716,6 @@
           "gf": 0,
           "ga": 0,
           "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 4,
-          "team": {
-            "name": "Brazil",
-            "tla": "BRA",
-            "crest": "https://crests.football-data.org/764.svg",
-            "flag": "🇧🇷"
-          },
-          "played": 1,
-          "won": 0,
-          "draw": 0,
-          "lost": 1,
-          "gf": 0,
-          "ga": 1,
-          "gd": -1,
           "pts": 0
         }
       ]
