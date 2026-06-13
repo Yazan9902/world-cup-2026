@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-12T23:46:54+00:00",
+  "updatedAt": "2026-06-13T01:54:18+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -94,8 +94,8 @@
       },
       "status": "upcoming",
       "score": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 0
       },
       "minute": null
     },
@@ -2726,6 +2726,23 @@
         {
           "position": 1,
           "team": {
+            "name": "United States",
+            "tla": "USA",
+            "crest": "https://crests.football-data.org/usa.svg",
+            "flag": "🇺🇸"
+          },
+          "played": 1,
+          "won": 1,
+          "draw": 0,
+          "lost": 0,
+          "gf": 1,
+          "ga": 0,
+          "gd": 1,
+          "pts": 3
+        },
+        {
+          "position": 2,
+          "team": {
             "name": "Australia",
             "tla": "AUS",
             "crest": "https://crests.football-data.org/779.svg",
@@ -2741,24 +2758,7 @@
           "pts": 0
         },
         {
-          "position": 1,
-          "team": {
-            "name": "Paraguay",
-            "tla": "PAR",
-            "crest": "https://crests.football-data.org/761.svg",
-            "flag": "🇵🇾"
-          },
-          "played": 0,
-          "won": 0,
-          "draw": 0,
-          "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 1,
+          "position": 2,
           "team": {
             "name": "Turkey",
             "tla": "TUR",
@@ -2775,20 +2775,20 @@
           "pts": 0
         },
         {
-          "position": 1,
+          "position": 4,
           "team": {
-            "name": "United States",
-            "tla": "USA",
-            "crest": "https://crests.football-data.org/usa.svg",
-            "flag": "🇺🇸"
+            "name": "Paraguay",
+            "tla": "PAR",
+            "crest": "https://crests.football-data.org/761.svg",
+            "flag": "🇵🇾"
           },
-          "played": 0,
+          "played": 1,
           "won": 0,
           "draw": 0,
-          "lost": 0,
+          "lost": 1,
           "gf": 0,
-          "ga": 0,
-          "gd": 0,
+          "ga": 1,
+          "gd": -1,
           "pts": 0
         }
       ]
