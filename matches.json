@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T16:08:18+00:00",
+  "updatedAt": "2026-06-14T17:42:49+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -212,12 +212,12 @@
         "crest": "https://crests.football-data.org/curacao.svg",
         "flag": "🇨🇼"
       },
-      "status": "upcoming",
+      "status": "live",
       "score": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       },
-      "minute": null
+      "minute": 42
     },
     {
       "id": 537357,
@@ -2804,14 +2804,14 @@
             "crest": "https://crests.football-data.org/curacao.svg",
             "flag": "🇨🇼"
           },
-          "played": 0,
+          "played": 1,
           "won": 0,
-          "draw": 0,
+          "draw": 1,
           "lost": 0,
-          "gf": 0,
-          "ga": 0,
+          "gf": 1,
+          "ga": 1,
           "gd": 0,
-          "pts": 0
+          "pts": 1
         },
         {
           "position": 1,
@@ -2821,17 +2821,17 @@
             "crest": "https://crests.football-data.org/759.svg",
             "flag": "🇩🇪"
           },
-          "played": 0,
+          "played": 1,
           "won": 0,
-          "draw": 0,
+          "draw": 1,
           "lost": 0,
-          "gf": 0,
-          "ga": 0,
+          "gf": 1,
+          "ga": 1,
           "gd": 0,
-          "pts": 0
+          "pts": 1
         },
         {
-          "position": 1,
+          "position": 3,
           "team": {
             "name": "Ecuador",
             "tla": "ECU",
@@ -2848,7 +2848,7 @@
           "pts": 0
         },
         {
-          "position": 1,
+          "position": 3,
           "team": {
             "name": "Ivory Coast",
             "tla": "CIV",
