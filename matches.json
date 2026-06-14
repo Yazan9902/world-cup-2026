@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T20:16:28+00:00",
+  "updatedAt": "2026-06-14T21:42:36+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -208,9 +208,9 @@
       },
       "away": {
         "name": "Curaçao",
-        "tla": "CUW",
+        "tla": "CUR",
         "crest": "https://crests.football-data.org/curacao.svg",
-        "flag": "🇨🇼"
+        "flag": "🏳️"
       },
       "status": "finished",
       "score": {
@@ -238,10 +238,10 @@
       },
       "status": "live",
       "score": {
-        "home": 0,
-        "away": 0
+        "home": 2,
+        "away": 1
       },
-      "minute": 16
+      "minute": 102
     },
     {
       "id": 537352,
@@ -832,9 +832,9 @@
       },
       "away": {
         "name": "Curaçao",
-        "tla": "CUW",
+        "tla": "CUR",
         "crest": "https://crests.football-data.org/curacao.svg",
-        "flag": "🇨🇼"
+        "flag": "🏳️"
       },
       "status": "upcoming",
       "score": {
@@ -1330,9 +1330,9 @@
       "matchday": 3,
       "home": {
         "name": "Curaçao",
-        "tla": "CUW",
+        "tla": "CUR",
         "crest": "https://crests.football-data.org/curacao.svg",
-        "flag": "🇨🇼"
+        "flag": "🏳️"
       },
       "away": {
         "name": "Ivory Coast",
@@ -2872,39 +2872,22 @@
         {
           "position": 1,
           "team": {
-            "name": "Japan",
-            "tla": "JPN",
-            "crest": "https://crests.football-data.org/766.svg",
-            "flag": "🇯🇵"
-          },
-          "played": 1,
-          "won": 0,
-          "draw": 1,
-          "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 1
-        },
-        {
-          "position": 1,
-          "team": {
             "name": "Netherlands",
             "tla": "NED",
             "crest": "https://crests.football-data.org/8601.svg",
             "flag": "🇳🇱"
           },
           "played": 1,
-          "won": 0,
-          "draw": 1,
+          "won": 1,
+          "draw": 0,
           "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 1
+          "gf": 2,
+          "ga": 1,
+          "gd": 1,
+          "pts": 3
         },
         {
-          "position": 3,
+          "position": 2,
           "team": {
             "name": "Sweden",
             "tla": "SWE",
@@ -2921,7 +2904,7 @@
           "pts": 0
         },
         {
-          "position": 3,
+          "position": 2,
           "team": {
             "name": "Tunisia",
             "tla": "TUN",
@@ -2935,6 +2918,23 @@
           "gf": 0,
           "ga": 0,
           "gd": 0,
+          "pts": 0
+        },
+        {
+          "position": 4,
+          "team": {
+            "name": "Japan",
+            "tla": "JPN",
+            "crest": "https://crests.football-data.org/766.svg",
+            "flag": "🇯🇵"
+          },
+          "played": 1,
+          "won": 0,
+          "draw": 0,
+          "lost": 1,
+          "gf": 1,
+          "ga": 2,
+          "gd": -1,
           "pts": 0
         }
       ]
