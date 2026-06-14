@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T02:05:19+00:00",
+  "updatedAt": "2026-06-14T06:54:35+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -164,12 +164,12 @@
         "crest": "https://crests.football-data.org/814.svg",
         "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
       },
-      "status": "live",
+      "status": "finished",
       "score": {
         "home": 0,
         "away": 1
       },
-      "minute": 65
+      "minute": null
     },
     {
       "id": 537346,
@@ -188,10 +188,10 @@
         "crest": "https://crests.football-data.org/803.svg",
         "flag": "🇹🇷"
       },
-      "status": "upcoming",
+      "status": "finished",
       "score": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 0
       },
       "minute": null
     },
@@ -2748,30 +2748,30 @@
             "crest": "https://crests.football-data.org/779.svg",
             "flag": "🇦🇺"
           },
-          "played": 0,
-          "won": 0,
+          "played": 1,
+          "won": 1,
           "draw": 0,
           "lost": 0,
-          "gf": 0,
+          "gf": 2,
           "ga": 0,
-          "gd": 0,
-          "pts": 0
+          "gd": 2,
+          "pts": 3
         },
         {
-          "position": 2,
+          "position": 3,
           "team": {
             "name": "Turkey",
             "tla": "TUR",
             "crest": "https://crests.football-data.org/803.svg",
             "flag": "🇹🇷"
           },
-          "played": 0,
+          "played": 1,
           "won": 0,
           "draw": 0,
-          "lost": 0,
+          "lost": 1,
           "gf": 0,
-          "ga": 0,
-          "gd": 0,
+          "ga": 2,
+          "gd": -2,
           "pts": 0
         },
         {
