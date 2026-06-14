@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T06:54:35+00:00",
+  "updatedAt": "2026-06-14T10:19:00+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -2580,10 +2580,10 @@
         {
           "position": 1,
           "team": {
-            "name": "Bosnia-Herzegovina",
-            "tla": "BIH",
-            "crest": "https://crests.football-data.org/bosnia.svg",
-            "flag": "🇧🇦"
+            "name": "Switzerland",
+            "tla": "SUI",
+            "crest": "https://crests.football-data.org/788.svg",
+            "flag": "🇨🇭"
           },
           "played": 1,
           "won": 0,
@@ -2595,7 +2595,7 @@
           "pts": 1
         },
         {
-          "position": 1,
+          "position": 2,
           "team": {
             "name": "Canada",
             "tla": "CAN",
@@ -2612,7 +2612,7 @@
           "pts": 1
         },
         {
-          "position": 1,
+          "position": 3,
           "team": {
             "name": "Qatar",
             "tla": "QAT",
@@ -2629,12 +2629,12 @@
           "pts": 1
         },
         {
-          "position": 1,
+          "position": 4,
           "team": {
-            "name": "Switzerland",
-            "tla": "SUI",
-            "crest": "https://crests.football-data.org/788.svg",
-            "flag": "🇨🇭"
+            "name": "Bosnia-Herzegovina",
+            "tla": "BIH",
+            "crest": "https://crests.football-data.org/bosnia.svg",
+            "flag": "🇧🇦"
           },
           "played": 1,
           "won": 0,
@@ -2670,10 +2670,10 @@
         {
           "position": 2,
           "team": {
-            "name": "Brazil",
-            "tla": "BRA",
-            "crest": "https://crests.football-data.org/764.svg",
-            "flag": "🇧🇷"
+            "name": "Morocco",
+            "tla": "MAR",
+            "crest": "https://crests.football-data.org/morocco.svg",
+            "flag": "🇲🇦"
           },
           "played": 1,
           "won": 0,
@@ -2685,12 +2685,12 @@
           "pts": 1
         },
         {
-          "position": 2,
+          "position": 3,
           "team": {
-            "name": "Morocco",
-            "tla": "MAR",
-            "crest": "https://crests.football-data.org/morocco.svg",
-            "flag": "🇲🇦"
+            "name": "Brazil",
+            "tla": "BRA",
+            "crest": "https://crests.football-data.org/764.svg",
+            "flag": "🇧🇷"
           },
           "played": 1,
           "won": 0,
