@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T23:56:01+00:00",
+  "updatedAt": "2026-06-15T03:31:11+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -260,12 +260,12 @@
         "crest": "https://crests.football-data.org/791.svg",
         "flag": "🇪🇨"
       },
-      "status": "upcoming",
+      "status": "live",
       "score": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
-      "minute": null
+      "minute": 120
     },
     {
       "id": 537358,
@@ -284,12 +284,12 @@
         "crest": "https://crests.football-data.org/tunisia.svg",
         "flag": "🇹🇳"
       },
-      "status": "upcoming",
+      "status": "live",
       "score": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 1
       },
-      "minute": null
+      "minute": 91
     },
     {
       "id": 537369,
@@ -2816,6 +2816,23 @@
         {
           "position": 2,
           "team": {
+            "name": "Ivory Coast",
+            "tla": "CIV",
+            "crest": "https://crests.football-data.org/787.svg",
+            "flag": "🇨🇮"
+          },
+          "played": 1,
+          "won": 1,
+          "draw": 0,
+          "lost": 0,
+          "gf": 1,
+          "ga": 0,
+          "gd": 1,
+          "pts": 3
+        },
+        {
+          "position": 3,
+          "team": {
             "name": "Ecuador",
             "tla": "ECU",
             "crest": "https://crests.football-data.org/791.svg",
@@ -2823,29 +2840,12 @@
           },
           "played": 1,
           "won": 0,
-          "draw": 1,
-          "lost": 0,
+          "draw": 0,
+          "lost": 1,
           "gf": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 1
-        },
-        {
-          "position": 2,
-          "team": {
-            "name": "Ivory Coast",
-            "tla": "CIV",
-            "crest": "https://crests.football-data.org/787.svg",
-            "flag": "🇨🇮"
-          },
-          "played": 1,
-          "won": 0,
-          "draw": 1,
-          "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 1
+          "ga": 1,
+          "gd": -1,
+          "pts": 0
         },
         {
           "position": 4,
@@ -2872,6 +2872,23 @@
         {
           "position": 1,
           "team": {
+            "name": "Sweden",
+            "tla": "SWE",
+            "crest": "https://crests.football-data.org/792.svg",
+            "flag": "🇸🇪"
+          },
+          "played": 1,
+          "won": 1,
+          "draw": 0,
+          "lost": 0,
+          "gf": 3,
+          "ga": 1,
+          "gd": 2,
+          "pts": 3
+        },
+        {
+          "position": 2,
+          "team": {
             "name": "Japan",
             "tla": "JPN",
             "crest": "https://crests.football-data.org/766.svg",
@@ -2887,7 +2904,7 @@
           "pts": 1
         },
         {
-          "position": 1,
+          "position": 2,
           "team": {
             "name": "Netherlands",
             "tla": "NED",
@@ -2904,37 +2921,20 @@
           "pts": 1
         },
         {
-          "position": 3,
-          "team": {
-            "name": "Sweden",
-            "tla": "SWE",
-            "crest": "https://crests.football-data.org/792.svg",
-            "flag": "🇸🇪"
-          },
-          "played": 0,
-          "won": 0,
-          "draw": 0,
-          "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 3,
+          "position": 4,
           "team": {
             "name": "Tunisia",
             "tla": "TUN",
             "crest": "https://crests.football-data.org/tunisia.svg",
             "flag": "🇹🇳"
           },
-          "played": 0,
+          "played": 1,
           "won": 0,
           "draw": 0,
-          "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "gd": 0,
+          "lost": 1,
+          "gf": 1,
+          "ga": 3,
+          "gd": -2,
           "pts": 0
         }
       ]
