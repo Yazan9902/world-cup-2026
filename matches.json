@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-15T15:32:17+00:00",
+  "updatedAt": "2026-06-15T19:30:25+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -308,10 +308,10 @@
         "crest": "https://crests.football-data.org/cape_verde.svg",
         "flag": "🇨🇻"
       },
-      "status": "upcoming",
+      "status": "finished",
       "score": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "minute": null
     },
@@ -332,12 +332,12 @@
         "crest": "https://crests.football-data.org/825.svg",
         "flag": "🇪🇬"
       },
-      "status": "upcoming",
+      "status": "live",
       "score": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
-      "minute": null
+      "minute": 30
     },
     {
       "id": 537370,
@@ -2950,34 +2950,17 @@
             "crest": "https://crests.football-data.org/825.svg",
             "flag": "🇪🇬"
           },
-          "played": 0,
-          "won": 0,
+          "played": 1,
+          "won": 1,
           "draw": 0,
           "lost": 0,
-          "gf": 0,
+          "gf": 1,
           "ga": 0,
-          "gd": 0,
-          "pts": 0
+          "gd": 1,
+          "pts": 3
         },
         {
-          "position": 1,
-          "team": {
-            "name": "Belgium",
-            "tla": "BEL",
-            "crest": "https://crests.football-data.org/805.svg",
-            "flag": "🇧🇪"
-          },
-          "played": 0,
-          "won": 0,
-          "draw": 0,
-          "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 1,
+          "position": 2,
           "team": {
             "name": "Iran",
             "tla": "IRN",
@@ -2994,7 +2977,7 @@
           "pts": 0
         },
         {
-          "position": 1,
+          "position": 2,
           "team": {
             "name": "New Zealand",
             "tla": "NZL",
@@ -3008,6 +2991,23 @@
           "gf": 0,
           "ga": 0,
           "gd": 0,
+          "pts": 0
+        },
+        {
+          "position": 4,
+          "team": {
+            "name": "Belgium",
+            "tla": "BEL",
+            "crest": "https://crests.football-data.org/805.svg",
+            "flag": "🇧🇪"
+          },
+          "played": 1,
+          "won": 0,
+          "draw": 0,
+          "lost": 1,
+          "gf": 0,
+          "ga": 1,
+          "gd": -1,
           "pts": 0
         }
       ]
@@ -3023,17 +3023,34 @@
             "crest": "https://crests.football-data.org/cape_verde.svg",
             "flag": "🇨🇻"
           },
-          "played": 0,
+          "played": 1,
           "won": 0,
-          "draw": 0,
+          "draw": 1,
           "lost": 0,
           "gf": 0,
           "ga": 0,
           "gd": 0,
-          "pts": 0
+          "pts": 1
         },
         {
           "position": 1,
+          "team": {
+            "name": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg",
+            "flag": "🇪🇸"
+          },
+          "played": 1,
+          "won": 0,
+          "draw": 1,
+          "lost": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 1
+        },
+        {
+          "position": 3,
           "team": {
             "name": "Saudi Arabia",
             "tla": "KSA",
@@ -3050,24 +3067,7 @@
           "pts": 0
         },
         {
-          "position": 1,
-          "team": {
-            "name": "Spain",
-            "tla": "ESP",
-            "crest": "https://crests.football-data.org/760.svg",
-            "flag": "🇪🇸"
-          },
-          "played": 0,
-          "won": 0,
-          "draw": 0,
-          "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 1,
+          "position": 3,
           "team": {
             "name": "Uruguay",
             "tla": "URY",
