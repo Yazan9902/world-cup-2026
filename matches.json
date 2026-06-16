@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-16T17:33:31+00:00",
+  "updatedAt": "2026-06-16T20:27:24+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -404,12 +404,12 @@
         "crest": "https://crests.football-data.org/senegal.svg",
         "flag": "🇸🇳"
       },
-      "status": "upcoming",
+      "status": "live",
       "score": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "minute": null
+      "minute": 87
     },
     {
       "id": 537392,
@@ -3096,17 +3096,34 @@
             "crest": "https://crests.football-data.org/773.svg",
             "flag": "🇫🇷"
           },
-          "played": 0,
+          "played": 1,
           "won": 0,
-          "draw": 0,
+          "draw": 1,
           "lost": 0,
           "gf": 0,
           "ga": 0,
           "gd": 0,
-          "pts": 0
+          "pts": 1
         },
         {
           "position": 1,
+          "team": {
+            "name": "Senegal",
+            "tla": "SEN",
+            "crest": "https://crests.football-data.org/senegal.svg",
+            "flag": "🇸🇳"
+          },
+          "played": 1,
+          "won": 0,
+          "draw": 1,
+          "lost": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 1
+        },
+        {
+          "position": 3,
           "team": {
             "name": "Iraq",
             "tla": "IRQ",
@@ -3123,29 +3140,12 @@
           "pts": 0
         },
         {
-          "position": 1,
+          "position": 3,
           "team": {
             "name": "Norway",
             "tla": "NOR",
             "crest": "https://crests.football-data.org/813.svg",
             "flag": "🇳🇴"
-          },
-          "played": 0,
-          "won": 0,
-          "draw": 0,
-          "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 1,
-          "team": {
-            "name": "Senegal",
-            "tla": "SEN",
-            "crest": "https://crests.football-data.org/senegal.svg",
-            "flag": "🇸🇳"
           },
           "played": 0,
           "won": 0,
