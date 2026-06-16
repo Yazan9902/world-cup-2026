@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-16T20:27:24+00:00",
+  "updatedAt": "2026-06-16T22:29:29+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -70,8 +70,8 @@
       },
       "status": "finished",
       "score": {
-        "home": 1,
-        "away": 1
+        "home": null,
+        "away": null
       },
       "minute": null
     },
@@ -352,9 +352,9 @@
       },
       "away": {
         "name": "Uruguay",
-        "tla": "URU",
+        "tla": "URY",
         "crest": "https://crests.football-data.org/758.svg",
-        "flag": "🇺🇾"
+        "flag": "🏳️"
       },
       "status": "finished",
       "score": {
@@ -404,12 +404,12 @@
         "crest": "https://crests.football-data.org/senegal.svg",
         "flag": "🇸🇳"
       },
-      "status": "live",
+      "status": "finished",
       "score": {
-        "home": 0,
-        "away": 0
+        "home": 3,
+        "away": 1
       },
-      "minute": 87
+      "minute": null
     },
     {
       "id": 537392,
@@ -428,12 +428,12 @@
         "crest": "https://crests.football-data.org/813.svg",
         "flag": "🇳🇴"
       },
-      "status": "upcoming",
+      "status": "live",
       "score": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "minute": null
+      "minute": 29
     },
     {
       "id": 537397,
@@ -922,9 +922,9 @@
       "matchday": 2,
       "home": {
         "name": "Uruguay",
-        "tla": "URU",
+        "tla": "URY",
         "crest": "https://crests.football-data.org/758.svg",
-        "flag": "🇺🇾"
+        "flag": "🏳️"
       },
       "away": {
         "name": "Cape Verde Islands",
@@ -1498,9 +1498,9 @@
       "matchday": 3,
       "home": {
         "name": "Uruguay",
-        "tla": "URU",
+        "tla": "URY",
         "crest": "https://crests.football-data.org/758.svg",
-        "flag": "🇺🇾"
+        "flag": "🏳️"
       },
       "away": {
         "name": "Spain",
@@ -3097,21 +3097,21 @@
             "flag": "🇫🇷"
           },
           "played": 1,
-          "won": 0,
-          "draw": 1,
+          "won": 1,
+          "draw": 0,
           "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 1
+          "gf": 3,
+          "ga": 1,
+          "gd": 2,
+          "pts": 3
         },
         {
-          "position": 1,
+          "position": 2,
           "team": {
-            "name": "Senegal",
-            "tla": "SEN",
-            "crest": "https://crests.football-data.org/senegal.svg",
-            "flag": "🇸🇳"
+            "name": "Iraq",
+            "tla": "IRQ",
+            "crest": "https://crests.football-data.org/iraq.svg",
+            "flag": "🏳️"
           },
           "played": 1,
           "won": 0,
@@ -3123,37 +3123,37 @@
           "pts": 1
         },
         {
-          "position": 3,
-          "team": {
-            "name": "Iraq",
-            "tla": "IRQ",
-            "crest": "https://crests.football-data.org/iraq.svg",
-            "flag": "🏳️"
-          },
-          "played": 0,
-          "won": 0,
-          "draw": 0,
-          "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 3,
+          "position": 2,
           "team": {
             "name": "Norway",
             "tla": "NOR",
             "crest": "https://crests.football-data.org/813.svg",
             "flag": "🇳🇴"
           },
-          "played": 0,
+          "played": 1,
           "won": 0,
-          "draw": 0,
+          "draw": 1,
           "lost": 0,
           "gf": 0,
           "ga": 0,
           "gd": 0,
+          "pts": 1
+        },
+        {
+          "position": 4,
+          "team": {
+            "name": "Senegal",
+            "tla": "SEN",
+            "crest": "https://crests.football-data.org/senegal.svg",
+            "flag": "🇸🇳"
+          },
+          "played": 1,
+          "won": 0,
+          "draw": 0,
+          "lost": 1,
+          "gf": 1,
+          "ga": 3,
+          "gd": -2,
           "pts": 0
         }
       ]
