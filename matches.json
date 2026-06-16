@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-16T07:43:01+00:00",
+  "updatedAt": "2026-06-16T12:30:42+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -352,9 +352,9 @@
       },
       "away": {
         "name": "Uruguay",
-        "tla": "URY",
+        "tla": "URU",
         "crest": "https://crests.football-data.org/758.svg",
-        "flag": "🏳️"
+        "flag": "🇺🇾"
       },
       "status": "finished",
       "score": {
@@ -922,9 +922,9 @@
       "matchday": 2,
       "home": {
         "name": "Uruguay",
-        "tla": "URY",
+        "tla": "URU",
         "crest": "https://crests.football-data.org/758.svg",
-        "flag": "🏳️"
+        "flag": "🇺🇾"
       },
       "away": {
         "name": "Cape Verde Islands",
@@ -1498,9 +1498,9 @@
       "matchday": 3,
       "home": {
         "name": "Uruguay",
-        "tla": "URY",
+        "tla": "URU",
         "crest": "https://crests.football-data.org/758.svg",
-        "flag": "🏳️"
+        "flag": "🇺🇾"
       },
       "away": {
         "name": "Spain",
@@ -2945,10 +2945,10 @@
         {
           "position": 1,
           "team": {
-            "name": "Iran",
-            "tla": "IRN",
-            "crest": "https://crests.football-data.org/iran.svg",
-            "flag": "🇮🇷"
+            "name": "New Zealand",
+            "tla": "NZL",
+            "crest": "https://crests.football-data.org/783.svg",
+            "flag": "🇳🇿"
           },
           "played": 1,
           "won": 0,
@@ -2960,12 +2960,12 @@
           "pts": 1
         },
         {
-          "position": 1,
+          "position": 2,
           "team": {
-            "name": "New Zealand",
-            "tla": "NZL",
-            "crest": "https://crests.football-data.org/783.svg",
-            "flag": "🇳🇿"
+            "name": "Iran",
+            "tla": "IRN",
+            "crest": "https://crests.football-data.org/iran.svg",
+            "flag": "🇮🇷"
           },
           "played": 1,
           "won": 0,
@@ -3018,10 +3018,10 @@
         {
           "position": 1,
           "team": {
-            "name": "Saudi Arabia",
-            "tla": "KSA",
-            "crest": "https://crests.football-data.org/saudi_arabia.svg",
-            "flag": "🇸🇦"
+            "name": "Uruguay",
+            "tla": "URU",
+            "crest": "https://crests.football-data.org/758.svg",
+            "flag": "🇺🇾"
           },
           "played": 1,
           "won": 0,
@@ -3033,12 +3033,12 @@
           "pts": 1
         },
         {
-          "position": 1,
+          "position": 2,
           "team": {
-            "name": "Uruguay",
-            "tla": "URU",
-            "crest": "https://crests.football-data.org/758.svg",
-            "flag": "🇺🇾"
+            "name": "Saudi Arabia",
+            "tla": "KSA",
+            "crest": "https://crests.football-data.org/saudi_arabia.svg",
+            "flag": "🇸🇦"
           },
           "played": 1,
           "won": 0,
