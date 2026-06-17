@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-16T23:56:56+00:00",
+  "updatedAt": "2026-06-17T03:38:24+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -428,12 +428,12 @@
         "crest": "https://crests.football-data.org/813.svg",
         "flag": "🇳🇴"
       },
-      "status": "live",
+      "status": "finished",
       "score": {
         "home": 1,
-        "away": 3
+        "away": 4
       },
-      "minute": 116
+      "minute": null
     },
     {
       "id": 537397,
@@ -452,10 +452,10 @@
         "crest": "https://crests.football-data.org/algeria.svg",
         "flag": "🇩🇿"
       },
-      "status": "upcoming",
+      "status": "finished",
       "score": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 0
       },
       "minute": null
     },
@@ -3091,6 +3091,23 @@
         {
           "position": 1,
           "team": {
+            "name": "Norway",
+            "tla": "NOR",
+            "crest": "https://crests.football-data.org/813.svg",
+            "flag": "🇳🇴"
+          },
+          "played": 1,
+          "won": 1,
+          "draw": 0,
+          "lost": 0,
+          "gf": 4,
+          "ga": 1,
+          "gd": 3,
+          "pts": 3
+        },
+        {
+          "position": 2,
+          "team": {
             "name": "France",
             "tla": "FRA",
             "crest": "https://crests.football-data.org/773.svg",
@@ -3106,41 +3123,7 @@
           "pts": 3
         },
         {
-          "position": 2,
-          "team": {
-            "name": "Norway",
-            "tla": "NOR",
-            "crest": "https://crests.football-data.org/813.svg",
-            "flag": "🇳🇴"
-          },
-          "played": 1,
-          "won": 1,
-          "draw": 0,
-          "lost": 0,
-          "gf": 2,
-          "ga": 1,
-          "gd": 1,
-          "pts": 3
-        },
-        {
           "position": 3,
-          "team": {
-            "name": "Iraq",
-            "tla": "IRQ",
-            "crest": "https://crests.football-data.org/iraq.svg",
-            "flag": "🏳️"
-          },
-          "played": 1,
-          "won": 0,
-          "draw": 0,
-          "lost": 1,
-          "gf": 1,
-          "ga": 2,
-          "gd": -1,
-          "pts": 0
-        },
-        {
-          "position": 4,
           "team": {
             "name": "Senegal",
             "tla": "SEN",
@@ -3155,6 +3138,23 @@
           "ga": 3,
           "gd": -2,
           "pts": 0
+        },
+        {
+          "position": 4,
+          "team": {
+            "name": "Iraq",
+            "tla": "IRQ",
+            "crest": "https://crests.football-data.org/iraq.svg",
+            "flag": "🏳️"
+          },
+          "played": 1,
+          "won": 0,
+          "draw": 0,
+          "lost": 1,
+          "gf": 1,
+          "ga": 4,
+          "gd": -3,
+          "pts": 0
         }
       ]
     },
@@ -3164,39 +3164,22 @@
         {
           "position": 1,
           "team": {
-            "name": "Algeria",
-            "tla": "ALG",
-            "crest": "https://crests.football-data.org/algeria.svg",
-            "flag": "🇩🇿"
-          },
-          "played": 0,
-          "won": 0,
-          "draw": 0,
-          "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 1,
-          "team": {
             "name": "Argentina",
             "tla": "ARG",
             "crest": "https://crests.football-data.org/762.png",
             "flag": "🇦🇷"
           },
-          "played": 0,
-          "won": 0,
+          "played": 1,
+          "won": 1,
           "draw": 0,
           "lost": 0,
-          "gf": 0,
+          "gf": 3,
           "ga": 0,
-          "gd": 0,
-          "pts": 0
+          "gd": 3,
+          "pts": 3
         },
         {
-          "position": 1,
+          "position": 2,
           "team": {
             "name": "Jordan",
             "tla": "JOR",
@@ -3213,7 +3196,7 @@
           "pts": 0
         },
         {
-          "position": 1,
+          "position": 2,
           "team": {
             "name": "Austria",
             "tla": "AUT",
@@ -3227,6 +3210,23 @@
           "gf": 0,
           "ga": 0,
           "gd": 0,
+          "pts": 0
+        },
+        {
+          "position": 4,
+          "team": {
+            "name": "Algeria",
+            "tla": "ALG",
+            "crest": "https://crests.football-data.org/algeria.svg",
+            "flag": "🇩🇿"
+          },
+          "played": 1,
+          "won": 0,
+          "draw": 0,
+          "lost": 1,
+          "gf": 0,
+          "ga": 3,
+          "gd": -3,
           "pts": 0
         }
       ]
