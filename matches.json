@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-17T08:50:03+00:00",
+  "updatedAt": "2026-06-17T12:42:18+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -208,9 +208,9 @@
       },
       "away": {
         "name": "Curaçao",
-        "tla": "CUR",
+        "tla": "CUW",
         "crest": "https://crests.football-data.org/curacao.svg",
-        "flag": "🏳️"
+        "flag": "🇨🇼"
       },
       "status": "finished",
       "score": {
@@ -832,9 +832,9 @@
       },
       "away": {
         "name": "Curaçao",
-        "tla": "CUR",
+        "tla": "CUW",
         "crest": "https://crests.football-data.org/curacao.svg",
-        "flag": "🏳️"
+        "flag": "🇨🇼"
       },
       "status": "upcoming",
       "score": {
@@ -1330,9 +1330,9 @@
       "matchday": 3,
       "home": {
         "name": "Curaçao",
-        "tla": "CUR",
+        "tla": "CUW",
         "crest": "https://crests.football-data.org/curacao.svg",
-        "flag": "🏳️"
+        "flag": "🇨🇼"
       },
       "away": {
         "name": "Ivory Coast",
