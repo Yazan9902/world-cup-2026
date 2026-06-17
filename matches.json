@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-17T03:38:24+00:00",
+  "updatedAt": "2026-06-17T08:50:03+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -208,9 +208,9 @@
       },
       "away": {
         "name": "Curaçao",
-        "tla": "CUW",
+        "tla": "CUR",
         "crest": "https://crests.football-data.org/curacao.svg",
-        "flag": "🇨🇼"
+        "flag": "🏳️"
       },
       "status": "finished",
       "score": {
@@ -476,10 +476,10 @@
         "crest": "https://crests.football-data.org/8049.png",
         "flag": "🇯🇴"
       },
-      "status": "upcoming",
+      "status": "finished",
       "score": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 1
       },
       "minute": null
     },
@@ -832,9 +832,9 @@
       },
       "away": {
         "name": "Curaçao",
-        "tla": "CUW",
+        "tla": "CUR",
         "crest": "https://crests.football-data.org/curacao.svg",
-        "flag": "🇨🇼"
+        "flag": "🏳️"
       },
       "status": "upcoming",
       "score": {
@@ -1330,9 +1330,9 @@
       "matchday": 3,
       "home": {
         "name": "Curaçao",
-        "tla": "CUW",
+        "tla": "CUR",
         "crest": "https://crests.football-data.org/curacao.svg",
-        "flag": "🇨🇼"
+        "flag": "🏳️"
       },
       "away": {
         "name": "Ivory Coast",
@@ -3181,35 +3181,35 @@
         {
           "position": 2,
           "team": {
-            "name": "Jordan",
-            "tla": "JOR",
-            "crest": "https://crests.football-data.org/8049.png",
-            "flag": "🇯🇴"
-          },
-          "played": 0,
-          "won": 0,
-          "draw": 0,
-          "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 2,
-          "team": {
             "name": "Austria",
             "tla": "AUT",
             "crest": "https://crests.football-data.org/816.svg",
             "flag": "🇦🇹"
           },
-          "played": 0,
-          "won": 0,
+          "played": 1,
+          "won": 1,
           "draw": 0,
           "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "gd": 0,
+          "gf": 3,
+          "ga": 1,
+          "gd": 2,
+          "pts": 3
+        },
+        {
+          "position": 3,
+          "team": {
+            "name": "Jordan",
+            "tla": "JOR",
+            "crest": "https://crests.football-data.org/8049.png",
+            "flag": "🇯🇴"
+          },
+          "played": 1,
+          "won": 0,
+          "draw": 0,
+          "lost": 1,
+          "gf": 1,
+          "ga": 3,
+          "gd": -2,
           "pts": 0
         },
         {
