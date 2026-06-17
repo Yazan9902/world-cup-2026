@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-17T16:28:15+00:00",
+  "updatedAt": "2026-06-17T18:41:36+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -208,9 +208,9 @@
       },
       "away": {
         "name": "Curaçao",
-        "tla": "CUR",
+        "tla": "CUW",
         "crest": "https://crests.football-data.org/curacao.svg",
-        "flag": "🏳️"
+        "flag": "🇨🇼"
       },
       "status": "finished",
       "score": {
@@ -352,9 +352,9 @@
       },
       "away": {
         "name": "Uruguay",
-        "tla": "URY",
+        "tla": "URU",
         "crest": "https://crests.football-data.org/758.svg",
-        "flag": "🏳️"
+        "flag": "🇺🇾"
       },
       "status": "finished",
       "score": {
@@ -500,12 +500,12 @@
         "crest": "https://crests.football-data.org/congo_dr.svg",
         "flag": "🏳️"
       },
-      "status": "upcoming",
+      "status": "live",
       "score": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       },
-      "minute": null
+      "minute": 101
     },
     {
       "id": 537409,
@@ -832,9 +832,9 @@
       },
       "away": {
         "name": "Curaçao",
-        "tla": "CUR",
+        "tla": "CUW",
         "crest": "https://crests.football-data.org/curacao.svg",
-        "flag": "🏳️"
+        "flag": "🇨🇼"
       },
       "status": "upcoming",
       "score": {
@@ -922,9 +922,9 @@
       "matchday": 2,
       "home": {
         "name": "Uruguay",
-        "tla": "URY",
+        "tla": "URU",
         "crest": "https://crests.football-data.org/758.svg",
-        "flag": "🏳️"
+        "flag": "🇺🇾"
       },
       "away": {
         "name": "Cape Verde Islands",
@@ -1330,9 +1330,9 @@
       "matchday": 3,
       "home": {
         "name": "Curaçao",
-        "tla": "CUR",
+        "tla": "CUW",
         "crest": "https://crests.football-data.org/curacao.svg",
-        "flag": "🏳️"
+        "flag": "🇨🇼"
       },
       "away": {
         "name": "Ivory Coast",
@@ -1498,9 +1498,9 @@
       "matchday": 3,
       "home": {
         "name": "Uruguay",
-        "tla": "URY",
+        "tla": "URU",
         "crest": "https://crests.football-data.org/758.svg",
-        "flag": "🏳️"
+        "flag": "🇺🇾"
       },
       "away": {
         "name": "Spain",
@@ -3242,17 +3242,34 @@
             "crest": "https://crests.football-data.org/congo_dr.svg",
             "flag": "🏳️"
           },
-          "played": 0,
+          "played": 1,
           "won": 0,
-          "draw": 0,
+          "draw": 1,
           "lost": 0,
-          "gf": 0,
-          "ga": 0,
+          "gf": 1,
+          "ga": 1,
           "gd": 0,
-          "pts": 0
+          "pts": 1
         },
         {
           "position": 1,
+          "team": {
+            "name": "Portugal",
+            "tla": "POR",
+            "crest": "https://crests.football-data.org/765.svg",
+            "flag": "🇵🇹"
+          },
+          "played": 1,
+          "won": 0,
+          "draw": 1,
+          "lost": 0,
+          "gf": 1,
+          "ga": 1,
+          "gd": 0,
+          "pts": 1
+        },
+        {
+          "position": 3,
           "team": {
             "name": "Colombia",
             "tla": "COL",
@@ -3269,24 +3286,7 @@
           "pts": 0
         },
         {
-          "position": 1,
-          "team": {
-            "name": "Portugal",
-            "tla": "POR",
-            "crest": "https://crests.football-data.org/765.svg",
-            "flag": "🇵🇹"
-          },
-          "played": 0,
-          "won": 0,
-          "draw": 0,
-          "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 1,
+          "position": 3,
           "team": {
             "name": "Uzbekistan",
             "tla": "UZB",
