@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-18T18:31:56+00:00",
+  "updatedAt": "2026-06-18T21:04:29+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -620,10 +620,10 @@
         "crest": "https://crests.football-data.org/bosnia.svg",
         "flag": "🇧🇦"
       },
-      "status": "upcoming",
+      "status": "finished",
       "score": {
-        "home": null,
-        "away": null
+        "home": 4,
+        "away": 1
       },
       "minute": null
     },
@@ -2585,14 +2585,14 @@
             "crest": "https://crests.football-data.org/788.svg",
             "flag": "🇨🇭"
           },
-          "played": 1,
-          "won": 0,
+          "played": 2,
+          "won": 1,
           "draw": 1,
           "lost": 0,
-          "gf": 1,
-          "ga": 1,
-          "gd": 0,
-          "pts": 1
+          "gf": 5,
+          "ga": 2,
+          "gd": 3,
+          "pts": 4
         },
         {
           "position": 2,
@@ -2614,27 +2614,27 @@
         {
           "position": 3,
           "team": {
-            "name": "Qatar",
-            "tla": "QAT",
-            "crest": "https://crests.football-data.org/8030.svg",
-            "flag": "🇶🇦"
+            "name": "Bosnia-Herzegovina",
+            "tla": "BIH",
+            "crest": "https://crests.football-data.org/bosnia.svg",
+            "flag": "🇧🇦"
           },
-          "played": 1,
+          "played": 2,
           "won": 0,
           "draw": 1,
-          "lost": 0,
-          "gf": 1,
-          "ga": 1,
-          "gd": 0,
+          "lost": 1,
+          "gf": 2,
+          "ga": 5,
+          "gd": -3,
           "pts": 1
         },
         {
           "position": 4,
           "team": {
-            "name": "Bosnia-Herzegovina",
-            "tla": "BIH",
-            "crest": "https://crests.football-data.org/bosnia.svg",
-            "flag": "🇧🇦"
+            "name": "Qatar",
+            "tla": "QAT",
+            "crest": "https://crests.football-data.org/8030.svg",
+            "flag": "🇶🇦"
           },
           "played": 1,
           "won": 0,
