@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-18T21:04:29+00:00",
+  "updatedAt": "2026-06-18T23:00:35+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -70,8 +70,8 @@
       },
       "status": "finished",
       "score": {
-        "home": 1,
-        "away": 1
+        "home": null,
+        "away": null
       },
       "minute": null
     },
@@ -352,9 +352,9 @@
       },
       "away": {
         "name": "Uruguay",
-        "tla": "URU",
+        "tla": "URY",
         "crest": "https://crests.football-data.org/758.svg",
-        "flag": "🇺🇾"
+        "flag": "🏳️"
       },
       "status": "finished",
       "score": {
@@ -644,12 +644,12 @@
         "crest": "https://crests.football-data.org/8030.svg",
         "flag": "🇶🇦"
       },
-      "status": "upcoming",
+      "status": "live",
       "score": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 0
       },
-      "minute": null
+      "minute": 60
     },
     {
       "id": 537330,
@@ -922,9 +922,9 @@
       "matchday": 2,
       "home": {
         "name": "Uruguay",
-        "tla": "URU",
+        "tla": "URY",
         "crest": "https://crests.football-data.org/758.svg",
-        "flag": "🇺🇾"
+        "flag": "🏳️"
       },
       "away": {
         "name": "Cape Verde Islands",
@@ -1498,9 +1498,9 @@
       "matchday": 3,
       "home": {
         "name": "Uruguay",
-        "tla": "URU",
+        "tla": "URY",
         "crest": "https://crests.football-data.org/758.svg",
-        "flag": "🇺🇾"
+        "flag": "🏳️"
       },
       "away": {
         "name": "Spain",
@@ -2602,14 +2602,14 @@
             "crest": "https://crests.football-data.org/canada.svg",
             "flag": "🇨🇦"
           },
-          "played": 1,
-          "won": 0,
+          "played": 2,
+          "won": 1,
           "draw": 1,
           "lost": 0,
-          "gf": 1,
+          "gf": 4,
           "ga": 1,
-          "gd": 0,
-          "pts": 1
+          "gd": 3,
+          "pts": 4
         },
         {
           "position": 3,
@@ -2636,13 +2636,13 @@
             "crest": "https://crests.football-data.org/8030.svg",
             "flag": "🇶🇦"
           },
-          "played": 1,
+          "played": 2,
           "won": 0,
           "draw": 1,
-          "lost": 0,
+          "lost": 1,
           "gf": 1,
-          "ga": 1,
-          "gd": 0,
+          "ga": 4,
+          "gd": -3,
           "pts": 1
         }
       ]
