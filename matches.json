@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-18T16:01:39+00:00",
+  "updatedAt": "2026-06-18T18:31:56+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -596,10 +596,10 @@
         "crest": "https://crests.football-data.org/9396.svg",
         "flag": "🇿🇦"
       },
-      "status": "upcoming",
+      "status": "finished",
       "score": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       },
       "minute": null
     },
@@ -2550,8 +2550,8 @@
           "won": 0,
           "draw": 1,
           "lost": 1,
-          "gf": 1,
-          "ga": 2,
+          "gf": 2,
+          "ga": 3,
           "gd": -1,
           "pts": 1
         },
@@ -2567,8 +2567,8 @@
           "won": 0,
           "draw": 1,
           "lost": 1,
-          "gf": 0,
-          "ga": 2,
+          "gf": 1,
+          "ga": 3,
           "gd": -2,
           "pts": 1
         }
