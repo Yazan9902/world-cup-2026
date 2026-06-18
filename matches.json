@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-18T12:31:53+00:00",
+  "updatedAt": "2026-06-18T16:01:39+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -352,9 +352,9 @@
       },
       "away": {
         "name": "Uruguay",
-        "tla": "URY",
+        "tla": "URU",
         "crest": "https://crests.football-data.org/758.svg",
-        "flag": "🏳️"
+        "flag": "🇺🇾"
       },
       "status": "finished",
       "score": {
@@ -922,9 +922,9 @@
       "matchday": 2,
       "home": {
         "name": "Uruguay",
-        "tla": "URY",
+        "tla": "URU",
         "crest": "https://crests.football-data.org/758.svg",
-        "flag": "🏳️"
+        "flag": "🇺🇾"
       },
       "away": {
         "name": "Cape Verde Islands",
@@ -1498,9 +1498,9 @@
       "matchday": 3,
       "home": {
         "name": "Uruguay",
-        "tla": "URY",
+        "tla": "URU",
         "crest": "https://crests.football-data.org/758.svg",
-        "flag": "🏳️"
+        "flag": "🇺🇾"
       },
       "away": {
         "name": "Spain",
@@ -2546,14 +2546,14 @@
             "crest": "https://crests.football-data.org/798.svg",
             "flag": "🇨🇿"
           },
-          "played": 1,
+          "played": 2,
           "won": 0,
-          "draw": 0,
+          "draw": 1,
           "lost": 1,
           "gf": 1,
           "ga": 2,
           "gd": -1,
-          "pts": 0
+          "pts": 1
         },
         {
           "position": 4,
@@ -2563,14 +2563,14 @@
             "crest": "https://crests.football-data.org/9396.svg",
             "flag": "🇿🇦"
           },
-          "played": 1,
+          "played": 2,
           "won": 0,
-          "draw": 0,
+          "draw": 1,
           "lost": 1,
           "gf": 0,
           "ga": 2,
           "gd": -2,
-          "pts": 0
+          "pts": 1
         }
       ]
     },
