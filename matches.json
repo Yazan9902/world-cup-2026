@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-18T23:00:35+00:00",
+  "updatedAt": "2026-06-19T01:46:38+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -70,8 +70,8 @@
       },
       "status": "finished",
       "score": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       },
       "minute": null
     },
@@ -644,12 +644,12 @@
         "crest": "https://crests.football-data.org/8030.svg",
         "flag": "🇶🇦"
       },
-      "status": "live",
+      "status": "finished",
       "score": {
-        "home": 3,
+        "home": 6,
         "away": 0
       },
-      "minute": 60
+      "minute": null
     },
     {
       "id": 537330,
@@ -668,12 +668,12 @@
         "crest": "https://crests.football-data.org/772.png",
         "flag": "🇰🇷"
       },
-      "status": "upcoming",
+      "status": "live",
       "score": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "minute": null
+      "minute": 46
     },
     {
       "id": 537348,
@@ -2512,14 +2512,14 @@
             "crest": "https://crests.football-data.org/769.svg",
             "flag": "🇲🇽"
           },
-          "played": 1,
+          "played": 2,
           "won": 1,
-          "draw": 0,
+          "draw": 1,
           "lost": 0,
           "gf": 2,
           "ga": 0,
           "gd": 2,
-          "pts": 3
+          "pts": 4
         },
         {
           "position": 2,
@@ -2529,14 +2529,14 @@
             "crest": "https://crests.football-data.org/772.png",
             "flag": "🇰🇷"
           },
-          "played": 1,
+          "played": 2,
           "won": 1,
-          "draw": 0,
+          "draw": 1,
           "lost": 0,
           "gf": 2,
           "ga": 1,
           "gd": 1,
-          "pts": 3
+          "pts": 4
         },
         {
           "position": 3,
@@ -2580,6 +2580,23 @@
         {
           "position": 1,
           "team": {
+            "name": "Canada",
+            "tla": "CAN",
+            "crest": "https://crests.football-data.org/canada.svg",
+            "flag": "🇨🇦"
+          },
+          "played": 2,
+          "won": 1,
+          "draw": 1,
+          "lost": 0,
+          "gf": 7,
+          "ga": 1,
+          "gd": 6,
+          "pts": 4
+        },
+        {
+          "position": 2,
+          "team": {
             "name": "Switzerland",
             "tla": "SUI",
             "crest": "https://crests.football-data.org/788.svg",
@@ -2591,23 +2608,6 @@
           "lost": 0,
           "gf": 5,
           "ga": 2,
-          "gd": 3,
-          "pts": 4
-        },
-        {
-          "position": 2,
-          "team": {
-            "name": "Canada",
-            "tla": "CAN",
-            "crest": "https://crests.football-data.org/canada.svg",
-            "flag": "🇨🇦"
-          },
-          "played": 2,
-          "won": 1,
-          "draw": 1,
-          "lost": 0,
-          "gf": 4,
-          "ga": 1,
           "gd": 3,
           "pts": 4
         },
@@ -2641,8 +2641,8 @@
           "draw": 1,
           "lost": 1,
           "gf": 1,
-          "ga": 4,
-          "gd": -3,
+          "ga": 7,
+          "gd": -6,
           "pts": 1
         }
       ]
