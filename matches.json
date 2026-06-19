@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-19T01:46:38+00:00",
+  "updatedAt": "2026-06-19T06:54:25+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -352,9 +352,9 @@
       },
       "away": {
         "name": "Uruguay",
-        "tla": "URY",
+        "tla": "URU",
         "crest": "https://crests.football-data.org/758.svg",
-        "flag": "🏳️"
+        "flag": "🇺🇾"
       },
       "status": "finished",
       "score": {
@@ -668,12 +668,12 @@
         "crest": "https://crests.football-data.org/772.png",
         "flag": "🇰🇷"
       },
-      "status": "live",
+      "status": "finished",
       "score": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
-      "minute": 46
+      "minute": null
     },
     {
       "id": 537348,
@@ -922,9 +922,9 @@
       "matchday": 2,
       "home": {
         "name": "Uruguay",
-        "tla": "URY",
+        "tla": "URU",
         "crest": "https://crests.football-data.org/758.svg",
-        "flag": "🏳️"
+        "flag": "🇺🇾"
       },
       "away": {
         "name": "Cape Verde Islands",
@@ -1498,9 +1498,9 @@
       "matchday": 3,
       "home": {
         "name": "Uruguay",
-        "tla": "URY",
+        "tla": "URU",
         "crest": "https://crests.football-data.org/758.svg",
-        "flag": "🏳️"
+        "flag": "🇺🇾"
       },
       "away": {
         "name": "Spain",
@@ -2513,13 +2513,13 @@
             "flag": "🇲🇽"
           },
           "played": 2,
-          "won": 1,
-          "draw": 1,
+          "won": 2,
+          "draw": 0,
           "lost": 0,
-          "gf": 2,
+          "gf": 3,
           "ga": 0,
-          "gd": 2,
-          "pts": 4
+          "gd": 3,
+          "pts": 6
         },
         {
           "position": 2,
@@ -2531,12 +2531,12 @@
           },
           "played": 2,
           "won": 1,
-          "draw": 1,
-          "lost": 0,
+          "draw": 0,
+          "lost": 1,
           "gf": 2,
-          "ga": 1,
-          "gd": 1,
-          "pts": 4
+          "ga": 2,
+          "gd": 0,
+          "pts": 3
         },
         {
           "position": 3,
