@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-19T23:16:08+00:00",
+  "updatedAt": "2026-06-20T01:31:04+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -716,12 +716,12 @@
         "crest": "https://crests.football-data.org/morocco.svg",
         "flag": "🇲🇦"
       },
-      "status": "live",
+      "status": "finished",
       "score": {
         "home": 0,
         "away": 1
       },
-      "minute": 76
+      "minute": null
     },
     {
       "id": 537341,
@@ -740,12 +740,12 @@
         "crest": "https://crests.football-data.org/haiti.svg",
         "flag": "🇭🇹"
       },
-      "status": "upcoming",
+      "status": "live",
       "score": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 0
       },
-      "minute": null
+      "minute": 61
     },
     {
       "id": 537347,
@@ -2670,6 +2670,23 @@
         {
           "position": 2,
           "team": {
+            "name": "Brazil",
+            "tla": "BRA",
+            "crest": "https://crests.football-data.org/764.svg",
+            "flag": "🇧🇷"
+          },
+          "played": 2,
+          "won": 1,
+          "draw": 1,
+          "lost": 0,
+          "gf": 4,
+          "ga": 1,
+          "gd": 3,
+          "pts": 4
+        },
+        {
+          "position": 3,
+          "team": {
             "name": "Scotland",
             "tla": "SCO",
             "crest": "https://crests.football-data.org/814.svg",
@@ -2685,23 +2702,6 @@
           "pts": 3
         },
         {
-          "position": 3,
-          "team": {
-            "name": "Brazil",
-            "tla": "BRA",
-            "crest": "https://crests.football-data.org/764.svg",
-            "flag": "🇧🇷"
-          },
-          "played": 1,
-          "won": 0,
-          "draw": 1,
-          "lost": 0,
-          "gf": 1,
-          "ga": 1,
-          "gd": 0,
-          "pts": 1
-        },
-        {
           "position": 4,
           "team": {
             "name": "Haiti",
@@ -2709,13 +2709,13 @@
             "crest": "https://crests.football-data.org/haiti.svg",
             "flag": "🇭🇹"
           },
-          "played": 1,
+          "played": 2,
           "won": 0,
           "draw": 0,
-          "lost": 1,
+          "lost": 2,
           "gf": 0,
-          "ga": 1,
-          "gd": -1,
+          "ga": 4,
+          "gd": -4,
           "pts": 0
         }
       ]
