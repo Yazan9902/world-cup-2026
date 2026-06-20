@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-20T20:22:20+00:00",
+  "updatedAt": "2026-06-20T21:43:10+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -352,9 +352,9 @@
       },
       "away": {
         "name": "Uruguay",
-        "tla": "URY",
+        "tla": "URU",
         "crest": "https://crests.football-data.org/758.svg",
-        "flag": "🏳️"
+        "flag": "🇺🇾"
       },
       "status": "finished",
       "score": {
@@ -814,10 +814,10 @@
       },
       "status": "live",
       "score": {
-        "home": 0,
-        "away": 0
+        "home": 1,
+        "away": 1
       },
-      "minute": 22
+      "minute": 103
     },
     {
       "id": 537354,
@@ -922,9 +922,9 @@
       "matchday": 2,
       "home": {
         "name": "Uruguay",
-        "tla": "URY",
+        "tla": "URU",
         "crest": "https://crests.football-data.org/758.svg",
-        "flag": "🏳️"
+        "flag": "🇺🇾"
       },
       "away": {
         "name": "Cape Verde Islands",
@@ -1498,9 +1498,9 @@
       "matchday": 3,
       "home": {
         "name": "Uruguay",
-        "tla": "URY",
+        "tla": "URU",
         "crest": "https://crests.football-data.org/758.svg",
-        "flag": "🏳️"
+        "flag": "🇺🇾"
       },
       "away": {
         "name": "Spain",
@@ -2799,6 +2799,23 @@
         {
           "position": 1,
           "team": {
+            "name": "Ivory Coast",
+            "tla": "CIV",
+            "crest": "https://crests.football-data.org/787.svg",
+            "flag": "🇨🇮"
+          },
+          "played": 2,
+          "won": 2,
+          "draw": 0,
+          "lost": 0,
+          "gf": 2,
+          "ga": 0,
+          "gd": 2,
+          "pts": 6
+        },
+        {
+          "position": 2,
+          "team": {
             "name": "Germany",
             "tla": "GER",
             "crest": "https://crests.football-data.org/759.svg",
@@ -2806,29 +2823,12 @@
           },
           "played": 2,
           "won": 1,
-          "draw": 1,
-          "lost": 0,
+          "draw": 0,
+          "lost": 1,
           "gf": 7,
-          "ga": 1,
-          "gd": 6,
-          "pts": 4
-        },
-        {
-          "position": 2,
-          "team": {
-            "name": "Ivory Coast",
-            "tla": "CIV",
-            "crest": "https://crests.football-data.org/787.svg",
-            "flag": "🇨🇮"
-          },
-          "played": 2,
-          "won": 1,
-          "draw": 1,
-          "lost": 0,
-          "gf": 1,
-          "ga": 0,
-          "gd": 1,
-          "pts": 4
+          "ga": 2,
+          "gd": 5,
+          "pts": 3
         },
         {
           "position": 3,
