@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-20T23:54:13+00:00",
+  "updatedAt": "2026-06-21T02:32:40+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -836,10 +836,10 @@
         "crest": "https://crests.football-data.org/curacao.svg",
         "flag": "🇨🇼"
       },
-      "status": "upcoming",
+      "status": "finished",
       "score": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "minute": null
     },
@@ -2838,14 +2838,14 @@
             "crest": "https://crests.football-data.org/791.svg",
             "flag": "🇪🇨"
           },
-          "played": 1,
+          "played": 2,
           "won": 0,
-          "draw": 0,
+          "draw": 1,
           "lost": 1,
           "gf": 0,
           "ga": 1,
           "gd": -1,
-          "pts": 0
+          "pts": 1
         },
         {
           "position": 4,
@@ -2855,14 +2855,14 @@
             "crest": "https://crests.football-data.org/curacao.svg",
             "flag": "🇨🇼"
           },
-          "played": 1,
+          "played": 2,
           "won": 0,
-          "draw": 0,
+          "draw": 1,
           "lost": 1,
           "gf": 1,
           "ga": 7,
           "gd": -6,
-          "pts": 0
+          "pts": 1
         }
       ]
     },
