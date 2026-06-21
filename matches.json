@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T22:37:57+00:00",
+  "updatedAt": "2026-06-21T23:54:34+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -208,9 +208,9 @@
       },
       "away": {
         "name": "Curaçao",
-        "tla": "CUR",
+        "tla": "CUW",
         "crest": "https://crests.football-data.org/curacao.svg",
-        "flag": "🏳️"
+        "flag": "🇨🇼"
       },
       "status": "finished",
       "score": {
@@ -352,9 +352,9 @@
       },
       "away": {
         "name": "Uruguay",
-        "tla": "URY",
+        "tla": "URU",
         "crest": "https://crests.football-data.org/758.svg",
-        "flag": "🏳️"
+        "flag": "🇺🇾"
       },
       "status": "finished",
       "score": {
@@ -832,9 +832,9 @@
       },
       "away": {
         "name": "Curaçao",
-        "tla": "CUR",
+        "tla": "CUW",
         "crest": "https://crests.football-data.org/curacao.svg",
-        "flag": "🏳️"
+        "flag": "🇨🇼"
       },
       "status": "finished",
       "score": {
@@ -922,9 +922,9 @@
       "matchday": 2,
       "home": {
         "name": "Uruguay",
-        "tla": "URY",
+        "tla": "URU",
         "crest": "https://crests.football-data.org/758.svg",
-        "flag": "🏳️"
+        "flag": "🇺🇾"
       },
       "away": {
         "name": "Cape Verde Islands",
@@ -934,10 +934,10 @@
       },
       "status": "live",
       "score": {
-        "home": 0,
-        "away": 1
+        "home": 2,
+        "away": 2
       },
-      "minute": 37
+      "minute": 114
     },
     {
       "id": 537366,
@@ -1330,9 +1330,9 @@
       "matchday": 3,
       "home": {
         "name": "Curaçao",
-        "tla": "CUR",
+        "tla": "CUW",
         "crest": "https://crests.football-data.org/curacao.svg",
-        "flag": "🏳️"
+        "flag": "🇨🇼"
       },
       "away": {
         "name": "Ivory Coast",
@@ -1498,9 +1498,9 @@
       "matchday": 3,
       "home": {
         "name": "Uruguay",
-        "tla": "URY",
+        "tla": "URU",
         "crest": "https://crests.football-data.org/758.svg",
-        "flag": "🏳️"
+        "flag": "🇺🇾"
       },
       "away": {
         "name": "Spain",
@@ -3035,23 +3035,6 @@
         {
           "position": 2,
           "team": {
-            "name": "Cape Verde Islands",
-            "tla": "CPV",
-            "crest": "https://crests.football-data.org/cape_verde.svg",
-            "flag": "🇨🇻"
-          },
-          "played": 2,
-          "won": 1,
-          "draw": 1,
-          "lost": 0,
-          "gf": 1,
-          "ga": 0,
-          "gd": 1,
-          "pts": 4
-        },
-        {
-          "position": 3,
-          "team": {
             "name": "Uruguay",
             "tla": "URU",
             "crest": "https://crests.football-data.org/758.svg",
@@ -3059,12 +3042,29 @@
           },
           "played": 2,
           "won": 0,
-          "draw": 1,
-          "lost": 1,
-          "gf": 1,
+          "draw": 2,
+          "lost": 0,
+          "gf": 3,
+          "ga": 3,
+          "gd": 0,
+          "pts": 2
+        },
+        {
+          "position": 3,
+          "team": {
+            "name": "Cape Verde Islands",
+            "tla": "CPV",
+            "crest": "https://crests.football-data.org/cape_verde.svg",
+            "flag": "🇨🇻"
+          },
+          "played": 2,
+          "won": 0,
+          "draw": 2,
+          "lost": 0,
+          "gf": 2,
           "ga": 2,
-          "gd": -1,
-          "pts": 1
+          "gd": 0,
+          "pts": 2
         },
         {
           "position": 4,
