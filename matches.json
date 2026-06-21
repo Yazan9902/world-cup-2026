@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T20:00:05+00:00",
+  "updatedAt": "2026-06-21T21:19:45+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -208,9 +208,9 @@
       },
       "away": {
         "name": "Curaçao",
-        "tla": "CUW",
+        "tla": "CUR",
         "crest": "https://crests.football-data.org/curacao.svg",
-        "flag": "🇨🇼"
+        "flag": "🏳️"
       },
       "status": "finished",
       "score": {
@@ -352,9 +352,9 @@
       },
       "away": {
         "name": "Uruguay",
-        "tla": "URU",
+        "tla": "URY",
         "crest": "https://crests.football-data.org/758.svg",
-        "flag": "🇺🇾"
+        "flag": "🏳️"
       },
       "status": "finished",
       "score": {
@@ -832,9 +832,9 @@
       },
       "away": {
         "name": "Curaçao",
-        "tla": "CUW",
+        "tla": "CUR",
         "crest": "https://crests.football-data.org/curacao.svg",
-        "flag": "🇨🇼"
+        "flag": "🏳️"
       },
       "status": "finished",
       "score": {
@@ -886,7 +886,7 @@
       },
       "status": "finished",
       "score": {
-        "home": 5,
+        "home": 4,
         "away": 0
       },
       "minute": null
@@ -908,12 +908,12 @@
         "crest": "https://crests.football-data.org/iran.svg",
         "flag": "🇮🇷"
       },
-      "status": "live",
+      "status": "finished",
       "score": {
         "home": 0,
         "away": 0
       },
-      "minute": 60
+      "minute": null
     },
     {
       "id": 537372,
@@ -922,9 +922,9 @@
       "matchday": 2,
       "home": {
         "name": "Uruguay",
-        "tla": "URU",
+        "tla": "URY",
         "crest": "https://crests.football-data.org/758.svg",
-        "flag": "🇺🇾"
+        "flag": "🏳️"
       },
       "away": {
         "name": "Cape Verde Islands",
@@ -1330,9 +1330,9 @@
       "matchday": 3,
       "home": {
         "name": "Curaçao",
-        "tla": "CUW",
+        "tla": "CUR",
         "crest": "https://crests.football-data.org/curacao.svg",
-        "flag": "🇨🇼"
+        "flag": "🏳️"
       },
       "away": {
         "name": "Ivory Coast",
@@ -1498,9 +1498,9 @@
       "matchday": 3,
       "home": {
         "name": "Uruguay",
-        "tla": "URU",
+        "tla": "URY",
         "crest": "https://crests.football-data.org/758.svg",
-        "flag": "🇺🇾"
+        "flag": "🏳️"
       },
       "away": {
         "name": "Spain",
