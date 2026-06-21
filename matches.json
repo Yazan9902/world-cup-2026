@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T16:45:06+00:00",
+  "updatedAt": "2026-06-21T18:09:48+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -352,9 +352,9 @@
       },
       "away": {
         "name": "Uruguay",
-        "tla": "URY",
+        "tla": "URU",
         "crest": "https://crests.football-data.org/758.svg",
-        "flag": "🏳️"
+        "flag": "🇺🇾"
       },
       "status": "finished",
       "score": {
@@ -884,12 +884,12 @@
         "crest": "https://crests.football-data.org/saudi_arabia.svg",
         "flag": "🇸🇦"
       },
-      "status": "live",
+      "status": "finished",
       "score": {
-        "home": 3,
+        "home": 5,
         "away": 0
       },
-      "minute": 45
+      "minute": null
     },
     {
       "id": 537365,
@@ -922,9 +922,9 @@
       "matchday": 2,
       "home": {
         "name": "Uruguay",
-        "tla": "URY",
+        "tla": "URU",
         "crest": "https://crests.football-data.org/758.svg",
-        "flag": "🏳️"
+        "flag": "🇺🇾"
       },
       "away": {
         "name": "Cape Verde Islands",
@@ -1498,9 +1498,9 @@
       "matchday": 3,
       "home": {
         "name": "Uruguay",
-        "tla": "URY",
+        "tla": "URU",
         "crest": "https://crests.football-data.org/758.svg",
-        "flag": "🏳️"
+        "flag": "🇺🇾"
       },
       "away": {
         "name": "Spain",
@@ -3027,9 +3027,9 @@
           "won": 1,
           "draw": 1,
           "lost": 0,
-          "gf": 3,
+          "gf": 4,
           "ga": 0,
-          "gd": 3,
+          "gd": 4,
           "pts": 4
         },
         {
@@ -3062,8 +3062,8 @@
           "draw": 1,
           "lost": 1,
           "gf": 1,
-          "ga": 4,
-          "gd": -3,
+          "ga": 5,
+          "gd": -4,
           "pts": 1
         },
         {
