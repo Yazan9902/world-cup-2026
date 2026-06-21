@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T18:09:48+00:00",
+  "updatedAt": "2026-06-21T20:00:05+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -908,12 +908,12 @@
         "crest": "https://crests.football-data.org/iran.svg",
         "flag": "🇮🇷"
       },
-      "status": "upcoming",
+      "status": "live",
       "score": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "minute": null
+      "minute": 60
     },
     {
       "id": 537372,
@@ -2945,6 +2945,40 @@
         {
           "position": 1,
           "team": {
+            "name": "Iran",
+            "tla": "IRN",
+            "crest": "https://crests.football-data.org/iran.svg",
+            "flag": "🇮🇷"
+          },
+          "played": 2,
+          "won": 0,
+          "draw": 2,
+          "lost": 0,
+          "gf": 2,
+          "ga": 2,
+          "gd": 0,
+          "pts": 2
+        },
+        {
+          "position": 2,
+          "team": {
+            "name": "Belgium",
+            "tla": "BEL",
+            "crest": "https://crests.football-data.org/805.svg",
+            "flag": "🇧🇪"
+          },
+          "played": 2,
+          "won": 0,
+          "draw": 2,
+          "lost": 0,
+          "gf": 1,
+          "ga": 1,
+          "gd": 0,
+          "pts": 2
+        },
+        {
+          "position": 3,
+          "team": {
             "name": "New Zealand",
             "tla": "NZL",
             "crest": "https://crests.football-data.org/783.svg",
@@ -2956,40 +2990,6 @@
           "lost": 0,
           "gf": 2,
           "ga": 2,
-          "gd": 0,
-          "pts": 1
-        },
-        {
-          "position": 2,
-          "team": {
-            "name": "Iran",
-            "tla": "IRN",
-            "crest": "https://crests.football-data.org/iran.svg",
-            "flag": "🇮🇷"
-          },
-          "played": 1,
-          "won": 0,
-          "draw": 1,
-          "lost": 0,
-          "gf": 2,
-          "ga": 2,
-          "gd": 0,
-          "pts": 1
-        },
-        {
-          "position": 3,
-          "team": {
-            "name": "Belgium",
-            "tla": "BEL",
-            "crest": "https://crests.football-data.org/805.svg",
-            "flag": "🇧🇪"
-          },
-          "played": 1,
-          "won": 0,
-          "draw": 1,
-          "lost": 0,
-          "gf": 1,
-          "ga": 1,
           "gd": 0,
           "pts": 1
         },
