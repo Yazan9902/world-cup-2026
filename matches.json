@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T14:58:12+00:00",
+  "updatedAt": "2026-06-21T16:45:06+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -884,12 +884,12 @@
         "crest": "https://crests.football-data.org/saudi_arabia.svg",
         "flag": "🇸🇦"
       },
-      "status": "upcoming",
+      "status": "live",
       "score": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 0
       },
-      "minute": null
+      "minute": 45
     },
     {
       "id": 537365,
@@ -3018,6 +3018,23 @@
         {
           "position": 1,
           "team": {
+            "name": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg",
+            "flag": "🇪🇸"
+          },
+          "played": 2,
+          "won": 1,
+          "draw": 1,
+          "lost": 0,
+          "gf": 3,
+          "ga": 0,
+          "gd": 3,
+          "pts": 4
+        },
+        {
+          "position": 2,
+          "team": {
             "name": "Uruguay",
             "tla": "URU",
             "crest": "https://crests.football-data.org/758.svg",
@@ -3033,37 +3050,20 @@
           "pts": 1
         },
         {
-          "position": 2,
+          "position": 3,
           "team": {
             "name": "Saudi Arabia",
             "tla": "KSA",
             "crest": "https://crests.football-data.org/saudi_arabia.svg",
             "flag": "🇸🇦"
           },
-          "played": 1,
+          "played": 2,
           "won": 0,
           "draw": 1,
-          "lost": 0,
+          "lost": 1,
           "gf": 1,
-          "ga": 1,
-          "gd": 0,
-          "pts": 1
-        },
-        {
-          "position": 3,
-          "team": {
-            "name": "Spain",
-            "tla": "ESP",
-            "crest": "https://crests.football-data.org/760.svg",
-            "flag": "🇪🇸"
-          },
-          "played": 1,
-          "won": 0,
-          "draw": 1,
-          "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "gd": 0,
+          "ga": 4,
+          "gd": -3,
           "pts": 1
         },
         {
