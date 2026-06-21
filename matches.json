@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T21:19:45+00:00",
+  "updatedAt": "2026-06-21T22:37:57+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -932,12 +932,12 @@
         "crest": "https://crests.football-data.org/cape_verde.svg",
         "flag": "🇨🇻"
       },
-      "status": "upcoming",
+      "status": "live",
       "score": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
-      "minute": null
+      "minute": 37
     },
     {
       "id": 537366,
@@ -3035,22 +3035,39 @@
         {
           "position": 2,
           "team": {
+            "name": "Cape Verde Islands",
+            "tla": "CPV",
+            "crest": "https://crests.football-data.org/cape_verde.svg",
+            "flag": "🇨🇻"
+          },
+          "played": 2,
+          "won": 1,
+          "draw": 1,
+          "lost": 0,
+          "gf": 1,
+          "ga": 0,
+          "gd": 1,
+          "pts": 4
+        },
+        {
+          "position": 3,
+          "team": {
             "name": "Uruguay",
             "tla": "URU",
             "crest": "https://crests.football-data.org/758.svg",
             "flag": "🇺🇾"
           },
-          "played": 1,
+          "played": 2,
           "won": 0,
           "draw": 1,
-          "lost": 0,
+          "lost": 1,
           "gf": 1,
-          "ga": 1,
-          "gd": 0,
+          "ga": 2,
+          "gd": -1,
           "pts": 1
         },
         {
-          "position": 3,
+          "position": 4,
           "team": {
             "name": "Saudi Arabia",
             "tla": "KSA",
@@ -3064,23 +3081,6 @@
           "gf": 1,
           "ga": 5,
           "gd": -4,
-          "pts": 1
-        },
-        {
-          "position": 4,
-          "team": {
-            "name": "Cape Verde Islands",
-            "tla": "CPV",
-            "crest": "https://crests.football-data.org/cape_verde.svg",
-            "flag": "🇨🇻"
-          },
-          "played": 1,
-          "won": 0,
-          "draw": 1,
-          "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "gd": 0,
           "pts": 1
         }
       ]
