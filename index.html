@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Barlow:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=5" />
+  <link rel="stylesheet" href="styles.css?v=7" />
 </head>
 <body>
   <div class="fx" aria-hidden="true">
@@ -33,8 +33,19 @@
           <span class="brand__tag">Yazan's WC Tracker</span>
         </div>
       </div>
-      <div class="hosts" aria-label="Hosted by Canada, USA and Mexico">
-        <span>🇨🇦</span><span>🇺🇸</span><span>🇲🇽</span>
+      <div class="hero__actions">
+        <div class="hosts" aria-label="Hosted by Canada, USA and Mexico">
+          <span>🇨🇦</span><span>🇺🇸</span><span>🇲🇽</span>
+        </div>
+        <button class="refresh-btn" id="refreshBtn" type="button" aria-label="Refresh live data">
+          <svg class="refresh-btn__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/>
+            <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/>
+          </svg>
+          <span class="refresh-btn__check" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+          </span>
+        </button>
       </div>
     </div>
 
@@ -96,7 +107,7 @@
     <p class="foot__hint">Live data via football-data.org · refreshes automatically</p>
   </footer>
 
-  <script src="data.js?v=5"></script>
-  <script src="app.js?v=5"></script>
+  <script src="data.js?v=7"></script>
+  <script src="app.js?v=7"></script>
 </body>
 </html>

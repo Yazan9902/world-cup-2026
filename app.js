@@ -238,12 +238,15 @@ function renderMatches() {
   wrap.appendChild(h);
 
   if (!todays.length) {
-    wrap.innerHTML += `<div class="empty">
+    const e = document.createElement("div");
+    e.className = "empty";
+    e.innerHTML = `
       <svg class="empty__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
         <circle cx="12" cy="12" r="9.2"/><path d="M12 7.2l3.2 2.3-1.2 3.8h-4l-1.2-3.8L12 7.2Z" fill="currentColor" stroke="none"/>
       </svg>
       <div class="empty__title">No matches this day</div>
-      <p>Tap a different day in the strip, or pick a team to track.</p></div>`;
+      <p>Tap a different day in the strip, or pick a team to track.</p>`;
+    wrap.appendChild(e);
     return;
   }
   todays.forEach((m,i) => wrap.appendChild(matchCard(m,i)));
@@ -251,10 +254,9 @@ function renderMatches() {
 
 function renderTeamMatches(wrap) {
   const tla = teamFilter.tla;
-  const rank = { live:0, upcoming:1, finished:2 };
   const all = MATCH_DATA
-    .filter(m => m.home.tla===tla||m.away.tla===tla)
-    .sort((a,b) => (rank[a.status]-rank[b.status])||(a.when-b.when));
+    .filter(m => m.home.tla===tla || m.away.tla===tla)
+    .sort((a,b) => a.when - b.when);
 
   if (!all.length) {
     wrap.innerHTML = `<div class="empty">
@@ -262,49 +264,40 @@ function renderTeamMatches(wrap) {
     return;
   }
 
-  // Group by date, live/upcoming first, then past
-  const upcoming = all.filter(m => m.status!=="finished");
-  const past = all.filter(m => m.status==="finished");
+  const liveNow  = all.filter(m => m.status === "live");
+  const upcoming = all.filter(m => m.status === "upcoming");
+  const past     = all.filter(m => m.status === "finished");
 
   let idx = 0;
-  const addSection = (matches, label) => {
-    if (!matches.length) return;
-    // group by date within section
+  // Helper: render a group of matches broken into date headings
+  const addDateGroup = (matches) => {
     const byDate = {};
-    matches.forEach(m => { (byDate[m.dateStr]||=[]).push(m); });
-    Object.entries(byDate).sort(([a],[b])=>a.localeCompare(b)).forEach(([date, ms]) => {
+    matches.forEach(m => { (byDate[m.dateStr] ||= []).push(m); });
+    Object.entries(byDate).sort(([a],[b]) => a.localeCompare(b)).forEach(([date, ms]) => {
       const h = document.createElement("h2");
       h.className = "day-heading";
       h.innerHTML = `<span>${fmtDayHeading(date)}</span>`;
       wrap.appendChild(h);
-      ms.forEach(m => { wrap.appendChild(matchCard(m, idx++)); });
+      ms.forEach(m => wrap.appendChild(matchCard(m, idx++)));
     });
   };
 
-  const liveNow = all.filter(m=>m.status==="live");
   if (liveNow.length) {
     const h = document.createElement("h2");
     h.className = "day-heading";
     h.innerHTML = `<span>Playing now</span><span class="live-tally"><span class="dot"></span>${liveNow.length} LIVE</span>`;
     wrap.appendChild(h);
-    liveNow.forEach(m => { wrap.appendChild(matchCard(m, idx++)); });
+    liveNow.forEach(m => wrap.appendChild(matchCard(m, idx++)));
   }
 
-  const upcomingOnly = upcoming.filter(m=>m.status!=="live");
-  if (upcomingOnly.length) {
-    const byDate = {};
-    upcomingOnly.forEach(m => { (byDate[m.dateStr]||=[]).push(m); });
-    Object.entries(byDate).sort(([a],[b])=>a.localeCompare(b)).forEach(([date, ms]) => {
-      const h = document.createElement("h2"); h.className = "day-heading";
-      h.innerHTML = `<span>${fmtDayHeading(date)}</span>`; wrap.appendChild(h);
-      ms.forEach(m => wrap.appendChild(matchCard(m, idx++)));
-    });
-  }
+  if (upcoming.length) addDateGroup(upcoming);
 
   if (past.length) {
-    const div = document.createElement("h2"); div.className = "day-heading";
-    div.innerHTML = `<span style="opacity:.6">Past matches</span>`; wrap.appendChild(div);
-    [...past].sort((a,b)=>b.when-a.when).forEach(m => wrap.appendChild(matchCard(m, idx++)));
+    const h = document.createElement("h2");
+    h.className = "day-heading";
+    h.innerHTML = `<span style="opacity:.6">Past matches</span>`;
+    wrap.appendChild(h);
+    [...past].sort((a,b) => b.when - a.when).forEach(m => wrap.appendChild(matchCard(m, idx++)));
   }
 }
 
@@ -434,6 +427,36 @@ async function loadData() {
   }
 }
 
+// ── Manual refresh ─────────────────────────────────────────
+let refreshing = false;
+async function refreshNow() {
+  if (refreshing) return;
+  refreshing = true;
+  const btn = $("#refreshBtn");
+  btn?.classList.remove("is-done");
+  btn?.classList.add("is-loading");
+  if (btn) btn.disabled = true;
+
+  // re-pull the freshest matches.json; keep spinner visible at least 600ms
+  const [mode] = await Promise.all([
+    loadData(),
+    new Promise(r => setTimeout(r, 600)),
+  ]);
+
+  if (mode !== "none") {
+    if (activeTab === "matches") { buildDateStrip(); renderMatches(); }
+    else renderStandings();
+    setUpdatedLine();
+  }
+
+  btn?.classList.remove("is-loading");
+  if (btn) btn.disabled = false;
+  // brief success checkmark
+  btn?.classList.add("is-done");
+  setTimeout(() => btn?.classList.remove("is-done"), 1300);
+  refreshing = false;
+}
+
 // ── Initial date picker ────────────────────────────────────
 function pickInitialDate() {
   if (userPickedDate) return;
@@ -458,6 +481,9 @@ async function init() {
 
   // filter chip clear button
   $("#filterChipClear")?.addEventListener("click", clearTeamFilter);
+
+  // manual refresh button
+  $("#refreshBtn")?.addEventListener("click", refreshNow);
 
   const mode=await loadData();
   if (mode==="none") {
