@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T23:54:34+00:00",
+  "updatedAt": "2026-06-22T02:42:30+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -352,9 +352,9 @@
       },
       "away": {
         "name": "Uruguay",
-        "tla": "URU",
+        "tla": "URY",
         "crest": "https://crests.football-data.org/758.svg",
-        "flag": "🇺🇾"
+        "flag": "🏳️"
       },
       "status": "finished",
       "score": {
@@ -922,9 +922,9 @@
       "matchday": 2,
       "home": {
         "name": "Uruguay",
-        "tla": "URU",
+        "tla": "URY",
         "crest": "https://crests.football-data.org/758.svg",
-        "flag": "🇺🇾"
+        "flag": "🏳️"
       },
       "away": {
         "name": "Cape Verde Islands",
@@ -932,12 +932,12 @@
         "crest": "https://crests.football-data.org/cape_verde.svg",
         "flag": "🇨🇻"
       },
-      "status": "live",
+      "status": "finished",
       "score": {
         "home": 2,
         "away": 2
       },
-      "minute": 114
+      "minute": null
     },
     {
       "id": 537366,
@@ -956,12 +956,12 @@
         "crest": "https://crests.football-data.org/825.svg",
         "flag": "🇪🇬"
       },
-      "status": "upcoming",
+      "status": "live",
       "score": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 2
       },
-      "minute": null
+      "minute": 102
     },
     {
       "id": 537399,
@@ -1498,9 +1498,9 @@
       "matchday": 3,
       "home": {
         "name": "Uruguay",
-        "tla": "URU",
+        "tla": "URY",
         "crest": "https://crests.football-data.org/758.svg",
-        "flag": "🇺🇾"
+        "flag": "🏳️"
       },
       "away": {
         "name": "Spain",
@@ -2945,6 +2945,23 @@
         {
           "position": 1,
           "team": {
+            "name": "Egypt",
+            "tla": "EGY",
+            "crest": "https://crests.football-data.org/825.svg",
+            "flag": "🇪🇬"
+          },
+          "played": 2,
+          "won": 1,
+          "draw": 1,
+          "lost": 0,
+          "gf": 3,
+          "ga": 2,
+          "gd": 1,
+          "pts": 4
+        },
+        {
+          "position": 2,
+          "team": {
             "name": "Iran",
             "tla": "IRN",
             "crest": "https://crests.football-data.org/iran.svg",
@@ -2960,7 +2977,7 @@
           "pts": 2
         },
         {
-          "position": 2,
+          "position": 3,
           "team": {
             "name": "Belgium",
             "tla": "BEL",
@@ -2977,37 +2994,20 @@
           "pts": 2
         },
         {
-          "position": 3,
+          "position": 4,
           "team": {
             "name": "New Zealand",
             "tla": "NZL",
             "crest": "https://crests.football-data.org/783.svg",
             "flag": "🇳🇿"
           },
-          "played": 1,
+          "played": 2,
           "won": 0,
           "draw": 1,
-          "lost": 0,
-          "gf": 2,
-          "ga": 2,
-          "gd": 0,
-          "pts": 1
-        },
-        {
-          "position": 4,
-          "team": {
-            "name": "Egypt",
-            "tla": "EGY",
-            "crest": "https://crests.football-data.org/825.svg",
-            "flag": "🇪🇬"
-          },
-          "played": 1,
-          "won": 0,
-          "draw": 1,
-          "lost": 0,
-          "gf": 1,
-          "ga": 1,
-          "gd": 0,
+          "lost": 1,
+          "gf": 3,
+          "ga": 4,
+          "gd": -1,
           "pts": 1
         }
       ]
