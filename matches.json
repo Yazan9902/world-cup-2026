@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-23T22:57:17+00:00",
+  "updatedAt": "2026-06-23T23:53:46+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -1124,12 +1124,12 @@
         "crest": "https://crests.football-data.org/799.svg",
         "flag": "🇭🇷"
       },
-      "status": "upcoming",
+      "status": "live",
       "score": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "minute": null
+      "minute": 53
     },
     {
       "id": 537406,
@@ -3349,14 +3349,14 @@
             "crest": "https://crests.football-data.org/panama.svg",
             "flag": "🇵🇦"
           },
-          "played": 1,
+          "played": 2,
           "won": 0,
-          "draw": 0,
+          "draw": 1,
           "lost": 1,
           "gf": 0,
           "ga": 1,
           "gd": -1,
-          "pts": 0
+          "pts": 1
         },
         {
           "position": 4,
@@ -3366,14 +3366,14 @@
             "crest": "https://crests.football-data.org/799.svg",
             "flag": "🇭🇷"
           },
-          "played": 1,
+          "played": 2,
           "won": 0,
-          "draw": 0,
+          "draw": 1,
           "lost": 1,
           "gf": 2,
           "ga": 4,
           "gd": -2,
-          "pts": 0
+          "pts": 1
         }
       ]
     }
