@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-23T16:15:37+00:00",
+  "updatedAt": "2026-06-23T18:15:49+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -1076,12 +1076,12 @@
         "crest": "https://crests.football-data.org/8070.png",
         "flag": "🇺🇿"
       },
-      "status": "upcoming",
+      "status": "live",
       "score": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 0
       },
-      "minute": null
+      "minute": 75
     },
     {
       "id": 537411,
@@ -3237,6 +3237,23 @@
         {
           "position": 1,
           "team": {
+            "name": "Portugal",
+            "tla": "POR",
+            "crest": "https://crests.football-data.org/765.svg",
+            "flag": "🇵🇹"
+          },
+          "played": 2,
+          "won": 1,
+          "draw": 1,
+          "lost": 0,
+          "gf": 4,
+          "ga": 1,
+          "gd": 3,
+          "pts": 4
+        },
+        {
+          "position": 2,
+          "team": {
             "name": "Colombia",
             "tla": "COL",
             "crest": "https://crests.football-data.org/818.svg",
@@ -3252,29 +3269,12 @@
           "pts": 3
         },
         {
-          "position": 2,
+          "position": 3,
           "team": {
             "name": "Congo DR",
             "tla": "COD",
             "crest": "https://crests.football-data.org/congo_dr.svg",
             "flag": "🏳️"
-          },
-          "played": 1,
-          "won": 0,
-          "draw": 1,
-          "lost": 0,
-          "gf": 1,
-          "ga": 1,
-          "gd": 0,
-          "pts": 1
-        },
-        {
-          "position": 2,
-          "team": {
-            "name": "Portugal",
-            "tla": "POR",
-            "crest": "https://crests.football-data.org/765.svg",
-            "flag": "🇵🇹"
           },
           "played": 1,
           "won": 0,
@@ -3293,13 +3293,13 @@
             "crest": "https://crests.football-data.org/8070.png",
             "flag": "🇺🇿"
           },
-          "played": 1,
+          "played": 2,
           "won": 0,
           "draw": 0,
-          "lost": 1,
+          "lost": 2,
           "gf": 1,
-          "ga": 3,
-          "gd": -2,
+          "ga": 6,
+          "gd": -5,
           "pts": 0
         }
       ]
