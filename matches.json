@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-24T01:56:18+00:00",
+  "updatedAt": "2026-06-24T06:02:16+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -352,9 +352,9 @@
       },
       "away": {
         "name": "Uruguay",
-        "tla": "URU",
+        "tla": "URY",
         "crest": "https://crests.football-data.org/758.svg",
-        "flag": "🇺🇾"
+        "flag": "🏳️"
       },
       "status": "finished",
       "score": {
@@ -922,9 +922,9 @@
       "matchday": 2,
       "home": {
         "name": "Uruguay",
-        "tla": "URU",
+        "tla": "URY",
         "crest": "https://crests.football-data.org/758.svg",
-        "flag": "🇺🇾"
+        "flag": "🏳️"
       },
       "away": {
         "name": "Cape Verde Islands",
@@ -1148,10 +1148,10 @@
         "crest": "https://crests.football-data.org/congo_dr.svg",
         "flag": "🏳️"
       },
-      "status": "upcoming",
+      "status": "finished",
       "score": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "minute": null
     },
@@ -1498,9 +1498,9 @@
       "matchday": 3,
       "home": {
         "name": "Uruguay",
-        "tla": "URU",
+        "tla": "URY",
         "crest": "https://crests.football-data.org/758.svg",
-        "flag": "🇺🇾"
+        "flag": "🏳️"
       },
       "away": {
         "name": "Spain",
@@ -1785,10 +1785,10 @@
       "stage": "Round of 32",
       "matchday": null,
       "home": {
-        "name": "Germany",
-        "tla": "GER",
-        "crest": "https://crests.football-data.org/759.svg",
-        "flag": "🇩🇪"
+        "name": "TBD",
+        "tla": "",
+        "crest": "",
+        "flag": "🏳️"
       },
       "away": {
         "name": "TBD",
@@ -1881,10 +1881,10 @@
       "stage": "Round of 32",
       "matchday": null,
       "home": {
-        "name": "Mexico",
-        "tla": "MEX",
-        "crest": "https://crests.football-data.org/769.svg",
-        "flag": "🇲🇽"
+        "name": "TBD",
+        "tla": "",
+        "crest": "",
+        "flag": "🏳️"
       },
       "away": {
         "name": "TBD",
@@ -1953,10 +1953,10 @@
       "stage": "Round of 32",
       "matchday": null,
       "home": {
-        "name": "United States",
-        "tla": "USA",
-        "crest": "https://crests.football-data.org/usa.svg",
-        "flag": "🇺🇸"
+        "name": "TBD",
+        "tla": "",
+        "crest": "",
+        "flag": "🏳️"
       },
       "away": {
         "name": "TBD",
@@ -2073,10 +2073,10 @@
       "stage": "Round of 32",
       "matchday": null,
       "home": {
-        "name": "Argentina",
-        "tla": "ARG",
-        "crest": "https://crests.football-data.org/762.png",
-        "flag": "🇦🇷"
+        "name": "TBD",
+        "tla": "",
+        "crest": "",
+        "flag": "🏳️"
       },
       "away": {
         "name": "TBD",
@@ -3237,6 +3237,23 @@
         {
           "position": 1,
           "team": {
+            "name": "Colombia",
+            "tla": "COL",
+            "crest": "https://crests.football-data.org/818.svg",
+            "flag": "🇨🇴"
+          },
+          "played": 2,
+          "won": 2,
+          "draw": 0,
+          "lost": 0,
+          "gf": 4,
+          "ga": 1,
+          "gd": 3,
+          "pts": 6
+        },
+        {
+          "position": 2,
+          "team": {
             "name": "Portugal",
             "tla": "POR",
             "crest": "https://crests.football-data.org/765.svg",
@@ -3252,23 +3269,6 @@
           "pts": 4
         },
         {
-          "position": 2,
-          "team": {
-            "name": "Colombia",
-            "tla": "COL",
-            "crest": "https://crests.football-data.org/818.svg",
-            "flag": "🇨🇴"
-          },
-          "played": 1,
-          "won": 1,
-          "draw": 0,
-          "lost": 0,
-          "gf": 3,
-          "ga": 1,
-          "gd": 2,
-          "pts": 3
-        },
-        {
           "position": 3,
           "team": {
             "name": "Congo DR",
@@ -3276,13 +3276,13 @@
             "crest": "https://crests.football-data.org/congo_dr.svg",
             "flag": "🏳️"
           },
-          "played": 1,
+          "played": 2,
           "won": 0,
           "draw": 1,
-          "lost": 0,
+          "lost": 1,
           "gf": 1,
-          "ga": 1,
-          "gd": 0,
+          "ga": 2,
+          "gd": -1,
           "pts": 1
         },
         {
