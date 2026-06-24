@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-24T17:15:16+00:00",
+  "updatedAt": "2026-06-24T19:01:04+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -2585,14 +2585,14 @@
             "crest": "https://crests.football-data.org/canada.svg",
             "flag": "🇨🇦"
           },
-          "played": 2,
+          "played": 3,
           "won": 1,
-          "draw": 1,
+          "draw": 2,
           "lost": 0,
           "gf": 7,
           "ga": 1,
           "gd": 6,
-          "pts": 4
+          "pts": 5
         },
         {
           "position": 2,
@@ -2602,14 +2602,14 @@
             "crest": "https://crests.football-data.org/788.svg",
             "flag": "🇨🇭"
           },
-          "played": 2,
+          "played": 3,
           "won": 1,
-          "draw": 1,
+          "draw": 2,
           "lost": 0,
           "gf": 5,
           "ga": 2,
           "gd": 3,
-          "pts": 4
+          "pts": 5
         },
         {
           "position": 3,
@@ -2619,14 +2619,14 @@
             "crest": "https://crests.football-data.org/bosnia.svg",
             "flag": "🇧🇦"
           },
-          "played": 2,
+          "played": 3,
           "won": 0,
-          "draw": 1,
+          "draw": 2,
           "lost": 1,
           "gf": 2,
           "ga": 5,
           "gd": -3,
-          "pts": 1
+          "pts": 2
         },
         {
           "position": 4,
@@ -2636,14 +2636,14 @@
             "crest": "https://crests.football-data.org/8030.svg",
             "flag": "🇶🇦"
           },
-          "played": 2,
+          "played": 3,
           "won": 0,
-          "draw": 1,
+          "draw": 2,
           "lost": 1,
           "gf": 1,
           "ga": 7,
           "gd": -6,
-          "pts": 1
+          "pts": 2
         }
       ]
     },
