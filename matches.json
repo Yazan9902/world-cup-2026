@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-24T19:01:04+00:00",
+  "updatedAt": "2026-06-24T20:51:35+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -1172,12 +1172,12 @@
         "crest": "https://crests.football-data.org/canada.svg",
         "flag": "🇨🇦"
       },
-      "status": "upcoming",
+      "status": "live",
       "score": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 1
       },
-      "minute": null
+      "minute": 111
     },
     {
       "id": 537338,
@@ -1196,12 +1196,12 @@
         "crest": "https://crests.football-data.org/8030.svg",
         "flag": "🇶🇦"
       },
-      "status": "upcoming",
+      "status": "live",
       "score": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 1
       },
-      "minute": null
+      "minute": 111
     },
     {
       "id": 537344,
@@ -2580,6 +2580,23 @@
         {
           "position": 1,
           "team": {
+            "name": "Switzerland",
+            "tla": "SUI",
+            "crest": "https://crests.football-data.org/788.svg",
+            "flag": "🇨🇭"
+          },
+          "played": 3,
+          "won": 2,
+          "draw": 1,
+          "lost": 0,
+          "gf": 7,
+          "ga": 2,
+          "gd": 5,
+          "pts": 7
+        },
+        {
+          "position": 2,
+          "team": {
             "name": "Canada",
             "tla": "CAN",
             "crest": "https://crests.football-data.org/canada.svg",
@@ -2587,29 +2604,12 @@
           },
           "played": 3,
           "won": 1,
-          "draw": 2,
-          "lost": 0,
+          "draw": 1,
+          "lost": 1,
           "gf": 7,
-          "ga": 1,
-          "gd": 6,
-          "pts": 5
-        },
-        {
-          "position": 2,
-          "team": {
-            "name": "Switzerland",
-            "tla": "SUI",
-            "crest": "https://crests.football-data.org/788.svg",
-            "flag": "🇨🇭"
-          },
-          "played": 3,
-          "won": 1,
-          "draw": 2,
-          "lost": 0,
-          "gf": 5,
-          "ga": 2,
-          "gd": 3,
-          "pts": 5
+          "ga": 3,
+          "gd": 4,
+          "pts": 4
         },
         {
           "position": 3,
@@ -2620,13 +2620,13 @@
             "flag": "🇧🇦"
           },
           "played": 3,
-          "won": 0,
-          "draw": 2,
+          "won": 1,
+          "draw": 1,
           "lost": 1,
-          "gf": 2,
-          "ga": 5,
-          "gd": -3,
-          "pts": 2
+          "gf": 4,
+          "ga": 6,
+          "gd": -2,
+          "pts": 4
         },
         {
           "position": 4,
@@ -2638,12 +2638,12 @@
           },
           "played": 3,
           "won": 0,
-          "draw": 2,
-          "lost": 1,
-          "gf": 1,
-          "ga": 7,
-          "gd": -6,
-          "pts": 2
+          "draw": 1,
+          "lost": 2,
+          "gf": 2,
+          "ga": 9,
+          "gd": -7,
+          "pts": 1
         }
       ]
     },
