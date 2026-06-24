@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-24T20:51:35+00:00",
+  "updatedAt": "2026-06-24T22:03:08+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -1172,12 +1172,12 @@
         "crest": "https://crests.football-data.org/canada.svg",
         "flag": "🇨🇦"
       },
-      "status": "live",
+      "status": "finished",
       "score": {
         "home": 2,
         "away": 1
       },
-      "minute": 111
+      "minute": null
     },
     {
       "id": 537338,
@@ -1196,12 +1196,12 @@
         "crest": "https://crests.football-data.org/8030.svg",
         "flag": "🇶🇦"
       },
-      "status": "live",
+      "status": "finished",
       "score": {
         "home": 3,
         "away": 1
       },
-      "minute": 111
+      "minute": null
     },
     {
       "id": 537344,
@@ -2590,8 +2590,8 @@
           "draw": 1,
           "lost": 0,
           "gf": 7,
-          "ga": 2,
-          "gd": 5,
+          "ga": 3,
+          "gd": 4,
           "pts": 7
         },
         {
@@ -2606,9 +2606,9 @@
           "won": 1,
           "draw": 1,
           "lost": 1,
-          "gf": 7,
+          "gf": 8,
           "ga": 3,
-          "gd": 4,
+          "gd": 5,
           "pts": 4
         },
         {
@@ -2623,9 +2623,9 @@
           "won": 1,
           "draw": 1,
           "lost": 1,
-          "gf": 4,
+          "gf": 5,
           "ga": 6,
-          "gd": -2,
+          "gd": -1,
           "pts": 4
         },
         {
@@ -2641,8 +2641,8 @@
           "draw": 1,
           "lost": 2,
           "gf": 2,
-          "ga": 9,
-          "gd": -7,
+          "ga": 10,
+          "gd": -8,
           "pts": 1
         }
       ]
@@ -2658,14 +2658,14 @@
             "crest": "https://crests.football-data.org/764.svg",
             "flag": "🇧🇷"
           },
-          "played": 2,
+          "played": 3,
           "won": 1,
-          "draw": 1,
+          "draw": 2,
           "lost": 0,
           "gf": 4,
           "ga": 1,
           "gd": 3,
-          "pts": 4
+          "pts": 5
         },
         {
           "position": 2,
@@ -2675,14 +2675,14 @@
             "crest": "https://crests.football-data.org/morocco.svg",
             "flag": "🇲🇦"
           },
-          "played": 2,
+          "played": 3,
           "won": 1,
-          "draw": 1,
+          "draw": 2,
           "lost": 0,
           "gf": 2,
           "ga": 1,
           "gd": 1,
-          "pts": 4
+          "pts": 5
         },
         {
           "position": 3,
@@ -2692,14 +2692,14 @@
             "crest": "https://crests.football-data.org/814.svg",
             "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
           },
-          "played": 2,
+          "played": 3,
           "won": 1,
-          "draw": 0,
+          "draw": 1,
           "lost": 1,
           "gf": 1,
           "ga": 1,
           "gd": 0,
-          "pts": 3
+          "pts": 4
         },
         {
           "position": 4,
@@ -2709,14 +2709,14 @@
             "crest": "https://crests.football-data.org/haiti.svg",
             "flag": "🇭🇹"
           },
-          "played": 2,
+          "played": 3,
           "won": 0,
-          "draw": 0,
+          "draw": 1,
           "lost": 2,
           "gf": 0,
           "ga": 4,
           "gd": -4,
-          "pts": 0
+          "pts": 1
         }
       ]
     },
