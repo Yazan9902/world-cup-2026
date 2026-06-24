@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-24T15:05:38+00:00",
+  "updatedAt": "2026-06-24T17:15:16+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -1785,10 +1785,10 @@
       "stage": "Round of 32",
       "matchday": null,
       "home": {
-        "name": "Germany",
-        "tla": "GER",
-        "crest": "https://crests.football-data.org/759.svg",
-        "flag": "🇩🇪"
+        "name": "TBD",
+        "tla": "",
+        "crest": "",
+        "flag": "🏳️"
       },
       "away": {
         "name": "TBD",
@@ -1881,10 +1881,10 @@
       "stage": "Round of 32",
       "matchday": null,
       "home": {
-        "name": "Mexico",
-        "tla": "MEX",
-        "crest": "https://crests.football-data.org/769.svg",
-        "flag": "🇲🇽"
+        "name": "TBD",
+        "tla": "",
+        "crest": "",
+        "flag": "🏳️"
       },
       "away": {
         "name": "TBD",
@@ -1953,10 +1953,10 @@
       "stage": "Round of 32",
       "matchday": null,
       "home": {
-        "name": "United States",
-        "tla": "USA",
-        "crest": "https://crests.football-data.org/usa.svg",
-        "flag": "🇺🇸"
+        "name": "TBD",
+        "tla": "",
+        "crest": "",
+        "flag": "🏳️"
       },
       "away": {
         "name": "TBD",
@@ -2073,10 +2073,10 @@
       "stage": "Round of 32",
       "matchday": null,
       "home": {
-        "name": "Argentina",
-        "tla": "ARG",
-        "crest": "https://crests.football-data.org/762.png",
-        "flag": "🇦🇷"
+        "name": "TBD",
+        "tla": "",
+        "crest": "",
+        "flag": "🏳️"
       },
       "away": {
         "name": "TBD",
