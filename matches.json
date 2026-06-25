@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T21:58:20+00:00",
+  "updatedAt": "2026-06-25T23:17:47+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -1316,12 +1316,12 @@
         "crest": "https://crests.football-data.org/759.svg",
         "flag": "🇩🇪"
       },
-      "status": "live",
+      "status": "finished",
       "score": {
         "home": 2,
         "away": 1
       },
-      "minute": 118
+      "minute": null
     },
     {
       "id": 537356,
@@ -1340,12 +1340,12 @@
         "crest": "https://crests.football-data.org/787.svg",
         "flag": "🇨🇮"
       },
-      "status": "live",
+      "status": "finished",
       "score": {
         "home": 0,
         "away": 2
       },
-      "minute": 118
+      "minute": null
     },
     {
       "id": 537361,
@@ -1364,12 +1364,12 @@
         "crest": "https://crests.football-data.org/8601.svg",
         "flag": "🇳🇱"
       },
-      "status": "upcoming",
+      "status": "live",
       "score": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 2
       },
-      "minute": null
+      "minute": 17
     },
     {
       "id": 537362,
@@ -1388,12 +1388,12 @@
         "crest": "https://crests.football-data.org/792.svg",
         "flag": "🇸🇪"
       },
-      "status": "upcoming",
+      "status": "live",
       "score": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "minute": null
+      "minute": 17
     },
     {
       "id": 537349,
@@ -2806,12 +2806,12 @@
           },
           "played": 3,
           "won": 2,
-          "draw": 1,
-          "lost": 0,
+          "draw": 0,
+          "lost": 1,
           "gf": 10,
-          "ga": 3,
-          "gd": 7,
-          "pts": 7
+          "ga": 4,
+          "gd": 6,
+          "pts": 6
         },
         {
           "position": 2,
@@ -2839,13 +2839,13 @@
             "flag": "🇪🇨"
           },
           "played": 3,
-          "won": 0,
-          "draw": 2,
+          "won": 1,
+          "draw": 1,
           "lost": 1,
-          "gf": 1,
+          "gf": 2,
           "ga": 2,
-          "gd": -1,
-          "pts": 2
+          "gd": 0,
+          "pts": 4
         },
         {
           "position": 4,
@@ -2877,14 +2877,14 @@
             "crest": "https://crests.football-data.org/8601.svg",
             "flag": "🇳🇱"
           },
-          "played": 2,
+          "played": 3,
           "won": 1,
-          "draw": 1,
+          "draw": 2,
           "lost": 0,
           "gf": 7,
           "ga": 3,
           "gd": 4,
-          "pts": 4
+          "pts": 5
         },
         {
           "position": 2,
@@ -2894,14 +2894,14 @@
             "crest": "https://crests.football-data.org/766.svg",
             "flag": "🇯🇵"
           },
-          "played": 2,
+          "played": 3,
           "won": 1,
-          "draw": 1,
+          "draw": 2,
           "lost": 0,
           "gf": 6,
           "ga": 2,
           "gd": 4,
-          "pts": 4
+          "pts": 5
         },
         {
           "position": 3,
@@ -2911,14 +2911,14 @@
             "crest": "https://crests.football-data.org/792.svg",
             "flag": "🇸🇪"
           },
-          "played": 2,
+          "played": 3,
           "won": 1,
-          "draw": 0,
+          "draw": 1,
           "lost": 1,
           "gf": 6,
           "ga": 6,
           "gd": 0,
-          "pts": 3
+          "pts": 4
         },
         {
           "position": 4,
@@ -2928,14 +2928,14 @@
             "crest": "https://crests.football-data.org/tunisia.svg",
             "flag": "🇹🇳"
           },
-          "played": 2,
+          "played": 3,
           "won": 0,
-          "draw": 0,
+          "draw": 1,
           "lost": 2,
           "gf": 1,
           "ga": 9,
           "gd": -8,
-          "pts": 0
+          "pts": 1
         }
       ]
     },
