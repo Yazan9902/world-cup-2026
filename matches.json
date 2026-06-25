@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T20:25:20+00:00",
+  "updatedAt": "2026-06-25T21:58:20+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -352,9 +352,9 @@
       },
       "away": {
         "name": "Uruguay",
-        "tla": "URU",
+        "tla": "URY",
         "crest": "https://crests.football-data.org/758.svg",
-        "flag": "🇺🇾"
+        "flag": "🏳️"
       },
       "status": "finished",
       "score": {
@@ -922,9 +922,9 @@
       "matchday": 2,
       "home": {
         "name": "Uruguay",
-        "tla": "URU",
+        "tla": "URY",
         "crest": "https://crests.football-data.org/758.svg",
-        "flag": "🇺🇾"
+        "flag": "🏳️"
       },
       "away": {
         "name": "Cape Verde Islands",
@@ -1316,12 +1316,12 @@
         "crest": "https://crests.football-data.org/759.svg",
         "flag": "🇩🇪"
       },
-      "status": "upcoming",
+      "status": "live",
       "score": {
-        "home": 1,
+        "home": 2,
         "away": 1
       },
-      "minute": null
+      "minute": 118
     },
     {
       "id": 537356,
@@ -1340,12 +1340,12 @@
         "crest": "https://crests.football-data.org/787.svg",
         "flag": "🇨🇮"
       },
-      "status": "upcoming",
+      "status": "live",
       "score": {
         "home": 0,
-        "away": 1
+        "away": 2
       },
-      "minute": null
+      "minute": 118
     },
     {
       "id": 537361,
@@ -1498,9 +1498,9 @@
       "matchday": 3,
       "home": {
         "name": "Uruguay",
-        "tla": "URU",
+        "tla": "URY",
         "crest": "https://crests.football-data.org/758.svg",
-        "flag": "🇺🇾"
+        "flag": "🏳️"
       },
       "away": {
         "name": "Spain",
@@ -1785,10 +1785,10 @@
       "stage": "Round of 32",
       "matchday": null,
       "home": {
-        "name": "Germany",
-        "tla": "GER",
-        "crest": "https://crests.football-data.org/759.svg",
-        "flag": "🇩🇪"
+        "name": "TBD",
+        "tla": "",
+        "crest": "",
+        "flag": "🏳️"
       },
       "away": {
         "name": "TBD",
@@ -1881,10 +1881,10 @@
       "stage": "Round of 32",
       "matchday": null,
       "home": {
-        "name": "Mexico",
-        "tla": "MEX",
-        "crest": "https://crests.football-data.org/769.svg",
-        "flag": "🇲🇽"
+        "name": "TBD",
+        "tla": "",
+        "crest": "",
+        "flag": "🏳️"
       },
       "away": {
         "name": "TBD",
@@ -1953,10 +1953,10 @@
       "stage": "Round of 32",
       "matchday": null,
       "home": {
-        "name": "United States",
-        "tla": "USA",
-        "crest": "https://crests.football-data.org/usa.svg",
-        "flag": "🇺🇸"
+        "name": "TBD",
+        "tla": "",
+        "crest": "",
+        "flag": "🏳️"
       },
       "away": {
         "name": "TBD",
@@ -2073,10 +2073,10 @@
       "stage": "Round of 32",
       "matchday": null,
       "home": {
-        "name": "Argentina",
-        "tla": "ARG",
-        "crest": "https://crests.football-data.org/762.png",
-        "flag": "🇦🇷"
+        "name": "TBD",
+        "tla": "",
+        "crest": "",
+        "flag": "🏳️"
       },
       "away": {
         "name": "TBD",
@@ -2808,8 +2808,8 @@
           "won": 2,
           "draw": 1,
           "lost": 0,
-          "gf": 9,
-          "ga": 2,
+          "gf": 10,
+          "ga": 3,
           "gd": 7,
           "pts": 7
         },
@@ -2822,13 +2822,13 @@
             "flag": "🇨🇮"
           },
           "played": 3,
-          "won": 1,
-          "draw": 1,
+          "won": 2,
+          "draw": 0,
           "lost": 1,
-          "gf": 2,
+          "gf": 4,
           "ga": 2,
-          "gd": 0,
-          "pts": 4
+          "gd": 2,
+          "pts": 6
         },
         {
           "position": 3,
@@ -2842,8 +2842,8 @@
           "won": 0,
           "draw": 2,
           "lost": 1,
-          "gf": 0,
-          "ga": 1,
+          "gf": 1,
+          "ga": 2,
           "gd": -1,
           "pts": 2
         },
@@ -2857,12 +2857,12 @@
           },
           "played": 3,
           "won": 0,
-          "draw": 2,
-          "lost": 1,
+          "draw": 1,
+          "lost": 2,
           "gf": 1,
-          "ga": 7,
-          "gd": -6,
-          "pts": 2
+          "ga": 9,
+          "gd": -8,
+          "pts": 1
         }
       ]
     },
