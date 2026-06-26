@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T01:31:54+00:00",
+  "updatedAt": "2026-06-26T05:51:25+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -1412,10 +1412,10 @@
         "crest": "https://crests.football-data.org/usa.svg",
         "flag": "🇺🇸"
       },
-      "status": "upcoming",
+      "status": "finished",
       "score": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 2
       },
       "minute": null
     },
@@ -1436,10 +1436,10 @@
         "crest": "https://crests.football-data.org/779.svg",
         "flag": "🇦🇺"
       },
-      "status": "upcoming",
+      "status": "finished",
       "score": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "minute": null
     },
@@ -1785,10 +1785,10 @@
       "stage": "Round of 32",
       "matchday": null,
       "home": {
-        "name": "TBD",
-        "tla": "",
-        "crest": "",
-        "flag": "🏳️"
+        "name": "Germany",
+        "tla": "GER",
+        "crest": "https://crests.football-data.org/759.svg",
+        "flag": "🇩🇪"
       },
       "away": {
         "name": "TBD",
@@ -1881,10 +1881,10 @@
       "stage": "Round of 32",
       "matchday": null,
       "home": {
-        "name": "TBD",
-        "tla": "",
-        "crest": "",
-        "flag": "🏳️"
+        "name": "Mexico",
+        "tla": "MEX",
+        "crest": "https://crests.football-data.org/769.svg",
+        "flag": "🇲🇽"
       },
       "away": {
         "name": "TBD",
@@ -1953,10 +1953,10 @@
       "stage": "Round of 32",
       "matchday": null,
       "home": {
-        "name": "TBD",
-        "tla": "",
-        "crest": "",
-        "flag": "🏳️"
+        "name": "United States",
+        "tla": "USA",
+        "crest": "https://crests.football-data.org/usa.svg",
+        "flag": "🇺🇸"
       },
       "away": {
         "name": "TBD",
@@ -2073,10 +2073,10 @@
       "stage": "Round of 32",
       "matchday": null,
       "home": {
-        "name": "TBD",
-        "tla": "",
-        "crest": "",
-        "flag": "🏳️"
+        "name": "Argentina",
+        "tla": "ARG",
+        "crest": "https://crests.football-data.org/762.png",
+        "flag": "🇦🇷"
       },
       "away": {
         "name": "TBD",
@@ -2731,13 +2731,13 @@
             "crest": "https://crests.football-data.org/usa.svg",
             "flag": "🇺🇸"
           },
-          "played": 2,
+          "played": 3,
           "won": 2,
           "draw": 0,
-          "lost": 0,
-          "gf": 6,
-          "ga": 1,
-          "gd": 5,
+          "lost": 1,
+          "gf": 8,
+          "ga": 4,
+          "gd": 4,
           "pts": 6
         },
         {
@@ -2748,14 +2748,14 @@
             "crest": "https://crests.football-data.org/779.svg",
             "flag": "🇦🇺"
           },
-          "played": 2,
+          "played": 3,
           "won": 1,
-          "draw": 0,
+          "draw": 1,
           "lost": 1,
           "gf": 2,
           "ga": 2,
           "gd": 0,
-          "pts": 3
+          "pts": 4
         },
         {
           "position": 3,
@@ -2765,14 +2765,14 @@
             "crest": "https://crests.football-data.org/761.svg",
             "flag": "🇵🇾"
           },
-          "played": 2,
+          "played": 3,
           "won": 1,
-          "draw": 0,
+          "draw": 1,
           "lost": 1,
           "gf": 2,
           "ga": 4,
           "gd": -2,
-          "pts": 3
+          "pts": 4
         },
         {
           "position": 4,
@@ -2782,14 +2782,14 @@
             "crest": "https://crests.football-data.org/803.svg",
             "flag": "🇹🇷"
           },
-          "played": 2,
-          "won": 0,
+          "played": 3,
+          "won": 1,
           "draw": 0,
           "lost": 2,
-          "gf": 0,
-          "ga": 3,
-          "gd": -3,
-          "pts": 0
+          "gf": 3,
+          "ga": 5,
+          "gd": -2,
+          "pts": 3
         }
       ]
     },
