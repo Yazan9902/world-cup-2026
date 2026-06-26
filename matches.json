@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T23:17:47+00:00",
+  "updatedAt": "2026-06-26T01:31:54+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -352,9 +352,9 @@
       },
       "away": {
         "name": "Uruguay",
-        "tla": "URY",
+        "tla": "URU",
         "crest": "https://crests.football-data.org/758.svg",
-        "flag": "🏳️"
+        "flag": "🇺🇾"
       },
       "status": "finished",
       "score": {
@@ -922,9 +922,9 @@
       "matchday": 2,
       "home": {
         "name": "Uruguay",
-        "tla": "URY",
+        "tla": "URU",
         "crest": "https://crests.football-data.org/758.svg",
-        "flag": "🏳️"
+        "flag": "🇺🇾"
       },
       "away": {
         "name": "Cape Verde Islands",
@@ -1364,12 +1364,12 @@
         "crest": "https://crests.football-data.org/8601.svg",
         "flag": "🇳🇱"
       },
-      "status": "live",
+      "status": "finished",
       "score": {
-        "home": 0,
-        "away": 2
+        "home": 1,
+        "away": 3
       },
-      "minute": 17
+      "minute": null
     },
     {
       "id": 537362,
@@ -1388,12 +1388,12 @@
         "crest": "https://crests.football-data.org/792.svg",
         "flag": "🇸🇪"
       },
-      "status": "live",
+      "status": "finished",
       "score": {
-        "home": 0,
-        "away": 0
+        "home": 1,
+        "away": 1
       },
-      "minute": 17
+      "minute": null
     },
     {
       "id": 537349,
@@ -1498,9 +1498,9 @@
       "matchday": 3,
       "home": {
         "name": "Uruguay",
-        "tla": "URY",
+        "tla": "URU",
         "crest": "https://crests.football-data.org/758.svg",
-        "flag": "🏳️"
+        "flag": "🇺🇾"
       },
       "away": {
         "name": "Spain",
@@ -2878,13 +2878,13 @@
             "flag": "🇳🇱"
           },
           "played": 3,
-          "won": 1,
-          "draw": 2,
+          "won": 2,
+          "draw": 1,
           "lost": 0,
-          "gf": 7,
-          "ga": 3,
-          "gd": 4,
-          "pts": 5
+          "gf": 10,
+          "ga": 4,
+          "gd": 6,
+          "pts": 7
         },
         {
           "position": 2,
@@ -2898,8 +2898,8 @@
           "won": 1,
           "draw": 2,
           "lost": 0,
-          "gf": 6,
-          "ga": 2,
+          "gf": 7,
+          "ga": 3,
           "gd": 4,
           "pts": 5
         },
@@ -2915,8 +2915,8 @@
           "won": 1,
           "draw": 1,
           "lost": 1,
-          "gf": 6,
-          "ga": 6,
+          "gf": 7,
+          "ga": 7,
           "gd": 0,
           "pts": 4
         },
@@ -2930,12 +2930,12 @@
           },
           "played": 3,
           "won": 0,
-          "draw": 1,
-          "lost": 2,
-          "gf": 1,
-          "ga": 9,
-          "gd": -8,
-          "pts": 1
+          "draw": 0,
+          "lost": 3,
+          "gf": 2,
+          "ga": 12,
+          "gd": -10,
+          "pts": 0
         }
       ]
     },
