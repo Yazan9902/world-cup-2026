@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T17:28:21+00:00",
+  "updatedAt": "2026-06-26T19:18:38+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -1462,8 +1462,8 @@
       },
       "status": "upcoming",
       "score": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
       "minute": null
     },
@@ -1486,8 +1486,8 @@
       },
       "status": "upcoming",
       "score": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "minute": null
     },
@@ -3096,14 +3096,14 @@
             "crest": "https://crests.football-data.org/773.svg",
             "flag": "🇫🇷"
           },
-          "played": 2,
+          "played": 3,
           "won": 2,
-          "draw": 0,
+          "draw": 1,
           "lost": 0,
           "gf": 6,
           "ga": 1,
           "gd": 5,
-          "pts": 6
+          "pts": 7
         },
         {
           "position": 2,
@@ -3113,14 +3113,14 @@
             "crest": "https://crests.football-data.org/813.svg",
             "flag": "🇳🇴"
           },
-          "played": 2,
+          "played": 3,
           "won": 2,
-          "draw": 0,
+          "draw": 1,
           "lost": 0,
           "gf": 7,
           "ga": 3,
           "gd": 4,
-          "pts": 6
+          "pts": 7
         },
         {
           "position": 3,
@@ -3130,14 +3130,14 @@
             "crest": "https://crests.football-data.org/senegal.svg",
             "flag": "🇸🇳"
           },
-          "played": 2,
+          "played": 3,
           "won": 0,
-          "draw": 0,
+          "draw": 1,
           "lost": 2,
           "gf": 3,
           "ga": 6,
           "gd": -3,
-          "pts": 0
+          "pts": 1
         },
         {
           "position": 4,
@@ -3147,14 +3147,14 @@
             "crest": "https://crests.football-data.org/iraq.svg",
             "flag": "🏳️"
           },
-          "played": 2,
+          "played": 3,
           "won": 0,
-          "draw": 0,
+          "draw": 1,
           "lost": 2,
           "gf": 1,
           "ga": 7,
           "gd": -6,
-          "pts": 0
+          "pts": 1
         }
       ]
     },
