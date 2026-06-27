@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T01:30:28+00:00",
+  "updatedAt": "2026-06-27T05:30:08+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -1508,12 +1508,12 @@
         "crest": "https://crests.football-data.org/760.svg",
         "flag": "🇪🇸"
       },
-      "status": "live",
+      "status": "finished",
       "score": {
         "home": 0,
         "away": 1
       },
-      "minute": 90
+      "minute": null
     },
     {
       "id": 537374,
@@ -1532,12 +1532,12 @@
         "crest": "https://crests.football-data.org/saudi_arabia.svg",
         "flag": "🇸🇦"
       },
-      "status": "live",
+      "status": "finished",
       "score": {
         "home": 0,
         "away": 0
       },
-      "minute": 90
+      "minute": null
     },
     {
       "id": 537367,
@@ -1556,10 +1556,10 @@
         "crest": "https://crests.football-data.org/805.svg",
         "flag": "🇧🇪"
       },
-      "status": "upcoming",
+      "status": "finished",
       "score": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 5
       },
       "minute": null
     },
@@ -1580,10 +1580,10 @@
         "crest": "https://crests.football-data.org/iran.svg",
         "flag": "🇮🇷"
       },
-      "status": "upcoming",
+      "status": "finished",
       "score": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       },
       "minute": null
     },
@@ -2945,53 +2945,53 @@
         {
           "position": 1,
           "team": {
+            "name": "Belgium",
+            "tla": "BEL",
+            "crest": "https://crests.football-data.org/805.svg",
+            "flag": "🇧🇪"
+          },
+          "played": 3,
+          "won": 1,
+          "draw": 2,
+          "lost": 0,
+          "gf": 6,
+          "ga": 2,
+          "gd": 4,
+          "pts": 5
+        },
+        {
+          "position": 2,
+          "team": {
             "name": "Egypt",
             "tla": "EGY",
             "crest": "https://crests.football-data.org/825.svg",
             "flag": "🇪🇬"
           },
-          "played": 2,
+          "played": 3,
           "won": 1,
-          "draw": 1,
+          "draw": 2,
           "lost": 0,
-          "gf": 4,
-          "ga": 2,
+          "gf": 5,
+          "ga": 3,
           "gd": 2,
-          "pts": 4
+          "pts": 5
         },
         {
-          "position": 2,
+          "position": 3,
           "team": {
             "name": "Iran",
             "tla": "IRN",
             "crest": "https://crests.football-data.org/iran.svg",
             "flag": "🇮🇷"
           },
-          "played": 2,
+          "played": 3,
           "won": 0,
-          "draw": 2,
+          "draw": 3,
           "lost": 0,
-          "gf": 2,
-          "ga": 2,
+          "gf": 3,
+          "ga": 3,
           "gd": 0,
-          "pts": 2
-        },
-        {
-          "position": 3,
-          "team": {
-            "name": "Belgium",
-            "tla": "BEL",
-            "crest": "https://crests.football-data.org/805.svg",
-            "flag": "🇧🇪"
-          },
-          "played": 2,
-          "won": 0,
-          "draw": 2,
-          "lost": 0,
-          "gf": 1,
-          "ga": 1,
-          "gd": 0,
-          "pts": 2
+          "pts": 3
         },
         {
           "position": 4,
@@ -3001,13 +3001,13 @@
             "crest": "https://crests.football-data.org/783.svg",
             "flag": "🇳🇿"
           },
-          "played": 2,
+          "played": 3,
           "won": 0,
           "draw": 1,
-          "lost": 1,
-          "gf": 3,
-          "ga": 5,
-          "gd": -2,
+          "lost": 2,
+          "gf": 4,
+          "ga": 10,
+          "gd": -6,
           "pts": 1
         }
       ]
