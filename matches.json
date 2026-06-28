@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-28T05:58:08+00:00",
+  "updatedAt": "2026-06-28T08:50:34+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -1791,10 +1791,10 @@
         "flag": "🇩🇪"
       },
       "away": {
-        "name": "TBD",
-        "tla": "",
-        "crest": "",
-        "flag": "🏳️"
+        "name": "Paraguay",
+        "tla": "PAR",
+        "crest": "https://crests.football-data.org/761.svg",
+        "flag": "🇵🇾"
       },
       "status": "upcoming",
       "score": {
@@ -1839,10 +1839,10 @@
         "flag": "🇨🇮"
       },
       "away": {
-        "name": "TBD",
-        "tla": "",
-        "crest": "",
-        "flag": "🏳️"
+        "name": "Norway",
+        "tla": "NOR",
+        "crest": "https://crests.football-data.org/813.svg",
+        "flag": "🇳🇴"
       },
       "status": "upcoming",
       "score": {
@@ -1857,16 +1857,16 @@
       "stage": "Round of 32",
       "matchday": null,
       "home": {
-        "name": "TBD",
-        "tla": "",
-        "crest": "",
-        "flag": "🏳️"
+        "name": "France",
+        "tla": "FRA",
+        "crest": "https://crests.football-data.org/773.svg",
+        "flag": "🇫🇷"
       },
       "away": {
-        "name": "TBD",
-        "tla": "",
-        "crest": "",
-        "flag": "🏳️"
+        "name": "Sweden",
+        "tla": "SWE",
+        "crest": "https://crests.football-data.org/792.svg",
+        "flag": "🇸🇪"
       },
       "status": "upcoming",
       "score": {
@@ -1887,10 +1887,10 @@
         "flag": "🇲🇽"
       },
       "away": {
-        "name": "TBD",
-        "tla": "",
-        "crest": "",
-        "flag": "🏳️"
+        "name": "Ecuador",
+        "tla": "ECU",
+        "crest": "https://crests.football-data.org/791.svg",
+        "flag": "🇪🇨"
       },
       "status": "upcoming",
       "score": {
@@ -1905,15 +1905,15 @@
       "stage": "Round of 32",
       "matchday": null,
       "home": {
-        "name": "TBD",
-        "tla": "",
-        "crest": "",
-        "flag": "🏳️"
+        "name": "England",
+        "tla": "ENG",
+        "crest": "https://crests.football-data.org/770.svg",
+        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
       },
       "away": {
-        "name": "TBD",
-        "tla": "",
-        "crest": "",
+        "name": "Congo DR",
+        "tla": "COD",
+        "crest": "https://crests.football-data.org/congo_dr.svg",
         "flag": "🏳️"
       },
       "status": "upcoming",
@@ -1929,16 +1929,16 @@
       "stage": "Round of 32",
       "matchday": null,
       "home": {
-        "name": "TBD",
-        "tla": "",
-        "crest": "",
-        "flag": "🏳️"
+        "name": "Belgium",
+        "tla": "BEL",
+        "crest": "https://crests.football-data.org/805.svg",
+        "flag": "🇧🇪"
       },
       "away": {
-        "name": "TBD",
-        "tla": "",
-        "crest": "",
-        "flag": "🏳️"
+        "name": "Senegal",
+        "tla": "SEN",
+        "crest": "https://crests.football-data.org/senegal.svg",
+        "flag": "🇸🇳"
       },
       "status": "upcoming",
       "score": {
@@ -1977,16 +1977,16 @@
       "stage": "Round of 32",
       "matchday": null,
       "home": {
-        "name": "TBD",
-        "tla": "",
-        "crest": "",
-        "flag": "🏳️"
+        "name": "Spain",
+        "tla": "ESP",
+        "crest": "https://crests.football-data.org/760.svg",
+        "flag": "🇪🇸"
       },
       "away": {
-        "name": "TBD",
-        "tla": "",
-        "crest": "",
-        "flag": "🏳️"
+        "name": "Austria",
+        "tla": "AUT",
+        "crest": "https://crests.football-data.org/816.svg",
+        "flag": "🇦🇹"
       },
       "status": "upcoming",
       "score": {
@@ -2001,16 +2001,16 @@
       "stage": "Round of 32",
       "matchday": null,
       "home": {
-        "name": "TBD",
-        "tla": "",
-        "crest": "",
-        "flag": "🏳️"
+        "name": "Portugal",
+        "tla": "POR",
+        "crest": "https://crests.football-data.org/765.svg",
+        "flag": "🇵🇹"
       },
       "away": {
-        "name": "TBD",
-        "tla": "",
-        "crest": "",
-        "flag": "🏳️"
+        "name": "Croatia",
+        "tla": "CRO",
+        "crest": "https://crests.football-data.org/799.svg",
+        "flag": "🇭🇷"
       },
       "status": "upcoming",
       "score": {
@@ -2031,10 +2031,10 @@
         "flag": "🇨🇭"
       },
       "away": {
-        "name": "TBD",
-        "tla": "",
-        "crest": "",
-        "flag": "🏳️"
+        "name": "Algeria",
+        "tla": "ALG",
+        "crest": "https://crests.football-data.org/algeria.svg",
+        "flag": "🇩🇿"
       },
       "status": "upcoming",
       "score": {
@@ -2055,10 +2055,10 @@
         "flag": "🇦🇺"
       },
       "away": {
-        "name": "TBD",
-        "tla": "",
-        "crest": "",
-        "flag": "🏳️"
+        "name": "Egypt",
+        "tla": "EGY",
+        "crest": "https://crests.football-data.org/825.svg",
+        "flag": "🇪🇬"
       },
       "status": "upcoming",
       "score": {
@@ -2079,10 +2079,10 @@
         "flag": "🇦🇷"
       },
       "away": {
-        "name": "TBD",
-        "tla": "",
-        "crest": "",
-        "flag": "🏳️"
+        "name": "Cape Verde Islands",
+        "tla": "CPV",
+        "crest": "https://crests.football-data.org/cape_verde.svg",
+        "flag": "🇨🇻"
       },
       "status": "upcoming",
       "score": {
@@ -2097,16 +2097,16 @@
       "stage": "Round of 32",
       "matchday": null,
       "home": {
-        "name": "TBD",
-        "tla": "",
-        "crest": "",
-        "flag": "🏳️"
+        "name": "Colombia",
+        "tla": "COL",
+        "crest": "https://crests.football-data.org/818.svg",
+        "flag": "🇨🇴"
       },
       "away": {
-        "name": "TBD",
-        "tla": "",
-        "crest": "",
-        "flag": "🏳️"
+        "name": "Ghana",
+        "tla": "GHA",
+        "crest": "https://crests.football-data.org/ghana.svg",
+        "flag": "🇬🇭"
       },
       "status": "upcoming",
       "score": {
