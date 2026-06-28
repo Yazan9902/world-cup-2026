@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-28T18:56:51+00:00",
+  "updatedAt": "2026-06-28T20:10:14+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -1748,12 +1748,12 @@
         "crest": "https://crests.football-data.org/canada.svg",
         "flag": "🇨🇦"
       },
-      "status": "upcoming",
+      "status": "live",
       "score": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "minute": null
+      "minute": 70
     },
     {
       "id": 537423,
