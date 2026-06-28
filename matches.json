@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-28T01:34:29+00:00",
+  "updatedAt": "2026-06-28T05:58:08+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -1676,12 +1676,12 @@
         "crest": "https://crests.football-data.org/8070.png",
         "flag": "🇺🇿"
       },
-      "status": "live",
+      "status": "finished",
       "score": {
         "home": 3,
         "away": 1
       },
-      "minute": 120
+      "minute": null
     },
     {
       "id": 537401,
@@ -1700,10 +1700,10 @@
         "crest": "https://crests.football-data.org/762.png",
         "flag": "🇦🇷"
       },
-      "status": "upcoming",
+      "status": "finished",
       "score": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 3
       },
       "minute": null
     },
@@ -1724,10 +1724,10 @@
         "crest": "https://crests.football-data.org/816.svg",
         "flag": "🇦🇹"
       },
-      "status": "upcoming",
+      "status": "finished",
       "score": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 3
       },
       "minute": null
     },
@@ -1737,16 +1737,16 @@
       "stage": "Round of 32",
       "matchday": null,
       "home": {
-        "name": "TBD",
-        "tla": "",
-        "crest": "",
-        "flag": "🏳️"
+        "name": "South Africa",
+        "tla": "RSA",
+        "crest": "https://crests.football-data.org/9396.svg",
+        "flag": "🇿🇦"
       },
       "away": {
-        "name": "TBD",
-        "tla": "",
-        "crest": "",
-        "flag": "🏳️"
+        "name": "Canada",
+        "tla": "CAN",
+        "crest": "https://crests.football-data.org/canada.svg",
+        "flag": "🇨🇦"
       },
       "status": "upcoming",
       "score": {
@@ -1761,16 +1761,16 @@
       "stage": "Round of 32",
       "matchday": null,
       "home": {
-        "name": "TBD",
-        "tla": "",
-        "crest": "",
-        "flag": "🏳️"
+        "name": "Brazil",
+        "tla": "BRA",
+        "crest": "https://crests.football-data.org/764.svg",
+        "flag": "🇧🇷"
       },
       "away": {
-        "name": "TBD",
-        "tla": "",
-        "crest": "",
-        "flag": "🏳️"
+        "name": "Japan",
+        "tla": "JPN",
+        "crest": "https://crests.football-data.org/766.svg",
+        "flag": "🇯🇵"
       },
       "status": "upcoming",
       "score": {
@@ -1785,10 +1785,10 @@
       "stage": "Round of 32",
       "matchday": null,
       "home": {
-        "name": "TBD",
-        "tla": "",
-        "crest": "",
-        "flag": "🏳️"
+        "name": "Germany",
+        "tla": "GER",
+        "crest": "https://crests.football-data.org/759.svg",
+        "flag": "🇩🇪"
       },
       "away": {
         "name": "TBD",
@@ -1809,16 +1809,16 @@
       "stage": "Round of 32",
       "matchday": null,
       "home": {
-        "name": "TBD",
-        "tla": "",
-        "crest": "",
-        "flag": "🏳️"
+        "name": "Netherlands",
+        "tla": "NED",
+        "crest": "https://crests.football-data.org/8601.svg",
+        "flag": "🇳🇱"
       },
       "away": {
-        "name": "TBD",
-        "tla": "",
-        "crest": "",
-        "flag": "🏳️"
+        "name": "Morocco",
+        "tla": "MAR",
+        "crest": "https://crests.football-data.org/morocco.svg",
+        "flag": "🇲🇦"
       },
       "status": "upcoming",
       "score": {
@@ -1833,10 +1833,10 @@
       "stage": "Round of 32",
       "matchday": null,
       "home": {
-        "name": "TBD",
-        "tla": "",
-        "crest": "",
-        "flag": "🏳️"
+        "name": "Ivory Coast",
+        "tla": "CIV",
+        "crest": "https://crests.football-data.org/787.svg",
+        "flag": "🇨🇮"
       },
       "away": {
         "name": "TBD",
@@ -1881,10 +1881,10 @@
       "stage": "Round of 32",
       "matchday": null,
       "home": {
-        "name": "TBD",
-        "tla": "",
-        "crest": "",
-        "flag": "🏳️"
+        "name": "Mexico",
+        "tla": "MEX",
+        "crest": "https://crests.football-data.org/769.svg",
+        "flag": "🇲🇽"
       },
       "away": {
         "name": "TBD",
@@ -1953,16 +1953,16 @@
       "stage": "Round of 32",
       "matchday": null,
       "home": {
-        "name": "TBD",
-        "tla": "",
-        "crest": "",
-        "flag": "🏳️"
+        "name": "United States",
+        "tla": "USA",
+        "crest": "https://crests.football-data.org/usa.svg",
+        "flag": "🇺🇸"
       },
       "away": {
-        "name": "TBD",
-        "tla": "",
-        "crest": "",
-        "flag": "🏳️"
+        "name": "Bosnia-Herzegovina",
+        "tla": "BIH",
+        "crest": "https://crests.football-data.org/bosnia.svg",
+        "flag": "🇧🇦"
       },
       "status": "upcoming",
       "score": {
@@ -2025,10 +2025,10 @@
       "stage": "Round of 32",
       "matchday": null,
       "home": {
-        "name": "TBD",
-        "tla": "",
-        "crest": "",
-        "flag": "🏳️"
+        "name": "Switzerland",
+        "tla": "SUI",
+        "crest": "https://crests.football-data.org/788.svg",
+        "flag": "🇨🇭"
       },
       "away": {
         "name": "TBD",
@@ -2049,10 +2049,10 @@
       "stage": "Round of 32",
       "matchday": null,
       "home": {
-        "name": "TBD",
-        "tla": "",
-        "crest": "",
-        "flag": "🏳️"
+        "name": "Australia",
+        "tla": "AUS",
+        "crest": "https://crests.football-data.org/779.svg",
+        "flag": "🇦🇺"
       },
       "away": {
         "name": "TBD",
@@ -2073,10 +2073,10 @@
       "stage": "Round of 32",
       "matchday": null,
       "home": {
-        "name": "TBD",
-        "tla": "",
-        "crest": "",
-        "flag": "🏳️"
+        "name": "Argentina",
+        "tla": "ARG",
+        "crest": "https://crests.football-data.org/762.png",
+        "flag": "🇦🇷"
       },
       "away": {
         "name": "TBD",
@@ -3169,14 +3169,14 @@
             "crest": "https://crests.football-data.org/762.png",
             "flag": "🇦🇷"
           },
-          "played": 2,
-          "won": 2,
+          "played": 3,
+          "won": 3,
           "draw": 0,
           "lost": 0,
-          "gf": 5,
-          "ga": 0,
-          "gd": 5,
-          "pts": 6
+          "gf": 8,
+          "ga": 1,
+          "gd": 7,
+          "pts": 9
         },
         {
           "position": 2,
@@ -3186,14 +3186,14 @@
             "crest": "https://crests.football-data.org/816.svg",
             "flag": "🇦🇹"
           },
-          "played": 2,
+          "played": 3,
           "won": 1,
-          "draw": 0,
+          "draw": 1,
           "lost": 1,
-          "gf": 3,
-          "ga": 3,
+          "gf": 6,
+          "ga": 6,
           "gd": 0,
-          "pts": 3
+          "pts": 4
         },
         {
           "position": 3,
@@ -3203,14 +3203,14 @@
             "crest": "https://crests.football-data.org/algeria.svg",
             "flag": "🇩🇿"
           },
-          "played": 2,
+          "played": 3,
           "won": 1,
-          "draw": 0,
+          "draw": 1,
           "lost": 1,
-          "gf": 2,
-          "ga": 4,
+          "gf": 5,
+          "ga": 7,
           "gd": -2,
-          "pts": 3
+          "pts": 4
         },
         {
           "position": 4,
@@ -3220,13 +3220,13 @@
             "crest": "https://crests.football-data.org/8049.png",
             "flag": "🇯🇴"
           },
-          "played": 2,
+          "played": 3,
           "won": 0,
           "draw": 0,
-          "lost": 2,
-          "gf": 2,
-          "ga": 5,
-          "gd": -3,
+          "lost": 3,
+          "gf": 3,
+          "ga": 8,
+          "gd": -5,
           "pts": 0
         }
       ]
