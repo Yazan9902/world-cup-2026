@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-29T17:35:50+00:00",
+  "updatedAt": "2026-06-29T19:23:25+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -1772,12 +1772,12 @@
         "crest": "https://crests.football-data.org/766.svg",
         "flag": "🇯🇵"
       },
-      "status": "live",
+      "status": "finished",
       "score": {
-        "home": 0,
+        "home": 2,
         "away": 1
       },
-      "minute": 35
+      "minute": null
     },
     {
       "id": 537415,
