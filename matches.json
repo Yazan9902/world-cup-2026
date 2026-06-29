@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-29T21:00:43+00:00",
+  "updatedAt": "2026-06-29T22:14:22+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -1798,10 +1798,10 @@
       },
       "status": "live",
       "score": {
-        "home": 0,
-        "away": 0
+        "home": 1,
+        "away": 1
       },
-      "minute": 30
+      "minute": 104
     },
     {
       "id": 537418,
