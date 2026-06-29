@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-29T01:38:16+00:00",
+  "updatedAt": "2026-06-29T06:21:59+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -2121,10 +2121,10 @@
       "stage": "Round of 16",
       "matchday": null,
       "home": {
-        "name": "TBD",
-        "tla": "",
-        "crest": "",
-        "flag": "🏳️"
+        "name": "Canada",
+        "tla": "CAN",
+        "crest": "https://crests.football-data.org/canada.svg",
+        "flag": "🇨🇦"
       },
       "away": {
         "name": "TBD",
