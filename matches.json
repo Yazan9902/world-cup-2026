@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-29T23:16:35+00:00",
+  "updatedAt": "2026-06-30T01:26:34+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -1796,12 +1796,12 @@
         "crest": "https://crests.football-data.org/761.svg",
         "flag": "🇵🇾"
       },
-      "status": "live",
+      "status": "finished",
       "score": {
-        "home": 2,
-        "away": 1
+        "home": 4,
+        "away": 5
       },
-      "minute": 120
+      "minute": null
     },
     {
       "id": 537418,
@@ -1820,12 +1820,12 @@
         "crest": "https://crests.football-data.org/morocco.svg",
         "flag": "🇲🇦"
       },
-      "status": "upcoming",
+      "status": "live",
       "score": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "minute": null
+      "minute": 26
     },
     {
       "id": 537424,
