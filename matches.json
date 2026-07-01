@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T21:50:11+00:00",
+  "updatedAt": "2026-07-01T22:56:31+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -1940,12 +1940,12 @@
         "crest": "https://crests.football-data.org/senegal.svg",
         "flag": "🇸🇳"
       },
-      "status": "live",
+      "status": "finished",
       "score": {
-        "home": 0,
+        "home": 3,
         "away": 2
       },
-      "minute": 110
+      "minute": null
     },
     {
       "id": 537421,
