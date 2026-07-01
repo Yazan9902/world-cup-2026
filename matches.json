@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T16:14:20+00:00",
+  "updatedAt": "2026-07-01T18:16:55+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -1916,9 +1916,9 @@
         "crest": "https://crests.football-data.org/congo_dr.svg",
         "flag": "🏳️"
       },
-      "status": "upcoming",
+      "status": "finished",
       "score": {
-        "home": 0,
+        "home": 2,
         "away": 1
       },
       "minute": null
