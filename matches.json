@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T04:47:47+00:00",
+  "updatedAt": "2026-07-01T08:40:35+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -2151,10 +2151,10 @@
         "flag": "🇵🇾"
       },
       "away": {
-        "name": "TBD",
-        "tla": "",
-        "crest": "",
-        "flag": "🏳️"
+        "name": "France",
+        "tla": "FRA",
+        "crest": "https://crests.football-data.org/773.svg",
+        "flag": "🇫🇷"
       },
       "status": "upcoming",
       "score": {
@@ -2175,10 +2175,10 @@
         "flag": "🇧🇷"
       },
       "away": {
-        "name": "TBD",
-        "tla": "",
-        "crest": "",
-        "flag": "🏳️"
+        "name": "Norway",
+        "tla": "NOR",
+        "crest": "https://crests.football-data.org/813.svg",
+        "flag": "🇳🇴"
       },
       "status": "upcoming",
       "score": {
