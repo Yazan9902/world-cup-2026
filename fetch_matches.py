@@ -2,8 +2,13 @@
 """
 WC26 — live data fetcher
 ========================
-Pulls FIFA World Cup 2026 fixtures + live scores + group standings
+Pulls FIFA World Cup 2026 fixtures + live scores + top scorers
 from football-data.org and writes them to `matches.json`.
+
+Note: per-match goalscorers & game statistics are NOT included in the
+free tier (goals/statistics come back null) — we ship what the free
+tier gives: HT score, extra time / penalty shootout detail, winner,
+and the tournament Golden Boot race.
 
 The website reads matches.json — it NEVER talks to the API directly
 (CORS only allows localhost, and we don't want the token exposed).
@@ -26,8 +31,8 @@ import urllib.request
 import urllib.error
 from datetime import datetime, timezone
 
-MATCHES_URL  = "https://api.football-data.org/v4/competitions/WC/matches"
-STANDINGS_URL = "https://api.football-data.org/v4/competitions/WC/standings"
+MATCHES_URL = "https://api.football-data.org/v4/competitions/WC/matches"
+SCORERS_URL = "https://api.football-data.org/v4/competitions/WC/scorers?limit=20"
 OUT_FILE = os.path.join(os.path.dirname(__file__), "matches.json")
 
 STATUS_MAP = {
@@ -104,50 +109,66 @@ def live_minute(m):
         return None
 
 
+def pair(obj):
+    """{home, away} score pair, or None if both missing."""
+    if not obj or (obj.get("home") is None and obj.get("away") is None):
+        return None
+    return {"home": obj.get("home"), "away": obj.get("away")}
+
+
 def transform_match(m):
-    ft = (m.get("score") or {}).get("fullTime") or {}
+    sc = m.get("score") or {}
+    duration = sc.get("duration") or "REGULAR"
+    ft = pair(sc.get("fullTime")) or {"home": None, "away": None}
+    reg, ext = pair(sc.get("regularTime")), pair(sc.get("extraTime"))
+    pens = pair(sc.get("penalties")) if duration == "PENALTY_SHOOTOUT" else None
+
+    # For shootouts, API fullTime INCLUDES penalty goals — show the
+    # 120-minute aggregate instead, with pens carried separately.
+    display = ft
+    if pens and reg:
+        display = {
+            "home": (reg["home"] or 0) + ((ext or {}).get("home") or 0),
+            "away": (reg["away"] or 0) + ((ext or {}).get("away") or 0),
+        }
+
     return {
         "id": m.get("id"),
         "utc": m.get("utcDate"),
         "stage": stage_label(m),
+        "knockout": m.get("stage") != "GROUP_STAGE",
+        "stageKey": m.get("stage"),
         "matchday": m.get("matchday"),
         "home": make_team(m.get("homeTeam")),
         "away": make_team(m.get("awayTeam")),
         "status": STATUS_MAP.get(m.get("status"), "upcoming"),
-        "score": {"home": ft.get("home"), "away": ft.get("away")},
+        "score": display,
+        "ht": pair(sc.get("halfTime")),
+        "pens": pens,
+        "aet": duration == "EXTRA_TIME",
+        "winner": sc.get("winner"),  # HOME_TEAM | AWAY_TEAM | DRAW | None
         "minute": live_minute(m),
     }
 
 
-def transform_standings(raw):
-    result = []
-    for group in raw:
-        group_name = (group.get("group") or "").replace("GROUP_", "Group ").strip()
-        if not group_name:
-            continue
-        rows = []
-        for row in group.get("table", []):
-            t = row.get("team") or {}
-            tla = t.get("tla") or ""
-            rows.append({
-                "position": row.get("position", 0),
-                "team": {
-                    "name": t.get("name") or t.get("shortName") or "TBD",
-                    "tla": tla,
-                    "crest": t.get("crest") or "",
-                    "flag": TLA_TO_FLAG.get(tla, "🏳️"),
-                },
-                "played": row.get("playedGames", 0),
-                "won":    row.get("won", 0),
-                "draw":   row.get("draw", 0),
-                "lost":   row.get("lost", 0),
-                "gf":     row.get("goalsFor", 0),
-                "ga":     row.get("goalsAgainst", 0),
-                "gd":     row.get("goalDifference", 0),
-                "pts":    row.get("points", 0),
-            })
-        result.append({"group": group_name, "table": rows})
-    return result
+def transform_scorers(raw):
+    out = []
+    for s in raw:
+        p, t = s.get("player") or {}, s.get("team") or {}
+        tla = t.get("tla") or ""
+        out.append({
+            "name": p.get("name") or "—",
+            "team": {
+                "name": t.get("shortName") or t.get("name") or "",
+                "tla": tla,
+                "crest": t.get("crest") or "",
+                "flag": TLA_TO_FLAG.get(tla, "🏳️"),
+            },
+            "goals": s.get("goals") or 0,
+            "assists": s.get("assists") or 0,
+            "penalties": s.get("penalties") or 0,
+        })
+    return out
 
 
 def main():
@@ -160,22 +181,22 @@ def main():
     matches = [transform_match(m) for m in matches_data.get("matches", [])]
     matches.sort(key=lambda x: x["utc"] or "")
 
-    print("Fetching standings…")
-    standings_data = fetch(STANDINGS_URL, token)
-    standings = transform_standings(standings_data.get("standings", []))
+    print("Fetching top scorers…")
+    scorers_data = fetch(SCORERS_URL, token)
+    scorers = transform_scorers(scorers_data.get("scorers", []))
 
     payload = {
         "updatedAt": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "competition": "FIFA World Cup 2026",
         "count": len(matches),
         "matches": matches,
-        "standings": standings,
+        "scorers": scorers,
     }
     with open(OUT_FILE, "w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=2)
 
     live = sum(1 for m in matches if m["status"] == "live")
-    print(f"✓ Wrote {len(matches)} matches + {len(standings)} groups to {OUT_FILE}  (live: {live})")
+    print(f"✓ Wrote {len(matches)} matches + {len(scorers)} scorers to {OUT_FILE}  (live: {live})")
 
 
 if __name__ == "__main__":

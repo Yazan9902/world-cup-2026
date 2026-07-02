@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Barlow:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=7" />
+  <link rel="stylesheet" href="styles.css?v=8" />
 </head>
 <body>
   <div class="fx" aria-hidden="true">
@@ -73,11 +73,17 @@
       </svg>
       Matches
     </button>
-    <button class="tab" role="tab" aria-selected="false" data-tab="tables" id="tab-tables">
+    <button class="tab" role="tab" aria-selected="false" data-tab="knockout" id="tab-knockout">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
         <path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6M18 9h1.5a2.5 2.5 0 0 0 0-5H18M9 22c0-2 .9-3 2-3.5V17M15 22c0-2-.9-3-2-3.5V17M8 22h8"/>
       </svg>
-      Tables
+      Knockout
+    </button>
+    <button class="tab" role="tab" aria-selected="false" data-tab="scorers" id="tab-scorers">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <circle cx="12" cy="8" r="6"/><path d="M15.5 13 17 22l-5-3-5 3 1.5-9"/>
+      </svg>
+      Scorers
     </button>
   </div>
 
@@ -94,8 +100,11 @@
   <nav class="datestrip" id="datestrip" aria-label="Pick a day"></nav>
   <main class="matches" id="matches" role="main"></main>
 
-  <!-- Tables panel -->
-  <section class="standings-wrap" id="standingsWrap" aria-label="Group standings" hidden></section>
+  <!-- Knockout panel -->
+  <section class="panel-wrap" id="knockoutWrap" aria-label="Knockout bracket" hidden></section>
+
+  <!-- Scorers panel -->
+  <section class="panel-wrap" id="scorersWrap" aria-label="Top scorers" hidden></section>
 
   <footer class="foot">
     <p class="foot__main">
@@ -107,7 +116,7 @@
     <p class="foot__hint">Live data via football-data.org · refreshes automatically</p>
   </footer>
 
-  <script src="data.js?v=7"></script>
-  <script src="app.js?v=7"></script>
+  <script src="data.js?v=8"></script>
+  <script src="app.js?v=8"></script>
 </body>
 </html>

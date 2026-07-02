@@ -1,17 +1,17 @@
 /* ============================================================
    WC26 · Yazan's WC Tracker — app logic (vanilla JS, no build)
-   Features: Matches view, Group Tables view, Team filter
+   Features: Matches view, Knockout bracket, Golden Boot, Team filter
    ============================================================ */
 
 const $ = (sel) => document.querySelector(sel);
 
 // ── State ──────────────────────────────────────────────────
 let MATCH_DATA  = [];   // normalised match objects
-let STANDINGS   = [];   // [{ group, table: [...] }]
+let SCORERS     = [];   // [{ name, team, goals, assists, penalties }]
 let lastUpdated = null;
 let selectedDate = todayStr();
 let userPickedDate = false;
-let activeTab   = "matches";       // "matches" | "tables"
+let activeTab   = "matches";       // "matches" | "knockout" | "scorers"
 let teamFilter  = null;            // { name, tla, flag, crest } | null
 
 // ── Date helpers ───────────────────────────────────────────
@@ -43,10 +43,12 @@ function normalize(m) {
   const when = m.utc ? new Date(m.utc) : parseLocal(m.date, m.time);
   return {
     id: m.id, when, dateStr: localDateStr(when), time: localTime(when),
-    stage: m.stage, venue: m.venue||null, city: m.city||null,
+    stage: m.stage, stageKey: m.stageKey||null, knockout: !!m.knockout,
+    venue: m.venue||null, city: m.city||null,
     home: m.home, away: m.away,
     status: m.status||"upcoming",
     score: m.score||{ home:null, away:null },
+    ht: m.ht||null, pens: m.pens||null, aet: !!m.aet, winner: m.winner||null,
     minute: m.minute??null,
   };
 }
@@ -65,12 +67,14 @@ function setTab(tab) {
     btn.setAttribute("aria-selected", active);
   });
   const isMatches = tab === "matches";
-  $("#datestrip").hidden    = !isMatches;
-  $("#matches").hidden      = !isMatches;
-  $("#filterChip").hidden   = !isMatches || !teamFilter;
-  $("#standingsWrap").hidden = isMatches;
+  $("#datestrip").hidden     = !isMatches;
+  $("#matches").hidden       = !isMatches;
+  $("#filterChip").hidden    = !isMatches || !teamFilter;
+  $("#knockoutWrap").hidden  = tab !== "knockout";
+  $("#scorersWrap").hidden   = tab !== "scorers";
 
-  if (!isMatches) renderStandings();
+  if (tab === "knockout") renderKnockout();
+  if (tab === "scorers")  renderScorers();
 }
 
 // ── Team filter ────────────────────────────────────────────
@@ -168,20 +172,28 @@ function statusBadge(m) {
   if (m.status==="finished") return `<span class="status status--finished">FULL TIME</span>`;
   return `<span class="status status--upcoming">${m.time}</span>`;
 }
+function finishedLabel(m) {
+  if (m.pens) return `${m.pens.home}–${m.pens.away} pens`;
+  if (m.aet) return "after extra time";
+  return "final";
+}
 function middleBlock(m) {
   if (m.status==="upcoming") return `<div class="mid"><div class="kick">${m.time}</div><div class="mid__sub">kickoff</div></div>`;
   const live = m.status==="live";
+  const sub = live ? (m.minute?m.minute+"' playing":"live") : finishedLabel(m);
+  const pensCls = (!live && m.pens) ? " mid__sub--pens" : "";
   return `<div class="mid">
     <div class="score ${live?"score--live":""}">${m.score.home??0}<span class="score__sep">:</span>${m.score.away??0}</div>
-    <div class="mid__sub ${live?"mid__sub--live":""}">${live?(m.minute?m.minute+"' playing":"live"):"final"}</div>
+    <div class="mid__sub ${live?"mid__sub--live":""}${pensCls}">${sub}</div>
   </div>`;
 }
 const ICON_PIN   = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>`;
 const ICON_CLOCK = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7.5V12l3 2"/></svg>`;
 function cardFoot(m) {
-  if (m.venue) return `${ICON_PIN}<span>${m.venue}${m.city?" · "+m.city:""}</span>`;
+  const ht = (m.status!=="upcoming" && m.ht) ? ` · HT ${m.ht.home}–${m.ht.away}` : "";
+  if (m.venue) return `${ICON_PIN}<span>${m.venue}${m.city?" · "+m.city:""}${ht}</span>`;
   const d = m.when.toLocaleDateString(undefined,{ weekday:"short", month:"short", day:"numeric" });
-  return `${ICON_CLOCK}<span>${d} · ${m.time} your time</span>`;
+  return `${ICON_CLOCK}<span>${d} · ${m.time} your time${ht}</span>`;
 }
 function matchCard(m, idx) {
   const el = document.createElement("article");
@@ -301,76 +313,128 @@ function renderTeamMatches(wrap) {
   }
 }
 
-// ── Render standings ───────────────────────────────────────
-function renderStandings() {
-  const wrap = $("#standingsWrap");
+// ── Render knockout bracket ────────────────────────────────
+const KO_ORDER = ["LAST_32","LAST_16","QUARTER_FINALS","SEMI_FINALS","THIRD_PLACE","FINAL"];
+const KO_NAMES = {
+  LAST_32:"Round of 32", LAST_16:"Round of 16", QUARTER_FINALS:"Quarter-finals",
+  SEMI_FINALS:"Semi-finals", THIRD_PLACE:"3rd-place play-off", FINAL:"Final",
+};
+
+function koTeamHtml(team, side, m) {
+  const won = m.winner === (side==="home"?"HOME_TEAM":"AWAY_TEAM");
+  const out = m.status==="finished" && m.winner && !won;
+  const crest = team.crest
+    ? `<img class="ko-crest" src="${team.crest}" alt="" loading="lazy">`
+    : `<span class="ko-flag">${team.flag||"🏳️"}</span>`;
+  return `<div class="ko-team ko-team--${side} ${won?"ko-team--won":""} ${out?"ko-team--out":""}"
+       ${team.tla?`role="button" tabindex="0" aria-label="Filter by ${team.name}" data-tla="${team.tla}" data-name="${team.name}" data-flag="${team.flag||""}" data-crest="${team.crest||""}"`:""}>
+    ${crest}<span class="ko-team__name">${team.name}</span>
+  </div>`;
+}
+
+function koMidHtml(m) {
+  if (m.status==="upcoming") {
+    const d = m.when.toLocaleDateString(undefined,{ month:"short", day:"numeric" });
+    return `<div class="ko-mid"><span class="ko-score ko-score--tbd">${d}</span><span class="ko-note">${m.time}</span></div>`;
+  }
+  const live = m.status==="live";
+  let note = "";
+  if (live) note = `<span class="ko-note ko-note--live">${m.minute?m.minute+"'":"LIVE"}</span>`;
+  else if (m.pens) note = `<span class="ko-note ko-note--pens">${m.pens.home}–${m.pens.away} pens</span>`;
+  else if (m.aet) note = `<span class="ko-note">AET</span>`;
+  return `<div class="ko-mid"><span class="ko-score ${live?"ko-score--live":""}">${m.score.home??0}–${m.score.away??0}</span>${note}</div>`;
+}
+
+function renderKnockout() {
+  const wrap = $("#knockoutWrap");
   if (!wrap) return;
   wrap.innerHTML = "";
 
-  if (!STANDINGS.length) {
-    wrap.innerHTML = `<div class="empty"><div class="empty__title">Tables coming soon</div>
-      <p>Standings will appear once matches begin.</p></div>`;
+  const ko = MATCH_DATA.filter(m => m.knockout);
+  if (!ko.length) {
+    wrap.innerHTML = `<div class="empty"><div class="empty__title">Knockout coming soon</div>
+      <p>The bracket appears once the group stage wraps up.</p></div>`;
     return;
   }
 
-  STANDINGS.forEach((group, gi) => {
+  KO_ORDER.forEach((key, si) => {
+    const games = ko.filter(m => m.stageKey===key).sort((a,b)=>a.when-b.when);
+    if (!games.length) return;
+
     const card = document.createElement("div");
     card.className = "group-card";
-    card.style.animationDelay = `${gi*45}ms`;
-
-    const played = group.table.reduce((s,r)=>s+r.played,0);
+    card.style.animationDelay = `${si*45}ms`;
+    const done = games.filter(g=>g.status==="finished").length;
+    const liveN = games.filter(g=>g.status==="live").length;
     card.innerHTML = `
       <div class="group-card__head">
-        <span class="group-card__name">${group.group}</span>
-        <span class="group-card__played">${played} match${played===1?"":"es"} played</span>
-      </div>
-      <div class="st-head">
-        <div class="st-head-cell">#</div>
-        <div class="st-head-cell"></div>
-        <div class="st-head-cell" style="text-align:left">Team</div>
-        <div class="st-head-cell">P</div>
-        <div class="st-head-cell">W</div>
-        <div class="st-head-cell">D</div>
-        <div class="st-head-cell">L</div>
-        <div class="st-head-cell">GD</div>
-        <div class="st-head-cell" style="color:var(--lime)">PTS</div>
+        <span class="group-card__name">${KO_NAMES[key]||key}</span>
+        <span class="group-card__played">${liveN?`<span class="live-tally"><span class="dot"></span>${liveN} LIVE</span>`:`${done}/${games.length} played`}</span>
       </div>`;
 
-    group.table.forEach((row, ri) => {
-      const qualify = ri < 2; // top 2 advance
-      const rowEl = document.createElement("div");
-      rowEl.className = "st-row" + (qualify?" st-row--qualify":"");
-      rowEl.setAttribute("role","button");
-      rowEl.setAttribute("tabindex","0");
-      rowEl.setAttribute("aria-label",`${row.team.name} — ${row.pts} points. Filter matches.`);
-
-      const crestHtml = row.team.crest
-        ? `<img class="st-crest" src="${row.team.crest}" alt="" loading="lazy">`
-        : `<span class="st-flag">${row.team.flag||"🏳️"}</span>`;
-      const gdStr = row.gd>0?"+"+row.gd:String(row.gd);
-
-      rowEl.innerHTML = `
-        <span class="st-pos">${row.position}</span>
-        ${crestHtml}
-        <span class="st-name">${row.team.name}</span>
-        <span class="st-num">${row.played}</span>
-        <span class="st-num">${row.won}</span>
-        <span class="st-num">${row.draw}</span>
-        <span class="st-num">${row.lost}</span>
-        <span class="st-gd">${gdStr}</span>
-        <span class="st-pts">${row.pts}</span>`;
-
-      // click → switch to matches tab filtered for this team
-      const filter = () => {
-        setTeamFilter({ tla:row.team.tla, name:row.team.name, flag:row.team.flag, crest:row.team.crest });
-      };
-      rowEl.addEventListener("click", filter);
-      rowEl.addEventListener("keydown", e => { if (e.key==="Enter"||e.key===" "){ e.preventDefault(); filter(); } });
-      card.appendChild(rowEl);
+    games.forEach(m => {
+      const row = document.createElement("div");
+      row.className = "ko-row" + (m.status==="live"?" ko-row--live":"");
+      row.innerHTML = koTeamHtml(m.home,"home",m) + koMidHtml(m) + koTeamHtml(m.away,"away",m);
+      // tapping a team filters their fixtures (same as match cards)
+      row.querySelectorAll(".ko-team[data-tla]").forEach(t => {
+        const action = () => setTeamFilter({ tla:t.dataset.tla, name:t.dataset.name, flag:t.dataset.flag, crest:t.dataset.crest });
+        t.addEventListener("click", action);
+        t.addEventListener("keydown", e => { if (e.key==="Enter"||e.key===" ") { e.preventDefault(); action(); } });
+      });
+      card.appendChild(row);
     });
-
     wrap.appendChild(card);
   });
+}
+
+// ── Render Golden Boot ─────────────────────────────────────
+function renderScorers() {
+  const wrap = $("#scorersWrap");
+  if (!wrap) return;
+  wrap.innerHTML = "";
+
+  if (!SCORERS.length) {
+    wrap.innerHTML = `<div class="empty"><div class="empty__title">No scorers yet</div>
+      <p>The Golden Boot race appears once goals start flying in.</p></div>`;
+    return;
+  }
+
+  const card = document.createElement("div");
+  card.className = "group-card";
+  card.innerHTML = `
+    <div class="group-card__head">
+      <span class="group-card__name">Golden Boot race</span>
+      <span class="group-card__played">top ${SCORERS.length}</span>
+    </div>
+    <div class="sc-head">
+      <span class="sc-head-cell">#</span><span></span>
+      <span class="sc-head-cell" style="text-align:left">Player</span>
+      <span class="sc-head-cell">A</span>
+      <span class="sc-head-cell" style="color:var(--lime)">G</span>
+    </div>`;
+
+  SCORERS.forEach((s, i) => {
+    const row = document.createElement("div");
+    row.className = "sc-row" + (i===0?" sc-row--leader":"");
+    row.setAttribute("role","button");
+    row.setAttribute("tabindex","0");
+    row.setAttribute("aria-label",`${s.name} (${s.team.name}) — ${s.goals} goals. Filter team matches.`);
+    const crest = s.team.crest
+      ? `<img class="ko-crest" src="${s.team.crest}" alt="" loading="lazy">`
+      : `<span class="ko-flag">${s.team.flag||"🏳️"}</span>`;
+    row.innerHTML = `
+      <span class="sc-pos">${i+1}</span>
+      ${crest}
+      <span class="sc-player"><span class="sc-name">${s.name}</span><span class="sc-team">${s.team.name}</span></span>
+      <span class="sc-num">${s.assists||"–"}</span>
+      <span class="sc-goals">${s.goals}</span>`;
+    const filter = () => setTeamFilter({ tla:s.team.tla, name:s.team.name, flag:s.team.flag, crest:s.team.crest });
+    row.addEventListener("click", filter);
+    row.addEventListener("keydown", e => { if (e.key==="Enter"||e.key===" "){ e.preventDefault(); filter(); } });
+    card.appendChild(row);
+  });
+  wrap.appendChild(card);
 }
 
 // ── Countdown ──────────────────────────────────────────────
@@ -416,12 +480,12 @@ async function loadData() {
     const json=await res.json();
     if (!Array.isArray(json.matches)||!json.matches.length) throw new Error("empty");
     MATCH_DATA=json.matches.map(normalize);
-    STANDINGS=json.standings||[];
+    SCORERS=json.scorers||[];
     lastUpdated=json.updatedAt||null;
     return "live";
   } catch {
     if (typeof MATCHES!=="undefined"&&Array.isArray(MATCHES)) {
-      MATCH_DATA=MATCHES.map(normalize); STANDINGS=[]; lastUpdated=null; return "demo";
+      MATCH_DATA=MATCHES.map(normalize); SCORERS=[]; lastUpdated=null; return "demo";
     }
     MATCH_DATA=[]; return "none";
   }
@@ -445,7 +509,8 @@ async function refreshNow() {
 
   if (mode !== "none") {
     if (activeTab === "matches") { buildDateStrip(); renderMatches(); }
-    else renderStandings();
+    else if (activeTab === "knockout") renderKnockout();
+    else renderScorers();
     setUpdatedLine();
   }
 
@@ -505,7 +570,8 @@ async function init() {
   setInterval(async () => {
     await loadData();
     if (activeTab==="matches") { buildDateStrip(); renderMatches(); }
-    else renderStandings();
+    else if (activeTab==="knockout") renderKnockout();
+    else renderScorers();
     setUpdatedLine();
   }, 45000);
 }
