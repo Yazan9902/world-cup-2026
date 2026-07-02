@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T14:33:01+00:00",
+  "updatedAt": "2026-07-02T14:57:18+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -7,6 +7,8 @@
       "id": 537327,
       "utc": "2026-06-11T19:00:00Z",
       "stage": "Group A",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 1,
       "home": {
         "name": "Mexico",
@@ -25,12 +27,21 @@
         "home": 2,
         "away": 0
       },
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "HOME_TEAM",
       "minute": null
     },
     {
       "id": 537328,
       "utc": "2026-06-12T02:00:00Z",
       "stage": "Group A",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 1,
       "home": {
         "name": "South Korea",
@@ -49,12 +60,21 @@
         "home": 2,
         "away": 1
       },
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "HOME_TEAM",
       "minute": null
     },
     {
       "id": 537333,
       "utc": "2026-06-12T19:00:00Z",
       "stage": "Group B",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 1,
       "home": {
         "name": "Canada",
@@ -73,12 +93,21 @@
         "home": 1,
         "away": 1
       },
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "DRAW",
       "minute": null
     },
     {
       "id": 537345,
       "utc": "2026-06-13T01:00:00Z",
       "stage": "Group D",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 1,
       "home": {
         "name": "United States",
@@ -97,12 +126,21 @@
         "home": 4,
         "away": 1
       },
+      "ht": {
+        "home": 3,
+        "away": 0
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "HOME_TEAM",
       "minute": null
     },
     {
       "id": 537334,
       "utc": "2026-06-13T19:00:00Z",
       "stage": "Group B",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 1,
       "home": {
         "name": "Qatar",
@@ -121,12 +159,21 @@
         "home": 1,
         "away": 1
       },
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "DRAW",
       "minute": null
     },
     {
       "id": 537339,
       "utc": "2026-06-13T22:00:00Z",
       "stage": "Group C",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 1,
       "home": {
         "name": "Brazil",
@@ -145,12 +192,21 @@
         "home": 1,
         "away": 1
       },
+      "ht": {
+        "home": 1,
+        "away": 1
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "DRAW",
       "minute": null
     },
     {
       "id": 537340,
       "utc": "2026-06-14T01:00:00Z",
       "stage": "Group C",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 1,
       "home": {
         "name": "Haiti",
@@ -169,12 +225,21 @@
         "home": 0,
         "away": 1
       },
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "AWAY_TEAM",
       "minute": null
     },
     {
       "id": 537346,
       "utc": "2026-06-14T04:00:00Z",
       "stage": "Group D",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 1,
       "home": {
         "name": "Australia",
@@ -193,12 +258,21 @@
         "home": 2,
         "away": 0
       },
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "HOME_TEAM",
       "minute": null
     },
     {
       "id": 537351,
       "utc": "2026-06-14T17:00:00Z",
       "stage": "Group E",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 1,
       "home": {
         "name": "Germany",
@@ -217,12 +291,21 @@
         "home": 7,
         "away": 1
       },
+      "ht": {
+        "home": 3,
+        "away": 1
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "HOME_TEAM",
       "minute": null
     },
     {
       "id": 537357,
       "utc": "2026-06-14T20:00:00Z",
       "stage": "Group F",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 1,
       "home": {
         "name": "Netherlands",
@@ -241,12 +324,21 @@
         "home": 2,
         "away": 2
       },
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "DRAW",
       "minute": null
     },
     {
       "id": 537352,
       "utc": "2026-06-14T23:00:00Z",
       "stage": "Group E",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 1,
       "home": {
         "name": "Ivory Coast",
@@ -265,12 +357,21 @@
         "home": 1,
         "away": 0
       },
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "HOME_TEAM",
       "minute": null
     },
     {
       "id": 537358,
       "utc": "2026-06-15T02:00:00Z",
       "stage": "Group F",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 1,
       "home": {
         "name": "Sweden",
@@ -289,12 +390,21 @@
         "home": 5,
         "away": 1
       },
+      "ht": {
+        "home": 2,
+        "away": 1
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "HOME_TEAM",
       "minute": null
     },
     {
       "id": 537369,
       "utc": "2026-06-15T16:00:00Z",
       "stage": "Group H",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 1,
       "home": {
         "name": "Spain",
@@ -313,12 +423,21 @@
         "home": 0,
         "away": 0
       },
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "DRAW",
       "minute": null
     },
     {
       "id": 537363,
       "utc": "2026-06-15T19:00:00Z",
       "stage": "Group G",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 1,
       "home": {
         "name": "Belgium",
@@ -337,12 +456,21 @@
         "home": 1,
         "away": 1
       },
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "DRAW",
       "minute": null
     },
     {
       "id": 537370,
       "utc": "2026-06-15T22:00:00Z",
       "stage": "Group H",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 1,
       "home": {
         "name": "Saudi Arabia",
@@ -361,12 +489,21 @@
         "home": 1,
         "away": 1
       },
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "DRAW",
       "minute": null
     },
     {
       "id": 537364,
       "utc": "2026-06-16T01:00:00Z",
       "stage": "Group G",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 1,
       "home": {
         "name": "Iran",
@@ -385,12 +522,21 @@
         "home": 2,
         "away": 2
       },
+      "ht": {
+        "home": 1,
+        "away": 1
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "DRAW",
       "minute": null
     },
     {
       "id": 537391,
       "utc": "2026-06-16T19:00:00Z",
       "stage": "Group I",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 1,
       "home": {
         "name": "France",
@@ -409,12 +555,21 @@
         "home": 3,
         "away": 1
       },
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "HOME_TEAM",
       "minute": null
     },
     {
       "id": 537392,
       "utc": "2026-06-16T22:00:00Z",
       "stage": "Group I",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 1,
       "home": {
         "name": "Iraq",
@@ -433,12 +588,21 @@
         "home": 1,
         "away": 4
       },
+      "ht": {
+        "home": 1,
+        "away": 2
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "AWAY_TEAM",
       "minute": null
     },
     {
       "id": 537397,
       "utc": "2026-06-17T01:00:00Z",
       "stage": "Group J",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 1,
       "home": {
         "name": "Argentina",
@@ -457,12 +621,21 @@
         "home": 3,
         "away": 0
       },
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "HOME_TEAM",
       "minute": null
     },
     {
       "id": 537398,
       "utc": "2026-06-17T04:00:00Z",
       "stage": "Group J",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 1,
       "home": {
         "name": "Austria",
@@ -481,12 +654,21 @@
         "home": 3,
         "away": 1
       },
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "HOME_TEAM",
       "minute": null
     },
     {
       "id": 537403,
       "utc": "2026-06-17T17:00:00Z",
       "stage": "Group K",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 1,
       "home": {
         "name": "Portugal",
@@ -505,12 +687,21 @@
         "home": 1,
         "away": 1
       },
+      "ht": {
+        "home": 1,
+        "away": 1
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "DRAW",
       "minute": null
     },
     {
       "id": 537409,
       "utc": "2026-06-17T20:00:00Z",
       "stage": "Group L",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 1,
       "home": {
         "name": "England",
@@ -529,12 +720,21 @@
         "home": 4,
         "away": 2
       },
+      "ht": {
+        "home": 2,
+        "away": 2
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "HOME_TEAM",
       "minute": null
     },
     {
       "id": 537410,
       "utc": "2026-06-17T23:00:00Z",
       "stage": "Group L",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 1,
       "home": {
         "name": "Ghana",
@@ -553,12 +753,21 @@
         "home": 1,
         "away": 0
       },
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "HOME_TEAM",
       "minute": null
     },
     {
       "id": 537404,
       "utc": "2026-06-18T02:00:00Z",
       "stage": "Group K",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 1,
       "home": {
         "name": "Uzbekistan",
@@ -577,12 +786,21 @@
         "home": 1,
         "away": 3
       },
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "AWAY_TEAM",
       "minute": null
     },
     {
       "id": 537329,
       "utc": "2026-06-18T16:00:00Z",
       "stage": "Group A",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 2,
       "home": {
         "name": "Czechia",
@@ -601,12 +819,21 @@
         "home": 1,
         "away": 1
       },
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "DRAW",
       "minute": null
     },
     {
       "id": 537335,
       "utc": "2026-06-18T19:00:00Z",
       "stage": "Group B",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 2,
       "home": {
         "name": "Switzerland",
@@ -625,12 +852,21 @@
         "home": 4,
         "away": 1
       },
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "HOME_TEAM",
       "minute": null
     },
     {
       "id": 537336,
       "utc": "2026-06-18T22:00:00Z",
       "stage": "Group B",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 2,
       "home": {
         "name": "Canada",
@@ -649,12 +885,21 @@
         "home": 6,
         "away": 0
       },
+      "ht": {
+        "home": 3,
+        "away": 0
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "HOME_TEAM",
       "minute": null
     },
     {
       "id": 537330,
       "utc": "2026-06-19T01:00:00Z",
       "stage": "Group A",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 2,
       "home": {
         "name": "Mexico",
@@ -673,12 +918,21 @@
         "home": 1,
         "away": 0
       },
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "HOME_TEAM",
       "minute": null
     },
     {
       "id": 537348,
       "utc": "2026-06-19T19:00:00Z",
       "stage": "Group D",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 2,
       "home": {
         "name": "United States",
@@ -697,12 +951,21 @@
         "home": 2,
         "away": 0
       },
+      "ht": {
+        "home": 2,
+        "away": 0
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "HOME_TEAM",
       "minute": null
     },
     {
       "id": 537342,
       "utc": "2026-06-19T22:00:00Z",
       "stage": "Group C",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 2,
       "home": {
         "name": "Scotland",
@@ -721,12 +984,21 @@
         "home": 0,
         "away": 1
       },
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "AWAY_TEAM",
       "minute": null
     },
     {
       "id": 537341,
       "utc": "2026-06-20T00:30:00Z",
       "stage": "Group C",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 2,
       "home": {
         "name": "Brazil",
@@ -745,12 +1017,21 @@
         "home": 3,
         "away": 0
       },
+      "ht": {
+        "home": 3,
+        "away": 0
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "HOME_TEAM",
       "minute": null
     },
     {
       "id": 537347,
       "utc": "2026-06-20T03:00:00Z",
       "stage": "Group D",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 2,
       "home": {
         "name": "Turkey",
@@ -769,12 +1050,21 @@
         "home": 0,
         "away": 1
       },
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "AWAY_TEAM",
       "minute": null
     },
     {
       "id": 537359,
       "utc": "2026-06-20T17:00:00Z",
       "stage": "Group F",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 2,
       "home": {
         "name": "Netherlands",
@@ -793,12 +1083,21 @@
         "home": 5,
         "away": 1
       },
+      "ht": {
+        "home": 2,
+        "away": 0
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "HOME_TEAM",
       "minute": null
     },
     {
       "id": 537353,
       "utc": "2026-06-20T20:00:00Z",
       "stage": "Group E",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 2,
       "home": {
         "name": "Germany",
@@ -817,12 +1116,21 @@
         "home": 2,
         "away": 1
       },
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "HOME_TEAM",
       "minute": null
     },
     {
       "id": 537354,
       "utc": "2026-06-21T00:00:00Z",
       "stage": "Group E",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 2,
       "home": {
         "name": "Ecuador",
@@ -841,12 +1149,21 @@
         "home": 0,
         "away": 0
       },
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "DRAW",
       "minute": null
     },
     {
       "id": 537360,
       "utc": "2026-06-21T04:00:00Z",
       "stage": "Group F",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 2,
       "home": {
         "name": "Tunisia",
@@ -865,12 +1182,21 @@
         "home": 0,
         "away": 4
       },
+      "ht": {
+        "home": 0,
+        "away": 2
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "AWAY_TEAM",
       "minute": null
     },
     {
       "id": 537371,
       "utc": "2026-06-21T16:00:00Z",
       "stage": "Group H",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 2,
       "home": {
         "name": "Spain",
@@ -889,12 +1215,21 @@
         "home": 4,
         "away": 0
       },
+      "ht": {
+        "home": 3,
+        "away": 0
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "HOME_TEAM",
       "minute": null
     },
     {
       "id": 537365,
       "utc": "2026-06-21T19:00:00Z",
       "stage": "Group G",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 2,
       "home": {
         "name": "Belgium",
@@ -913,12 +1248,21 @@
         "home": 0,
         "away": 0
       },
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "DRAW",
       "minute": null
     },
     {
       "id": 537372,
       "utc": "2026-06-21T22:00:00Z",
       "stage": "Group H",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 2,
       "home": {
         "name": "Uruguay",
@@ -937,12 +1281,21 @@
         "home": 2,
         "away": 2
       },
+      "ht": {
+        "home": 2,
+        "away": 1
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "DRAW",
       "minute": null
     },
     {
       "id": 537366,
       "utc": "2026-06-22T01:00:00Z",
       "stage": "Group G",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 2,
       "home": {
         "name": "New Zealand",
@@ -961,12 +1314,21 @@
         "home": 1,
         "away": 3
       },
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "AWAY_TEAM",
       "minute": null
     },
     {
       "id": 537399,
       "utc": "2026-06-22T17:00:00Z",
       "stage": "Group J",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 2,
       "home": {
         "name": "Argentina",
@@ -985,12 +1347,21 @@
         "home": 2,
         "away": 0
       },
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "HOME_TEAM",
       "minute": null
     },
     {
       "id": 537393,
       "utc": "2026-06-22T21:00:00Z",
       "stage": "Group I",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 2,
       "home": {
         "name": "France",
@@ -1009,12 +1380,21 @@
         "home": 3,
         "away": 0
       },
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "HOME_TEAM",
       "minute": null
     },
     {
       "id": 537394,
       "utc": "2026-06-23T00:00:00Z",
       "stage": "Group I",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 2,
       "home": {
         "name": "Norway",
@@ -1033,12 +1413,21 @@
         "home": 3,
         "away": 2
       },
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "HOME_TEAM",
       "minute": null
     },
     {
       "id": 537400,
       "utc": "2026-06-23T03:00:00Z",
       "stage": "Group J",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 2,
       "home": {
         "name": "Jordan",
@@ -1057,12 +1446,21 @@
         "home": 1,
         "away": 2
       },
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "AWAY_TEAM",
       "minute": null
     },
     {
       "id": 537405,
       "utc": "2026-06-23T17:00:00Z",
       "stage": "Group K",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 2,
       "home": {
         "name": "Portugal",
@@ -1081,12 +1479,21 @@
         "home": 5,
         "away": 0
       },
+      "ht": {
+        "home": 3,
+        "away": 0
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "HOME_TEAM",
       "minute": null
     },
     {
       "id": 537411,
       "utc": "2026-06-23T20:00:00Z",
       "stage": "Group L",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 2,
       "home": {
         "name": "England",
@@ -1105,12 +1512,21 @@
         "home": 0,
         "away": 0
       },
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "DRAW",
       "minute": null
     },
     {
       "id": 537412,
       "utc": "2026-06-23T23:00:00Z",
       "stage": "Group L",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 2,
       "home": {
         "name": "Panama",
@@ -1129,12 +1545,21 @@
         "home": 0,
         "away": 1
       },
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "AWAY_TEAM",
       "minute": null
     },
     {
       "id": 537406,
       "utc": "2026-06-24T02:00:00Z",
       "stage": "Group K",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 2,
       "home": {
         "name": "Colombia",
@@ -1153,12 +1578,21 @@
         "home": 1,
         "away": 0
       },
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "HOME_TEAM",
       "minute": null
     },
     {
       "id": 537337,
       "utc": "2026-06-24T19:00:00Z",
       "stage": "Group B",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 3,
       "home": {
         "name": "Switzerland",
@@ -1177,12 +1611,21 @@
         "home": 2,
         "away": 1
       },
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "HOME_TEAM",
       "minute": null
     },
     {
       "id": 537338,
       "utc": "2026-06-24T19:00:00Z",
       "stage": "Group B",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 3,
       "home": {
         "name": "Bosnia-Herzegovina",
@@ -1201,12 +1644,21 @@
         "home": 3,
         "away": 1
       },
+      "ht": {
+        "home": 2,
+        "away": 1
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "HOME_TEAM",
       "minute": null
     },
     {
       "id": 537344,
       "utc": "2026-06-24T22:00:00Z",
       "stage": "Group C",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 3,
       "home": {
         "name": "Morocco",
@@ -1225,12 +1677,21 @@
         "home": 4,
         "away": 2
       },
+      "ht": {
+        "home": 2,
+        "away": 2
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "HOME_TEAM",
       "minute": null
     },
     {
       "id": 537343,
       "utc": "2026-06-24T22:00:00Z",
       "stage": "Group C",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 3,
       "home": {
         "name": "Scotland",
@@ -1249,12 +1710,21 @@
         "home": 0,
         "away": 3
       },
+      "ht": {
+        "home": 0,
+        "away": 2
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "AWAY_TEAM",
       "minute": null
     },
     {
       "id": 537331,
       "utc": "2026-06-25T01:00:00Z",
       "stage": "Group A",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 3,
       "home": {
         "name": "Czechia",
@@ -1273,12 +1743,21 @@
         "home": 0,
         "away": 3
       },
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "AWAY_TEAM",
       "minute": null
     },
     {
       "id": 537332,
       "utc": "2026-06-25T01:00:00Z",
       "stage": "Group A",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 3,
       "home": {
         "name": "South Africa",
@@ -1297,12 +1776,21 @@
         "home": 1,
         "away": 0
       },
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "HOME_TEAM",
       "minute": null
     },
     {
       "id": 537355,
       "utc": "2026-06-25T20:00:00Z",
       "stage": "Group E",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 3,
       "home": {
         "name": "Ecuador",
@@ -1321,12 +1809,21 @@
         "home": 2,
         "away": 1
       },
+      "ht": {
+        "home": 1,
+        "away": 1
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "HOME_TEAM",
       "minute": null
     },
     {
       "id": 537356,
       "utc": "2026-06-25T20:00:00Z",
       "stage": "Group E",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 3,
       "home": {
         "name": "Curaçao",
@@ -1345,12 +1842,21 @@
         "home": 0,
         "away": 2
       },
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "AWAY_TEAM",
       "minute": null
     },
     {
       "id": 537361,
       "utc": "2026-06-25T23:00:00Z",
       "stage": "Group F",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 3,
       "home": {
         "name": "Tunisia",
@@ -1369,12 +1875,21 @@
         "home": 1,
         "away": 3
       },
+      "ht": {
+        "home": 0,
+        "away": 2
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "AWAY_TEAM",
       "minute": null
     },
     {
       "id": 537362,
       "utc": "2026-06-25T23:00:00Z",
       "stage": "Group F",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 3,
       "home": {
         "name": "Japan",
@@ -1393,12 +1908,21 @@
         "home": 1,
         "away": 1
       },
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "DRAW",
       "minute": null
     },
     {
       "id": 537349,
       "utc": "2026-06-26T02:00:00Z",
       "stage": "Group D",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 3,
       "home": {
         "name": "Turkey",
@@ -1417,12 +1941,21 @@
         "home": 3,
         "away": 2
       },
+      "ht": {
+        "home": 2,
+        "away": 1
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "HOME_TEAM",
       "minute": null
     },
     {
       "id": 537350,
       "utc": "2026-06-26T02:00:00Z",
       "stage": "Group D",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 3,
       "home": {
         "name": "Paraguay",
@@ -1441,12 +1974,21 @@
         "home": 0,
         "away": 0
       },
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "DRAW",
       "minute": null
     },
     {
       "id": 537395,
       "utc": "2026-06-26T19:00:00Z",
       "stage": "Group I",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 3,
       "home": {
         "name": "Norway",
@@ -1465,12 +2007,21 @@
         "home": 1,
         "away": 4
       },
+      "ht": {
+        "home": 1,
+        "away": 3
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "AWAY_TEAM",
       "minute": null
     },
     {
       "id": 537396,
       "utc": "2026-06-26T19:00:00Z",
       "stage": "Group I",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 3,
       "home": {
         "name": "Senegal",
@@ -1489,12 +2040,21 @@
         "home": 5,
         "away": 0
       },
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "HOME_TEAM",
       "minute": null
     },
     {
       "id": 537373,
       "utc": "2026-06-27T00:00:00Z",
       "stage": "Group H",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 3,
       "home": {
         "name": "Uruguay",
@@ -1513,12 +2073,21 @@
         "home": 0,
         "away": 1
       },
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "AWAY_TEAM",
       "minute": null
     },
     {
       "id": 537374,
       "utc": "2026-06-27T00:00:00Z",
       "stage": "Group H",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 3,
       "home": {
         "name": "Cape Verde Islands",
@@ -1537,12 +2106,21 @@
         "home": 0,
         "away": 0
       },
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "DRAW",
       "minute": null
     },
     {
       "id": 537367,
       "utc": "2026-06-27T03:00:00Z",
       "stage": "Group G",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 3,
       "home": {
         "name": "New Zealand",
@@ -1561,12 +2139,21 @@
         "home": 1,
         "away": 5
       },
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "AWAY_TEAM",
       "minute": null
     },
     {
       "id": 537368,
       "utc": "2026-06-27T03:00:00Z",
       "stage": "Group G",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 3,
       "home": {
         "name": "Egypt",
@@ -1585,12 +2172,21 @@
         "home": 1,
         "away": 1
       },
+      "ht": {
+        "home": 1,
+        "away": 1
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "DRAW",
       "minute": null
     },
     {
       "id": 537413,
       "utc": "2026-06-27T21:00:00Z",
       "stage": "Group L",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 3,
       "home": {
         "name": "Panama",
@@ -1609,12 +2205,21 @@
         "home": 0,
         "away": 2
       },
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "AWAY_TEAM",
       "minute": null
     },
     {
       "id": 537414,
       "utc": "2026-06-27T21:00:00Z",
       "stage": "Group L",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 3,
       "home": {
         "name": "Croatia",
@@ -1633,12 +2238,21 @@
         "home": 2,
         "away": 1
       },
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "HOME_TEAM",
       "minute": null
     },
     {
       "id": 537407,
       "utc": "2026-06-27T23:30:00Z",
       "stage": "Group K",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 3,
       "home": {
         "name": "Colombia",
@@ -1657,12 +2271,21 @@
         "home": 0,
         "away": 0
       },
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "DRAW",
       "minute": null
     },
     {
       "id": 537408,
       "utc": "2026-06-27T23:30:00Z",
       "stage": "Group K",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 3,
       "home": {
         "name": "Congo DR",
@@ -1681,12 +2304,21 @@
         "home": 3,
         "away": 1
       },
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "HOME_TEAM",
       "minute": null
     },
     {
       "id": 537401,
       "utc": "2026-06-28T02:00:00Z",
       "stage": "Group J",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 3,
       "home": {
         "name": "Jordan",
@@ -1705,12 +2337,21 @@
         "home": 1,
         "away": 3
       },
+      "ht": {
+        "home": 0,
+        "away": 2
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "AWAY_TEAM",
       "minute": null
     },
     {
       "id": 537402,
       "utc": "2026-06-28T02:00:00Z",
       "stage": "Group J",
+      "knockout": false,
+      "stageKey": "GROUP_STAGE",
       "matchday": 3,
       "home": {
         "name": "Algeria",
@@ -1729,12 +2370,21 @@
         "home": 3,
         "away": 3
       },
+      "ht": {
+        "home": 1,
+        "away": 1
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "DRAW",
       "minute": null
     },
     {
       "id": 537417,
       "utc": "2026-06-28T19:00:00Z",
       "stage": "Round of 32",
+      "knockout": true,
+      "stageKey": "LAST_32",
       "matchday": null,
       "home": {
         "name": "South Africa",
@@ -1753,12 +2403,21 @@
         "home": 0,
         "away": 1
       },
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "AWAY_TEAM",
       "minute": null
     },
     {
       "id": 537423,
       "utc": "2026-06-29T17:00:00Z",
       "stage": "Round of 32",
+      "knockout": true,
+      "stageKey": "LAST_32",
       "matchday": null,
       "home": {
         "name": "Brazil",
@@ -1777,12 +2436,21 @@
         "home": 2,
         "away": 1
       },
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "HOME_TEAM",
       "minute": null
     },
     {
       "id": 537415,
       "utc": "2026-06-29T20:30:00Z",
       "stage": "Round of 32",
+      "knockout": true,
+      "stageKey": "LAST_32",
       "matchday": null,
       "home": {
         "name": "Germany",
@@ -1798,15 +2466,27 @@
       },
       "status": "finished",
       "score": {
-        "home": 4,
-        "away": 5
+        "home": 1,
+        "away": 1
       },
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "pens": {
+        "home": 3,
+        "away": 4
+      },
+      "aet": false,
+      "winner": "AWAY_TEAM",
       "minute": null
     },
     {
       "id": 537418,
       "utc": "2026-06-30T01:00:00Z",
       "stage": "Round of 32",
+      "knockout": true,
+      "stageKey": "LAST_32",
       "matchday": null,
       "home": {
         "name": "Netherlands",
@@ -1822,15 +2502,27 @@
       },
       "status": "finished",
       "score": {
-        "home": 3,
-        "away": 4
+        "home": 1,
+        "away": 1
       },
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "pens": {
+        "home": 2,
+        "away": 3
+      },
+      "aet": false,
+      "winner": "AWAY_TEAM",
       "minute": null
     },
     {
       "id": 537424,
       "utc": "2026-06-30T17:00:00Z",
       "stage": "Round of 32",
+      "knockout": true,
+      "stageKey": "LAST_32",
       "matchday": null,
       "home": {
         "name": "Ivory Coast",
@@ -1849,12 +2541,21 @@
         "home": 1,
         "away": 2
       },
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "AWAY_TEAM",
       "minute": null
     },
     {
       "id": 537416,
       "utc": "2026-06-30T21:00:00Z",
       "stage": "Round of 32",
+      "knockout": true,
+      "stageKey": "LAST_32",
       "matchday": null,
       "home": {
         "name": "France",
@@ -1873,12 +2574,21 @@
         "home": 3,
         "away": 0
       },
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "HOME_TEAM",
       "minute": null
     },
     {
       "id": 537425,
       "utc": "2026-07-01T02:00:00Z",
       "stage": "Round of 32",
+      "knockout": true,
+      "stageKey": "LAST_32",
       "matchday": null,
       "home": {
         "name": "Mexico",
@@ -1897,12 +2607,21 @@
         "home": 2,
         "away": 0
       },
+      "ht": {
+        "home": 2,
+        "away": 0
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "HOME_TEAM",
       "minute": null
     },
     {
       "id": 537426,
       "utc": "2026-07-01T16:00:00Z",
       "stage": "Round of 32",
+      "knockout": true,
+      "stageKey": "LAST_32",
       "matchday": null,
       "home": {
         "name": "England",
@@ -1921,12 +2640,21 @@
         "home": 2,
         "away": 1
       },
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "HOME_TEAM",
       "minute": null
     },
     {
       "id": 537422,
       "utc": "2026-07-01T20:00:00Z",
       "stage": "Round of 32",
+      "knockout": true,
+      "stageKey": "LAST_32",
       "matchday": null,
       "home": {
         "name": "Belgium",
@@ -1945,12 +2673,21 @@
         "home": 3,
         "away": 2
       },
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "pens": null,
+      "aet": true,
+      "winner": "HOME_TEAM",
       "minute": null
     },
     {
       "id": 537421,
       "utc": "2026-07-02T00:00:00Z",
       "stage": "Round of 32",
+      "knockout": true,
+      "stageKey": "LAST_32",
       "matchday": null,
       "home": {
         "name": "United States",
@@ -1969,12 +2706,21 @@
         "home": 2,
         "away": 0
       },
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "pens": null,
+      "aet": false,
+      "winner": "HOME_TEAM",
       "minute": null
     },
     {
       "id": 537420,
       "utc": "2026-07-02T19:00:00Z",
       "stage": "Round of 32",
+      "knockout": true,
+      "stageKey": "LAST_32",
       "matchday": null,
       "home": {
         "name": "Spain",
@@ -1993,12 +2739,18 @@
         "home": null,
         "away": null
       },
+      "ht": null,
+      "pens": null,
+      "aet": false,
+      "winner": null,
       "minute": null
     },
     {
       "id": 537419,
       "utc": "2026-07-02T23:00:00Z",
       "stage": "Round of 32",
+      "knockout": true,
+      "stageKey": "LAST_32",
       "matchday": null,
       "home": {
         "name": "Portugal",
@@ -2017,12 +2769,18 @@
         "home": null,
         "away": null
       },
+      "ht": null,
+      "pens": null,
+      "aet": false,
+      "winner": null,
       "minute": null
     },
     {
       "id": 537429,
       "utc": "2026-07-03T03:00:00Z",
       "stage": "Round of 32",
+      "knockout": true,
+      "stageKey": "LAST_32",
       "matchday": null,
       "home": {
         "name": "Switzerland",
@@ -2041,12 +2799,18 @@
         "home": null,
         "away": null
       },
+      "ht": null,
+      "pens": null,
+      "aet": false,
+      "winner": null,
       "minute": null
     },
     {
       "id": 537428,
       "utc": "2026-07-03T18:00:00Z",
       "stage": "Round of 32",
+      "knockout": true,
+      "stageKey": "LAST_32",
       "matchday": null,
       "home": {
         "name": "Australia",
@@ -2065,12 +2829,18 @@
         "home": null,
         "away": null
       },
+      "ht": null,
+      "pens": null,
+      "aet": false,
+      "winner": null,
       "minute": null
     },
     {
       "id": 537427,
       "utc": "2026-07-03T22:00:00Z",
       "stage": "Round of 32",
+      "knockout": true,
+      "stageKey": "LAST_32",
       "matchday": null,
       "home": {
         "name": "Argentina",
@@ -2089,12 +2859,18 @@
         "home": null,
         "away": null
       },
+      "ht": null,
+      "pens": null,
+      "aet": false,
+      "winner": null,
       "minute": null
     },
     {
       "id": 537430,
       "utc": "2026-07-04T01:30:00Z",
       "stage": "Round of 32",
+      "knockout": true,
+      "stageKey": "LAST_32",
       "matchday": null,
       "home": {
         "name": "Colombia",
@@ -2113,12 +2889,18 @@
         "home": null,
         "away": null
       },
+      "ht": null,
+      "pens": null,
+      "aet": false,
+      "winner": null,
       "minute": null
     },
     {
       "id": 537376,
       "utc": "2026-07-04T17:00:00Z",
       "stage": "Round of 16",
+      "knockout": true,
+      "stageKey": "LAST_16",
       "matchday": null,
       "home": {
         "name": "Canada",
@@ -2137,12 +2919,18 @@
         "home": null,
         "away": null
       },
+      "ht": null,
+      "pens": null,
+      "aet": false,
+      "winner": null,
       "minute": null
     },
     {
       "id": 537375,
       "utc": "2026-07-04T21:00:00Z",
       "stage": "Round of 16",
+      "knockout": true,
+      "stageKey": "LAST_16",
       "matchday": null,
       "home": {
         "name": "Paraguay",
@@ -2161,12 +2949,18 @@
         "home": null,
         "away": null
       },
+      "ht": null,
+      "pens": null,
+      "aet": false,
+      "winner": null,
       "minute": null
     },
     {
       "id": 537377,
       "utc": "2026-07-05T20:00:00Z",
       "stage": "Round of 16",
+      "knockout": true,
+      "stageKey": "LAST_16",
       "matchday": null,
       "home": {
         "name": "Brazil",
@@ -2185,12 +2979,18 @@
         "home": null,
         "away": null
       },
+      "ht": null,
+      "pens": null,
+      "aet": false,
+      "winner": null,
       "minute": null
     },
     {
       "id": 537378,
       "utc": "2026-07-06T00:00:00Z",
       "stage": "Round of 16",
+      "knockout": true,
+      "stageKey": "LAST_16",
       "matchday": null,
       "home": {
         "name": "Mexico",
@@ -2209,12 +3009,18 @@
         "home": null,
         "away": null
       },
+      "ht": null,
+      "pens": null,
+      "aet": false,
+      "winner": null,
       "minute": null
     },
     {
       "id": 537379,
       "utc": "2026-07-06T19:00:00Z",
       "stage": "Round of 16",
+      "knockout": true,
+      "stageKey": "LAST_16",
       "matchday": null,
       "home": {
         "name": "TBD",
@@ -2233,12 +3039,18 @@
         "home": null,
         "away": null
       },
+      "ht": null,
+      "pens": null,
+      "aet": false,
+      "winner": null,
       "minute": null
     },
     {
       "id": 537380,
       "utc": "2026-07-07T00:00:00Z",
       "stage": "Round of 16",
+      "knockout": true,
+      "stageKey": "LAST_16",
       "matchday": null,
       "home": {
         "name": "United States",
@@ -2257,12 +3069,18 @@
         "home": null,
         "away": null
       },
+      "ht": null,
+      "pens": null,
+      "aet": false,
+      "winner": null,
       "minute": null
     },
     {
       "id": 537381,
       "utc": "2026-07-07T16:00:00Z",
       "stage": "Round of 16",
+      "knockout": true,
+      "stageKey": "LAST_16",
       "matchday": null,
       "home": {
         "name": "TBD",
@@ -2281,12 +3099,18 @@
         "home": null,
         "away": null
       },
+      "ht": null,
+      "pens": null,
+      "aet": false,
+      "winner": null,
       "minute": null
     },
     {
       "id": 537382,
       "utc": "2026-07-07T20:00:00Z",
       "stage": "Round of 16",
+      "knockout": true,
+      "stageKey": "LAST_16",
       "matchday": null,
       "home": {
         "name": "TBD",
@@ -2305,12 +3129,18 @@
         "home": null,
         "away": null
       },
+      "ht": null,
+      "pens": null,
+      "aet": false,
+      "winner": null,
       "minute": null
     },
     {
       "id": 537383,
       "utc": "2026-07-09T20:00:00Z",
       "stage": "Quarter-final",
+      "knockout": true,
+      "stageKey": "QUARTER_FINALS",
       "matchday": null,
       "home": {
         "name": "TBD",
@@ -2329,12 +3159,18 @@
         "home": null,
         "away": null
       },
+      "ht": null,
+      "pens": null,
+      "aet": false,
+      "winner": null,
       "minute": null
     },
     {
       "id": 537384,
       "utc": "2026-07-10T19:00:00Z",
       "stage": "Quarter-final",
+      "knockout": true,
+      "stageKey": "QUARTER_FINALS",
       "matchday": null,
       "home": {
         "name": "TBD",
@@ -2353,12 +3189,18 @@
         "home": null,
         "away": null
       },
+      "ht": null,
+      "pens": null,
+      "aet": false,
+      "winner": null,
       "minute": null
     },
     {
       "id": 537385,
       "utc": "2026-07-11T21:00:00Z",
       "stage": "Quarter-final",
+      "knockout": true,
+      "stageKey": "QUARTER_FINALS",
       "matchday": null,
       "home": {
         "name": "TBD",
@@ -2377,12 +3219,18 @@
         "home": null,
         "away": null
       },
+      "ht": null,
+      "pens": null,
+      "aet": false,
+      "winner": null,
       "minute": null
     },
     {
       "id": 537386,
       "utc": "2026-07-12T01:00:00Z",
       "stage": "Quarter-final",
+      "knockout": true,
+      "stageKey": "QUARTER_FINALS",
       "matchday": null,
       "home": {
         "name": "TBD",
@@ -2401,12 +3249,18 @@
         "home": null,
         "away": null
       },
+      "ht": null,
+      "pens": null,
+      "aet": false,
+      "winner": null,
       "minute": null
     },
     {
       "id": 537387,
       "utc": "2026-07-14T19:00:00Z",
       "stage": "Semi-final",
+      "knockout": true,
+      "stageKey": "SEMI_FINALS",
       "matchday": null,
       "home": {
         "name": "TBD",
@@ -2425,12 +3279,18 @@
         "home": null,
         "away": null
       },
+      "ht": null,
+      "pens": null,
+      "aet": false,
+      "winner": null,
       "minute": null
     },
     {
       "id": 537388,
       "utc": "2026-07-15T19:00:00Z",
       "stage": "Semi-final",
+      "knockout": true,
+      "stageKey": "SEMI_FINALS",
       "matchday": null,
       "home": {
         "name": "TBD",
@@ -2449,12 +3309,18 @@
         "home": null,
         "away": null
       },
+      "ht": null,
+      "pens": null,
+      "aet": false,
+      "winner": null,
       "minute": null
     },
     {
       "id": 537389,
       "utc": "2026-07-18T21:00:00Z",
       "stage": "3rd-place play-off",
+      "knockout": true,
+      "stageKey": "THIRD_PLACE",
       "matchday": null,
       "home": {
         "name": "TBD",
@@ -2473,12 +3339,18 @@
         "home": null,
         "away": null
       },
+      "ht": null,
+      "pens": null,
+      "aet": false,
+      "winner": null,
       "minute": null
     },
     {
       "id": 537390,
       "utc": "2026-07-19T19:00:00Z",
       "stage": "Final",
+      "knockout": true,
+      "stageKey": "FINAL",
       "matchday": null,
       "home": {
         "name": "TBD",
@@ -2497,885 +3369,253 @@
         "home": null,
         "away": null
       },
+      "ht": null,
+      "pens": null,
+      "aet": false,
+      "winner": null,
       "minute": null
     }
   ],
-  "standings": [
+  "scorers": [
     {
-      "group": "Group A",
-      "table": [
-        {
-          "position": 1,
-          "team": {
-            "name": "Mexico",
-            "tla": "MEX",
-            "crest": "https://crests.football-data.org/769.svg",
-            "flag": "🇲🇽"
-          },
-          "played": 3,
-          "won": 3,
-          "draw": 0,
-          "lost": 0,
-          "gf": 6,
-          "ga": 0,
-          "gd": 6,
-          "pts": 9
-        },
-        {
-          "position": 2,
-          "team": {
-            "name": "South Africa",
-            "tla": "RSA",
-            "crest": "https://crests.football-data.org/9396.svg",
-            "flag": "🇿🇦"
-          },
-          "played": 3,
-          "won": 1,
-          "draw": 1,
-          "lost": 1,
-          "gf": 2,
-          "ga": 3,
-          "gd": -1,
-          "pts": 4
-        },
-        {
-          "position": 3,
-          "team": {
-            "name": "South Korea",
-            "tla": "KOR",
-            "crest": "https://crests.football-data.org/772.png",
-            "flag": "🇰🇷"
-          },
-          "played": 3,
-          "won": 1,
-          "draw": 0,
-          "lost": 2,
-          "gf": 2,
-          "ga": 3,
-          "gd": -1,
-          "pts": 3
-        },
-        {
-          "position": 4,
-          "team": {
-            "name": "Czechia",
-            "tla": "CZE",
-            "crest": "https://crests.football-data.org/798.svg",
-            "flag": "🇨🇿"
-          },
-          "played": 3,
-          "won": 0,
-          "draw": 1,
-          "lost": 2,
-          "gf": 2,
-          "ga": 6,
-          "gd": -4,
-          "pts": 1
-        }
-      ]
+      "name": "Kylian Mbappé",
+      "team": {
+        "name": "France",
+        "tla": "FRA",
+        "crest": "https://crests.football-data.org/773.svg",
+        "flag": "🇫🇷"
+      },
+      "goals": 6,
+      "assists": 2,
+      "penalties": 0
     },
     {
-      "group": "Group B",
-      "table": [
-        {
-          "position": 1,
-          "team": {
-            "name": "Switzerland",
-            "tla": "SUI",
-            "crest": "https://crests.football-data.org/788.svg",
-            "flag": "🇨🇭"
-          },
-          "played": 3,
-          "won": 2,
-          "draw": 1,
-          "lost": 0,
-          "gf": 7,
-          "ga": 3,
-          "gd": 4,
-          "pts": 7
-        },
-        {
-          "position": 2,
-          "team": {
-            "name": "Canada",
-            "tla": "CAN",
-            "crest": "https://crests.football-data.org/canada.svg",
-            "flag": "🇨🇦"
-          },
-          "played": 3,
-          "won": 1,
-          "draw": 1,
-          "lost": 1,
-          "gf": 8,
-          "ga": 3,
-          "gd": 5,
-          "pts": 4
-        },
-        {
-          "position": 3,
-          "team": {
-            "name": "Bosnia-Herzegovina",
-            "tla": "BIH",
-            "crest": "https://crests.football-data.org/bosnia.svg",
-            "flag": "🇧🇦"
-          },
-          "played": 3,
-          "won": 1,
-          "draw": 1,
-          "lost": 1,
-          "gf": 5,
-          "ga": 6,
-          "gd": -1,
-          "pts": 4
-        },
-        {
-          "position": 4,
-          "team": {
-            "name": "Qatar",
-            "tla": "QAT",
-            "crest": "https://crests.football-data.org/8030.svg",
-            "flag": "🇶🇦"
-          },
-          "played": 3,
-          "won": 0,
-          "draw": 1,
-          "lost": 2,
-          "gf": 2,
-          "ga": 10,
-          "gd": -8,
-          "pts": 1
-        }
-      ]
+      "name": "Lionel Messi",
+      "team": {
+        "name": "Argentina",
+        "tla": "ARG",
+        "crest": "https://crests.football-data.org/762.png",
+        "flag": "🇦🇷"
+      },
+      "goals": 6,
+      "assists": 0,
+      "penalties": 0
     },
     {
-      "group": "Group C",
-      "table": [
-        {
-          "position": 1,
-          "team": {
-            "name": "Brazil",
-            "tla": "BRA",
-            "crest": "https://crests.football-data.org/764.svg",
-            "flag": "🇧🇷"
-          },
-          "played": 3,
-          "won": 2,
-          "draw": 1,
-          "lost": 0,
-          "gf": 7,
-          "ga": 1,
-          "gd": 6,
-          "pts": 7
-        },
-        {
-          "position": 2,
-          "team": {
-            "name": "Morocco",
-            "tla": "MAR",
-            "crest": "https://crests.football-data.org/morocco.svg",
-            "flag": "🇲🇦"
-          },
-          "played": 3,
-          "won": 2,
-          "draw": 1,
-          "lost": 0,
-          "gf": 6,
-          "ga": 3,
-          "gd": 3,
-          "pts": 7
-        },
-        {
-          "position": 3,
-          "team": {
-            "name": "Scotland",
-            "tla": "SCO",
-            "crest": "https://crests.football-data.org/814.svg",
-            "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
-          },
-          "played": 3,
-          "won": 1,
-          "draw": 0,
-          "lost": 2,
-          "gf": 1,
-          "ga": 4,
-          "gd": -3,
-          "pts": 3
-        },
-        {
-          "position": 4,
-          "team": {
-            "name": "Haiti",
-            "tla": "HAI",
-            "crest": "https://crests.football-data.org/haiti.svg",
-            "flag": "🇭🇹"
-          },
-          "played": 3,
-          "won": 0,
-          "draw": 0,
-          "lost": 3,
-          "gf": 2,
-          "ga": 8,
-          "gd": -6,
-          "pts": 0
-        }
-      ]
+      "name": "Erling Haaland",
+      "team": {
+        "name": "Norway",
+        "tla": "NOR",
+        "crest": "https://crests.football-data.org/813.svg",
+        "flag": "🇳🇴"
+      },
+      "goals": 5,
+      "assists": 0,
+      "penalties": 0
     },
     {
-      "group": "Group D",
-      "table": [
-        {
-          "position": 1,
-          "team": {
-            "name": "United States",
-            "tla": "USA",
-            "crest": "https://crests.football-data.org/usa.svg",
-            "flag": "🇺🇸"
-          },
-          "played": 3,
-          "won": 2,
-          "draw": 0,
-          "lost": 1,
-          "gf": 8,
-          "ga": 4,
-          "gd": 4,
-          "pts": 6
-        },
-        {
-          "position": 2,
-          "team": {
-            "name": "Australia",
-            "tla": "AUS",
-            "crest": "https://crests.football-data.org/779.svg",
-            "flag": "🇦🇺"
-          },
-          "played": 3,
-          "won": 1,
-          "draw": 1,
-          "lost": 1,
-          "gf": 2,
-          "ga": 2,
-          "gd": 0,
-          "pts": 4
-        },
-        {
-          "position": 3,
-          "team": {
-            "name": "Paraguay",
-            "tla": "PAR",
-            "crest": "https://crests.football-data.org/761.svg",
-            "flag": "🇵🇾"
-          },
-          "played": 3,
-          "won": 1,
-          "draw": 1,
-          "lost": 1,
-          "gf": 2,
-          "ga": 4,
-          "gd": -2,
-          "pts": 4
-        },
-        {
-          "position": 4,
-          "team": {
-            "name": "Turkey",
-            "tla": "TUR",
-            "crest": "https://crests.football-data.org/803.svg",
-            "flag": "🇹🇷"
-          },
-          "played": 3,
-          "won": 1,
-          "draw": 0,
-          "lost": 2,
-          "gf": 3,
-          "ga": 5,
-          "gd": -2,
-          "pts": 3
-        }
-      ]
+      "name": "Harry Kane",
+      "team": {
+        "name": "England",
+        "tla": "ENG",
+        "crest": "https://crests.football-data.org/770.svg",
+        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+      },
+      "goals": 5,
+      "assists": 0,
+      "penalties": 1
     },
     {
-      "group": "Group E",
-      "table": [
-        {
-          "position": 1,
-          "team": {
-            "name": "Germany",
-            "tla": "GER",
-            "crest": "https://crests.football-data.org/759.svg",
-            "flag": "🇩🇪"
-          },
-          "played": 3,
-          "won": 2,
-          "draw": 0,
-          "lost": 1,
-          "gf": 10,
-          "ga": 4,
-          "gd": 6,
-          "pts": 6
-        },
-        {
-          "position": 2,
-          "team": {
-            "name": "Ivory Coast",
-            "tla": "CIV",
-            "crest": "https://crests.football-data.org/787.svg",
-            "flag": "🇨🇮"
-          },
-          "played": 3,
-          "won": 2,
-          "draw": 0,
-          "lost": 1,
-          "gf": 4,
-          "ga": 2,
-          "gd": 2,
-          "pts": 6
-        },
-        {
-          "position": 3,
-          "team": {
-            "name": "Ecuador",
-            "tla": "ECU",
-            "crest": "https://crests.football-data.org/791.svg",
-            "flag": "🇪🇨"
-          },
-          "played": 3,
-          "won": 1,
-          "draw": 1,
-          "lost": 1,
-          "gf": 2,
-          "ga": 2,
-          "gd": 0,
-          "pts": 4
-        },
-        {
-          "position": 4,
-          "team": {
-            "name": "Curaçao",
-            "tla": "CUW",
-            "crest": "https://crests.football-data.org/curacao.svg",
-            "flag": "🇨🇼"
-          },
-          "played": 3,
-          "won": 0,
-          "draw": 1,
-          "lost": 2,
-          "gf": 1,
-          "ga": 9,
-          "gd": -8,
-          "pts": 1
-        }
-      ]
+      "name": "Vinicius Junior",
+      "team": {
+        "name": "Brazil",
+        "tla": "BRA",
+        "crest": "https://crests.football-data.org/764.svg",
+        "flag": "🇧🇷"
+      },
+      "goals": 4,
+      "assists": 1,
+      "penalties": 0
     },
     {
-      "group": "Group F",
-      "table": [
-        {
-          "position": 1,
-          "team": {
-            "name": "Netherlands",
-            "tla": "NED",
-            "crest": "https://crests.football-data.org/8601.svg",
-            "flag": "🇳🇱"
-          },
-          "played": 3,
-          "won": 2,
-          "draw": 1,
-          "lost": 0,
-          "gf": 10,
-          "ga": 4,
-          "gd": 6,
-          "pts": 7
-        },
-        {
-          "position": 2,
-          "team": {
-            "name": "Japan",
-            "tla": "JPN",
-            "crest": "https://crests.football-data.org/766.svg",
-            "flag": "🇯🇵"
-          },
-          "played": 3,
-          "won": 1,
-          "draw": 2,
-          "lost": 0,
-          "gf": 7,
-          "ga": 3,
-          "gd": 4,
-          "pts": 5
-        },
-        {
-          "position": 3,
-          "team": {
-            "name": "Sweden",
-            "tla": "SWE",
-            "crest": "https://crests.football-data.org/792.svg",
-            "flag": "🇸🇪"
-          },
-          "played": 3,
-          "won": 1,
-          "draw": 1,
-          "lost": 1,
-          "gf": 7,
-          "ga": 7,
-          "gd": 0,
-          "pts": 4
-        },
-        {
-          "position": 4,
-          "team": {
-            "name": "Tunisia",
-            "tla": "TUN",
-            "crest": "https://crests.football-data.org/tunisia.svg",
-            "flag": "🇹🇳"
-          },
-          "played": 3,
-          "won": 0,
-          "draw": 0,
-          "lost": 3,
-          "gf": 2,
-          "ga": 12,
-          "gd": -10,
-          "pts": 0
-        }
-      ]
+      "name": "Ousmane Dembélé",
+      "team": {
+        "name": "France",
+        "tla": "FRA",
+        "crest": "https://crests.football-data.org/773.svg",
+        "flag": "🇫🇷"
+      },
+      "goals": 4,
+      "assists": 2,
+      "penalties": 0
     },
     {
-      "group": "Group G",
-      "table": [
-        {
-          "position": 1,
-          "team": {
-            "name": "Belgium",
-            "tla": "BEL",
-            "crest": "https://crests.football-data.org/805.svg",
-            "flag": "🇧🇪"
-          },
-          "played": 3,
-          "won": 1,
-          "draw": 2,
-          "lost": 0,
-          "gf": 6,
-          "ga": 2,
-          "gd": 4,
-          "pts": 5
-        },
-        {
-          "position": 2,
-          "team": {
-            "name": "Egypt",
-            "tla": "EGY",
-            "crest": "https://crests.football-data.org/825.svg",
-            "flag": "🇪🇬"
-          },
-          "played": 3,
-          "won": 1,
-          "draw": 2,
-          "lost": 0,
-          "gf": 5,
-          "ga": 3,
-          "gd": 2,
-          "pts": 5
-        },
-        {
-          "position": 3,
-          "team": {
-            "name": "Iran",
-            "tla": "IRN",
-            "crest": "https://crests.football-data.org/iran.svg",
-            "flag": "🇮🇷"
-          },
-          "played": 3,
-          "won": 0,
-          "draw": 3,
-          "lost": 0,
-          "gf": 3,
-          "ga": 3,
-          "gd": 0,
-          "pts": 3
-        },
-        {
-          "position": 4,
-          "team": {
-            "name": "New Zealand",
-            "tla": "NZL",
-            "crest": "https://crests.football-data.org/783.svg",
-            "flag": "🇳🇿"
-          },
-          "played": 3,
-          "won": 0,
-          "draw": 1,
-          "lost": 2,
-          "gf": 4,
-          "ga": 10,
-          "gd": -6,
-          "pts": 1
-        }
-      ]
+      "name": "Ismaïla Sarr",
+      "team": {
+        "name": "Senegal",
+        "tla": "SEN",
+        "crest": "https://crests.football-data.org/senegal.svg",
+        "flag": "🇸🇳"
+      },
+      "goals": 4,
+      "assists": 1,
+      "penalties": 0
     },
     {
-      "group": "Group H",
-      "table": [
-        {
-          "position": 1,
-          "team": {
-            "name": "Spain",
-            "tla": "ESP",
-            "crest": "https://crests.football-data.org/760.svg",
-            "flag": "🇪🇸"
-          },
-          "played": 3,
-          "won": 2,
-          "draw": 1,
-          "lost": 0,
-          "gf": 5,
-          "ga": 0,
-          "gd": 5,
-          "pts": 7
-        },
-        {
-          "position": 2,
-          "team": {
-            "name": "Cape Verde Islands",
-            "tla": "CPV",
-            "crest": "https://crests.football-data.org/cape_verde.svg",
-            "flag": "🇨🇻"
-          },
-          "played": 3,
-          "won": 0,
-          "draw": 3,
-          "lost": 0,
-          "gf": 2,
-          "ga": 2,
-          "gd": 0,
-          "pts": 3
-        },
-        {
-          "position": 3,
-          "team": {
-            "name": "Uruguay",
-            "tla": "URU",
-            "crest": "https://crests.football-data.org/758.svg",
-            "flag": "🇺🇾"
-          },
-          "played": 3,
-          "won": 0,
-          "draw": 2,
-          "lost": 1,
-          "gf": 3,
-          "ga": 4,
-          "gd": -1,
-          "pts": 2
-        },
-        {
-          "position": 4,
-          "team": {
-            "name": "Saudi Arabia",
-            "tla": "KSA",
-            "crest": "https://crests.football-data.org/saudi_arabia.svg",
-            "flag": "🇸🇦"
-          },
-          "played": 3,
-          "won": 0,
-          "draw": 2,
-          "lost": 1,
-          "gf": 1,
-          "ga": 5,
-          "gd": -4,
-          "pts": 2
-        }
-      ]
+      "name": "Julián Quiñones",
+      "team": {
+        "name": "Mexico",
+        "tla": "MEX",
+        "crest": "https://crests.football-data.org/769.svg",
+        "flag": "🇲🇽"
+      },
+      "goals": 3,
+      "assists": 1,
+      "penalties": 0
     },
     {
-      "group": "Group I",
-      "table": [
-        {
-          "position": 1,
-          "team": {
-            "name": "France",
-            "tla": "FRA",
-            "crest": "https://crests.football-data.org/773.svg",
-            "flag": "🇫🇷"
-          },
-          "played": 3,
-          "won": 3,
-          "draw": 0,
-          "lost": 0,
-          "gf": 10,
-          "ga": 2,
-          "gd": 8,
-          "pts": 9
-        },
-        {
-          "position": 2,
-          "team": {
-            "name": "Norway",
-            "tla": "NOR",
-            "crest": "https://crests.football-data.org/813.svg",
-            "flag": "🇳🇴"
-          },
-          "played": 3,
-          "won": 2,
-          "draw": 0,
-          "lost": 1,
-          "gf": 8,
-          "ga": 7,
-          "gd": 1,
-          "pts": 6
-        },
-        {
-          "position": 3,
-          "team": {
-            "name": "Senegal",
-            "tla": "SEN",
-            "crest": "https://crests.football-data.org/senegal.svg",
-            "flag": "🇸🇳"
-          },
-          "played": 3,
-          "won": 1,
-          "draw": 0,
-          "lost": 2,
-          "gf": 8,
-          "ga": 6,
-          "gd": 2,
-          "pts": 3
-        },
-        {
-          "position": 4,
-          "team": {
-            "name": "Iraq",
-            "tla": "IRQ",
-            "crest": "https://crests.football-data.org/iraq.svg",
-            "flag": "🏳️"
-          },
-          "played": 3,
-          "won": 0,
-          "draw": 0,
-          "lost": 3,
-          "gf": 1,
-          "ga": 12,
-          "gd": -11,
-          "pts": 0
-        }
-      ]
+      "name": "Folarin Balogun",
+      "team": {
+        "name": "USA",
+        "tla": "USA",
+        "crest": "https://crests.football-data.org/usa.svg",
+        "flag": "🇺🇸"
+      },
+      "goals": 3,
+      "assists": 0,
+      "penalties": 0
     },
     {
-      "group": "Group J",
-      "table": [
-        {
-          "position": 1,
-          "team": {
-            "name": "Argentina",
-            "tla": "ARG",
-            "crest": "https://crests.football-data.org/762.png",
-            "flag": "🇦🇷"
-          },
-          "played": 3,
-          "won": 3,
-          "draw": 0,
-          "lost": 0,
-          "gf": 8,
-          "ga": 1,
-          "gd": 7,
-          "pts": 9
-        },
-        {
-          "position": 2,
-          "team": {
-            "name": "Austria",
-            "tla": "AUT",
-            "crest": "https://crests.football-data.org/816.svg",
-            "flag": "🇦🇹"
-          },
-          "played": 3,
-          "won": 1,
-          "draw": 1,
-          "lost": 1,
-          "gf": 6,
-          "ga": 6,
-          "gd": 0,
-          "pts": 4
-        },
-        {
-          "position": 3,
-          "team": {
-            "name": "Algeria",
-            "tla": "ALG",
-            "crest": "https://crests.football-data.org/algeria.svg",
-            "flag": "🇩🇿"
-          },
-          "played": 3,
-          "won": 1,
-          "draw": 1,
-          "lost": 1,
-          "gf": 5,
-          "ga": 7,
-          "gd": -2,
-          "pts": 4
-        },
-        {
-          "position": 4,
-          "team": {
-            "name": "Jordan",
-            "tla": "JOR",
-            "crest": "https://crests.football-data.org/8049.png",
-            "flag": "🇯🇴"
-          },
-          "played": 3,
-          "won": 0,
-          "draw": 0,
-          "lost": 3,
-          "gf": 3,
-          "ga": 8,
-          "gd": -5,
-          "pts": 0
-        }
-      ]
+      "name": "Ismael Saibari",
+      "team": {
+        "name": "Morocco",
+        "tla": "MAR",
+        "crest": "https://crests.football-data.org/morocco.svg",
+        "flag": "🇲🇦"
+      },
+      "goals": 3,
+      "assists": 0,
+      "penalties": 0
     },
     {
-      "group": "Group K",
-      "table": [
-        {
-          "position": 1,
-          "team": {
-            "name": "Colombia",
-            "tla": "COL",
-            "crest": "https://crests.football-data.org/818.svg",
-            "flag": "🇨🇴"
-          },
-          "played": 3,
-          "won": 2,
-          "draw": 1,
-          "lost": 0,
-          "gf": 4,
-          "ga": 1,
-          "gd": 3,
-          "pts": 7
-        },
-        {
-          "position": 2,
-          "team": {
-            "name": "Portugal",
-            "tla": "POR",
-            "crest": "https://crests.football-data.org/765.svg",
-            "flag": "🇵🇹"
-          },
-          "played": 3,
-          "won": 1,
-          "draw": 2,
-          "lost": 0,
-          "gf": 6,
-          "ga": 1,
-          "gd": 5,
-          "pts": 5
-        },
-        {
-          "position": 3,
-          "team": {
-            "name": "Congo DR",
-            "tla": "COD",
-            "crest": "https://crests.football-data.org/congo_dr.svg",
-            "flag": "🏳️"
-          },
-          "played": 3,
-          "won": 1,
-          "draw": 1,
-          "lost": 1,
-          "gf": 4,
-          "ga": 3,
-          "gd": 1,
-          "pts": 4
-        },
-        {
-          "position": 4,
-          "team": {
-            "name": "Uzbekistan",
-            "tla": "UZB",
-            "crest": "https://crests.football-data.org/8070.png",
-            "flag": "🇺🇿"
-          },
-          "played": 3,
-          "won": 0,
-          "draw": 0,
-          "lost": 3,
-          "gf": 2,
-          "ga": 11,
-          "gd": -9,
-          "pts": 0
-        }
-      ]
+      "name": "Kai Havertz",
+      "team": {
+        "name": "Germany",
+        "tla": "GER",
+        "crest": "https://crests.football-data.org/759.svg",
+        "flag": "🇩🇪"
+      },
+      "goals": 3,
+      "assists": 0,
+      "penalties": 1
     },
     {
-      "group": "Group L",
-      "table": [
-        {
-          "position": 1,
-          "team": {
-            "name": "England",
-            "tla": "ENG",
-            "crest": "https://crests.football-data.org/770.svg",
-            "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
-          },
-          "played": 3,
-          "won": 2,
-          "draw": 1,
-          "lost": 0,
-          "gf": 6,
-          "ga": 2,
-          "gd": 4,
-          "pts": 7
-        },
-        {
-          "position": 2,
-          "team": {
-            "name": "Croatia",
-            "tla": "CRO",
-            "crest": "https://crests.football-data.org/799.svg",
-            "flag": "🇭🇷"
-          },
-          "played": 3,
-          "won": 2,
-          "draw": 0,
-          "lost": 1,
-          "gf": 5,
-          "ga": 5,
-          "gd": 0,
-          "pts": 6
-        },
-        {
-          "position": 3,
-          "team": {
-            "name": "Ghana",
-            "tla": "GHA",
-            "crest": "https://crests.football-data.org/ghana.svg",
-            "flag": "🇬🇭"
-          },
-          "played": 3,
-          "won": 1,
-          "draw": 1,
-          "lost": 1,
-          "gf": 2,
-          "ga": 2,
-          "gd": 0,
-          "pts": 4
-        },
-        {
-          "position": 4,
-          "team": {
-            "name": "Panama",
-            "tla": "PAN",
-            "crest": "https://crests.football-data.org/panama.svg",
-            "flag": "🇵🇦"
-          },
-          "played": 3,
-          "won": 0,
-          "draw": 0,
-          "lost": 3,
-          "gf": 0,
-          "ga": 4,
-          "gd": -4,
-          "pts": 0
-        }
-      ]
+      "name": "Deniz Undav",
+      "team": {
+        "name": "Germany",
+        "tla": "GER",
+        "crest": "https://crests.football-data.org/759.svg",
+        "flag": "🇩🇪"
+      },
+      "goals": 3,
+      "assists": 2,
+      "penalties": 0
+    },
+    {
+      "name": "Elijah Just",
+      "team": {
+        "name": "New Zealand",
+        "tla": "NZL",
+        "crest": "https://crests.football-data.org/783.svg",
+        "flag": "🇳🇿"
+      },
+      "goals": 3,
+      "assists": 0,
+      "penalties": 0
+    },
+    {
+      "name": "Yoane Wissa",
+      "team": {
+        "name": "Congo DR",
+        "tla": "COD",
+        "crest": "https://crests.football-data.org/congo_dr.svg",
+        "flag": "🏳️"
+      },
+      "goals": 3,
+      "assists": 0,
+      "penalties": 1
+    },
+    {
+      "name": "Johan Manzambi",
+      "team": {
+        "name": "Switzerland",
+        "tla": "SUI",
+        "crest": "https://crests.football-data.org/788.svg",
+        "flag": "🇨🇭"
+      },
+      "goals": 3,
+      "assists": 1,
+      "penalties": 0
+    },
+    {
+      "name": "Jonathan David",
+      "team": {
+        "name": "Canada",
+        "tla": "CAN",
+        "crest": "https://crests.football-data.org/canada.svg",
+        "flag": "🇨🇦"
+      },
+      "goals": 3,
+      "assists": 0,
+      "penalties": 0
+    },
+    {
+      "name": "Matheus Cunha",
+      "team": {
+        "name": "Brazil",
+        "tla": "BRA",
+        "crest": "https://crests.football-data.org/764.svg",
+        "flag": "🇧🇷"
+      },
+      "goals": 3,
+      "assists": 0,
+      "penalties": 0
+    },
+    {
+      "name": "Brian Brobbey",
+      "team": {
+        "name": "Netherlands",
+        "tla": "NED",
+        "crest": "https://crests.football-data.org/8601.svg",
+        "flag": "🇳🇱"
+      },
+      "goals": 3,
+      "assists": 0,
+      "penalties": 0
+    },
+    {
+      "name": "Cody Gakpo",
+      "team": {
+        "name": "Netherlands",
+        "tla": "NED",
+        "crest": "https://crests.football-data.org/8601.svg",
+        "flag": "🇳🇱"
+      },
+      "goals": 3,
+      "assists": 1,
+      "penalties": 0
+    },
+    {
+      "name": "Raúl Jiménez",
+      "team": {
+        "name": "Mexico",
+        "tla": "MEX",
+        "crest": "https://crests.football-data.org/769.svg",
+        "flag": "🇲🇽"
+      },
+      "goals": 2,
+      "assists": 0,
+      "penalties": 0
     }
   ]
 }
