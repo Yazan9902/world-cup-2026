@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T18:48:39+00:00",
+  "updatedAt": "2026-07-02T20:11:34+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -2734,16 +2734,19 @@
         "crest": "https://crests.football-data.org/816.svg",
         "flag": "🇦🇹"
       },
-      "status": "upcoming",
+      "status": "live",
       "score": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
-      "ht": null,
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
       "pens": null,
       "aet": false,
-      "winner": null,
-      "minute": null
+      "winner": "HOME_TEAM",
+      "minute": 71
     },
     {
       "id": 537419,
@@ -3606,15 +3609,15 @@
       "penalties": 0
     },
     {
-      "name": "Raúl Jiménez",
+      "name": "Mikel Oyarzabal",
       "team": {
-        "name": "Mexico",
-        "tla": "MEX",
-        "crest": "https://crests.football-data.org/769.svg",
-        "flag": "🇲🇽"
+        "name": "Spain",
+        "tla": "ESP",
+        "crest": "https://crests.football-data.org/760.svg",
+        "flag": "🇪🇸"
       },
-      "goals": 2,
-      "assists": 0,
+      "goals": 3,
+      "assists": 1,
       "penalties": 0
     }
   ]
