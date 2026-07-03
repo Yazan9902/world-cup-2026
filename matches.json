@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T01:21:19+00:00",
+  "updatedAt": "2026-07-03T05:06:41+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -2770,7 +2770,7 @@
       "status": "finished",
       "score": {
         "home": 2,
-        "away": 2
+        "away": 1
       },
       "ht": {
         "home": 0,
@@ -2778,7 +2778,7 @@
       },
       "pens": null,
       "aet": false,
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "minute": null
     },
     {
@@ -2800,15 +2800,18 @@
         "crest": "https://crests.football-data.org/algeria.svg",
         "flag": "🇩🇿"
       },
-      "status": "upcoming",
+      "status": "finished",
       "score": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 0
       },
-      "ht": null,
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
       "pens": null,
       "aet": false,
-      "winner": null,
+      "winner": "HOME_TEAM",
       "minute": null
     },
     {
@@ -3572,7 +3575,7 @@
         "flag": "🇨🇭"
       },
       "goals": 3,
-      "assists": 1,
+      "assists": 2,
       "penalties": 0
     },
     {
