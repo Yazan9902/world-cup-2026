@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T21:57:39+00:00",
+  "updatedAt": "2026-07-03T23:12:16+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -2871,13 +2871,16 @@
       },
       "status": "upcoming",
       "score": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
-      "ht": null,
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
       "pens": null,
       "aet": false,
-      "winner": null,
+      "winner": "HOME_TEAM",
       "minute": null
     },
     {
@@ -3393,6 +3396,18 @@
   ],
   "scorers": [
     {
+      "name": "Lionel Messi",
+      "team": {
+        "name": "Argentina",
+        "tla": "ARG",
+        "crest": "https://crests.football-data.org/762.png",
+        "flag": "🇦🇷"
+      },
+      "goals": 7,
+      "assists": 0,
+      "penalties": 0
+    },
+    {
       "name": "Kylian Mbappé",
       "team": {
         "name": "France",
@@ -3402,18 +3417,6 @@
       },
       "goals": 6,
       "assists": 2,
-      "penalties": 0
-    },
-    {
-      "name": "Lionel Messi",
-      "team": {
-        "name": "Argentina",
-        "tla": "ARG",
-        "crest": "https://crests.football-data.org/762.png",
-        "flag": "🇦🇷"
-      },
-      "goals": 6,
-      "assists": 0,
       "penalties": 0
     },
     {
