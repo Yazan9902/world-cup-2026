@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T00:17:53+00:00",
+  "updatedAt": "2026-07-04T04:07:14+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -2869,10 +2869,10 @@
         "crest": "https://crests.football-data.org/cape_verde.svg",
         "flag": "🇨🇻"
       },
-      "status": "live",
+      "status": "finished",
       "score": {
-        "home": 2,
-        "away": 1
+        "home": 3,
+        "away": 2
       },
       "ht": {
         "home": 1,
@@ -2881,7 +2881,7 @@
       "pens": null,
       "aet": true,
       "winner": "HOME_TEAM",
-      "minute": 120
+      "minute": null
     },
     {
       "id": 537430,
@@ -2902,15 +2902,18 @@
         "crest": "https://crests.football-data.org/ghana.svg",
         "flag": "🇬🇭"
       },
-      "status": "upcoming",
+      "status": "finished",
       "score": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
-      "ht": null,
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
       "pens": null,
       "aet": false,
-      "winner": null,
+      "winner": "HOME_TEAM",
       "minute": null
     },
     {
@@ -3404,7 +3407,7 @@
         "flag": "🇦🇷"
       },
       "goals": 7,
-      "assists": 0,
+      "assists": 1,
       "penalties": 0
     },
     {
