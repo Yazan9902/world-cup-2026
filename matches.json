@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T22:41:41+00:00",
+  "updatedAt": "2026-07-04T23:44:48+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -2968,7 +2968,7 @@
         "crest": "https://crests.football-data.org/773.svg",
         "flag": "🇫🇷"
       },
-      "status": "live",
+      "status": "finished",
       "score": {
         "home": 0,
         "away": 1
@@ -2980,7 +2980,7 @@
       "pens": null,
       "aet": false,
       "winner": "AWAY_TEAM",
-      "minute": 101
+      "minute": null
     },
     {
       "id": 537377,
