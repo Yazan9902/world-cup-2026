@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T04:07:14+00:00",
+  "updatedAt": "2026-07-04T07:13:14+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -2843,11 +2843,11 @@
         "away": 1
       },
       "pens": {
-        "home": 4,
+        "home": 2,
         "away": 4
       },
       "aet": false,
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "minute": null
     },
     {
@@ -3044,16 +3044,16 @@
       "stageKey": "LAST_16",
       "matchday": null,
       "home": {
-        "name": "TBD",
-        "tla": "",
-        "crest": "",
-        "flag": "🏳️"
+        "name": "Portugal",
+        "tla": "POR",
+        "crest": "https://crests.football-data.org/765.svg",
+        "flag": "🇵🇹"
       },
       "away": {
-        "name": "TBD",
-        "tla": "",
-        "crest": "",
-        "flag": "🏳️"
+        "name": "Spain",
+        "tla": "ESP",
+        "crest": "https://crests.football-data.org/760.svg",
+        "flag": "🇪🇸"
       },
       "status": "upcoming",
       "score": {
@@ -3104,16 +3104,16 @@
       "stageKey": "LAST_16",
       "matchday": null,
       "home": {
-        "name": "TBD",
-        "tla": "",
-        "crest": "",
-        "flag": "🏳️"
+        "name": "Argentina",
+        "tla": "ARG",
+        "crest": "https://crests.football-data.org/762.png",
+        "flag": "🇦🇷"
       },
       "away": {
-        "name": "TBD",
-        "tla": "",
-        "crest": "",
-        "flag": "🏳️"
+        "name": "Egypt",
+        "tla": "EGY",
+        "crest": "https://crests.football-data.org/825.svg",
+        "flag": "🇪🇬"
       },
       "status": "upcoming",
       "score": {
@@ -3134,16 +3134,16 @@
       "stageKey": "LAST_16",
       "matchday": null,
       "home": {
-        "name": "TBD",
-        "tla": "",
-        "crest": "",
-        "flag": "🏳️"
+        "name": "Switzerland",
+        "tla": "SUI",
+        "crest": "https://crests.football-data.org/788.svg",
+        "flag": "🇨🇭"
       },
       "away": {
-        "name": "TBD",
-        "tla": "",
-        "crest": "",
-        "flag": "🏳️"
+        "name": "Colombia",
+        "tla": "COL",
+        "crest": "https://crests.football-data.org/818.svg",
+        "flag": "🇨🇴"
       },
       "status": "upcoming",
       "score": {
