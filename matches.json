@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T18:38:49+00:00",
+  "updatedAt": "2026-07-04T19:53:12+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -2935,10 +2935,10 @@
         "crest": "https://crests.football-data.org/morocco.svg",
         "flag": "🇲🇦"
       },
-      "status": "live",
+      "status": "finished",
       "score": {
         "home": 0,
-        "away": 1
+        "away": 3
       },
       "ht": {
         "home": 0,
@@ -2947,7 +2947,7 @@
       "pens": null,
       "aet": false,
       "winner": "AWAY_TEAM",
-      "minute": 98
+      "minute": null
     },
     {
       "id": 537375,
