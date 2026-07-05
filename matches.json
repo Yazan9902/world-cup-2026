@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T05:42:04+00:00",
+  "updatedAt": "2026-07-05T08:31:33+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -2968,7 +2968,7 @@
         "crest": "https://crests.football-data.org/773.svg",
         "flag": "🇫🇷"
       },
-      "status": "upcoming",
+      "status": "finished",
       "score": {
         "home": 0,
         "away": 1
@@ -3170,16 +3170,16 @@
       "stageKey": "QUARTER_FINALS",
       "matchday": null,
       "home": {
-        "name": "TBD",
-        "tla": "",
-        "crest": "",
-        "flag": "🏳️"
+        "name": "France",
+        "tla": "FRA",
+        "crest": "https://crests.football-data.org/773.svg",
+        "flag": "🇫🇷"
       },
       "away": {
-        "name": "TBD",
-        "tla": "",
-        "crest": "",
-        "flag": "🏳️"
+        "name": "Morocco",
+        "tla": "MAR",
+        "crest": "https://crests.football-data.org/morocco.svg",
+        "flag": "🇲🇦"
       },
       "status": "upcoming",
       "score": {
