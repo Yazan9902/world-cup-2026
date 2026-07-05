@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T21:16:21+00:00",
+  "updatedAt": "2026-07-05T22:16:55+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -3001,10 +3001,10 @@
         "crest": "https://crests.football-data.org/813.svg",
         "flag": "🇳🇴"
       },
-      "status": "upcoming",
+      "status": "finished",
       "score": {
-        "home": 0,
-        "away": 0
+        "home": 1,
+        "away": 2
       },
       "ht": {
         "home": 0,
@@ -3012,7 +3012,7 @@
       },
       "pens": null,
       "aet": false,
-      "winner": "DRAW",
+      "winner": "AWAY_TEAM",
       "minute": null
     },
     {
@@ -3420,6 +3420,18 @@
       "penalties": 1
     },
     {
+      "name": "Erling Haaland",
+      "team": {
+        "name": "Norway",
+        "tla": "NOR",
+        "crest": "https://crests.football-data.org/813.svg",
+        "flag": "🇳🇴"
+      },
+      "goals": 7,
+      "assists": 0,
+      "penalties": 0
+    },
+    {
       "name": "Lionel Messi",
       "team": {
         "name": "Argentina",
@@ -3428,18 +3440,6 @@
         "flag": "🇦🇷"
       },
       "goals": 7,
-      "assists": 0,
-      "penalties": 0
-    },
-    {
-      "name": "Erling Haaland",
-      "team": {
-        "name": "Norway",
-        "tla": "NOR",
-        "crest": "https://crests.football-data.org/813.svg",
-        "flag": "🇳🇴"
-      },
-      "goals": 5,
       "assists": 0,
       "penalties": 0
     },
