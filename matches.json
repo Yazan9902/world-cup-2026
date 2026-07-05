@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T01:27:08+00:00",
+  "updatedAt": "2026-07-05T05:42:04+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -2968,7 +2968,7 @@
         "crest": "https://crests.football-data.org/773.svg",
         "flag": "🇫🇷"
       },
-      "status": "finished",
+      "status": "upcoming",
       "score": {
         "home": 0,
         "away": 1
