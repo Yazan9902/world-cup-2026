@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T22:16:55+00:00",
+  "updatedAt": "2026-07-05T23:31:47+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -3017,7 +3017,7 @@
     },
     {
       "id": 537378,
-      "utc": "2026-07-06T00:00:00Z",
+      "utc": "2026-07-06T01:00:00Z",
       "stage": "Round of 16",
       "knockout": true,
       "stageKey": "LAST_16",
