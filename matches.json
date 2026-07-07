@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T20:21:03+00:00",
+  "updatedAt": "2026-07-07T21:49:01+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -3171,11 +3171,14 @@
         "home": 0,
         "away": 0
       },
-      "ht": null,
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
       "pens": null,
       "aet": false,
       "winner": "DRAW",
-      "minute": 20
+      "minute": 108
     },
     {
       "id": 537383,
