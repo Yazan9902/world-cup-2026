@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T16:11:37+00:00",
+  "updatedAt": "2026-07-07T18:21:16+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -3133,15 +3133,18 @@
         "crest": "https://crests.football-data.org/825.svg",
         "flag": "🇪🇬"
       },
-      "status": "upcoming",
+      "status": "finished",
       "score": {
-        "home": 0,
-        "away": 0
+        "home": 3,
+        "away": 2
       },
-      "ht": null,
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
       "pens": null,
       "aet": false,
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "minute": null
     },
     {
@@ -3417,6 +3420,18 @@
   ],
   "scorers": [
     {
+      "name": "Lionel Messi",
+      "team": {
+        "name": "Argentina",
+        "tla": "ARG",
+        "crest": "https://crests.football-data.org/762.png",
+        "flag": "🇦🇷"
+      },
+      "goals": 8,
+      "assists": 1,
+      "penalties": 0
+    },
+    {
       "name": "Kylian Mbappé",
       "team": {
         "name": "France",
@@ -3435,18 +3450,6 @@
         "tla": "NOR",
         "crest": "https://crests.football-data.org/813.svg",
         "flag": "🇳🇴"
-      },
-      "goals": 7,
-      "assists": 0,
-      "penalties": 0
-    },
-    {
-      "name": "Lionel Messi",
-      "team": {
-        "name": "Argentina",
-        "tla": "ARG",
-        "crest": "https://crests.football-data.org/762.png",
-        "flag": "🇦🇷"
       },
       "goals": 7,
       "assists": 0,
