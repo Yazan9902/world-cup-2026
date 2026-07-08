@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-08T04:34:20+00:00",
+  "updatedAt": "2026-07-08T07:11:55+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -3176,11 +3176,11 @@
         "away": 0
       },
       "pens": {
-        "home": 3,
+        "home": 4,
         "away": 3
       },
       "aet": false,
-      "winner": null,
+      "winner": "HOME_TEAM",
       "minute": null
     },
     {
@@ -3281,16 +3281,16 @@
       "stageKey": "QUARTER_FINALS",
       "matchday": null,
       "home": {
-        "name": "TBD",
-        "tla": "",
-        "crest": "",
-        "flag": "🏳️"
+        "name": "Argentina",
+        "tla": "ARG",
+        "crest": "https://crests.football-data.org/762.png",
+        "flag": "🇦🇷"
       },
       "away": {
-        "name": "TBD",
-        "tla": "",
-        "crest": "",
-        "flag": "🏳️"
+        "name": "Switzerland",
+        "tla": "SUI",
+        "crest": "https://crests.football-data.org/788.svg",
+        "flag": "🇨🇭"
       },
       "status": "upcoming",
       "score": {
