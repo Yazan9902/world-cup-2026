@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-09T20:25:57+00:00",
+  "updatedAt": "2026-07-09T21:58:58+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -3204,14 +3204,17 @@
       },
       "status": "live",
       "score": {
+        "home": 2,
+        "away": 0
+      },
+      "ht": {
         "home": 0,
         "away": 0
       },
-      "ht": null,
       "pens": null,
       "aet": false,
-      "winner": "DRAW",
-      "minute": 25
+      "winner": "HOME_TEAM",
+      "minute": 118
     },
     {
       "id": 537384,
@@ -3426,6 +3429,18 @@
   ],
   "scorers": [
     {
+      "name": "Kylian Mbappé",
+      "team": {
+        "name": "France",
+        "tla": "FRA",
+        "crest": "https://crests.football-data.org/773.svg",
+        "flag": "🇫🇷"
+      },
+      "goals": 8,
+      "assists": 2,
+      "penalties": 1
+    },
+    {
       "name": "Lionel Messi",
       "team": {
         "name": "Argentina",
@@ -3436,18 +3451,6 @@
       "goals": 8,
       "assists": 1,
       "penalties": 0
-    },
-    {
-      "name": "Kylian Mbappé",
-      "team": {
-        "name": "France",
-        "tla": "FRA",
-        "crest": "https://crests.football-data.org/773.svg",
-        "flag": "🇫🇷"
-      },
-      "goals": 7,
-      "assists": 2,
-      "penalties": 1
     },
     {
       "name": "Erling Haaland",
@@ -3472,6 +3475,18 @@
       "goals": 6,
       "assists": 1,
       "penalties": 2
+    },
+    {
+      "name": "Ousmane Dembélé",
+      "team": {
+        "name": "France",
+        "tla": "FRA",
+        "crest": "https://crests.football-data.org/773.svg",
+        "flag": "🇫🇷"
+      },
+      "goals": 5,
+      "assists": 2,
+      "penalties": 0
     },
     {
       "name": "Julián Quiñones",
@@ -3519,18 +3534,6 @@
       },
       "goals": 4,
       "assists": 1,
-      "penalties": 0
-    },
-    {
-      "name": "Ousmane Dembélé",
-      "team": {
-        "name": "France",
-        "tla": "FRA",
-        "crest": "https://crests.football-data.org/773.svg",
-        "flag": "🇫🇷"
-      },
-      "goals": 4,
-      "assists": 2,
       "penalties": 0
     },
     {
