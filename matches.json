@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-10T05:05:11+00:00",
+  "updatedAt": "2026-07-10T08:35:17+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -3314,10 +3314,10 @@
       "stageKey": "SEMI_FINALS",
       "matchday": null,
       "home": {
-        "name": "TBD",
-        "tla": "",
-        "crest": "",
-        "flag": "🏳️"
+        "name": "France",
+        "tla": "FRA",
+        "crest": "https://crests.football-data.org/773.svg",
+        "flag": "🇫🇷"
       },
       "away": {
         "name": "TBD",
