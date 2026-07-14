@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-14T18:47:27+00:00",
+  "updatedAt": "2026-07-14T20:00:44+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -3334,16 +3334,19 @@
         "crest": "https://crests.football-data.org/760.svg",
         "flag": "🇪🇸"
       },
-      "status": "upcoming",
+      "status": "live",
       "score": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
-      "ht": null,
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
       "pens": null,
       "aet": false,
-      "winner": null,
-      "minute": null
+      "winner": "AWAY_TEAM",
+      "minute": 60
     },
     {
       "id": 537388,
@@ -3498,6 +3501,18 @@
       "penalties": 0
     },
     {
+      "name": "Mikel Oyarzabal",
+      "team": {
+        "name": "Spain",
+        "tla": "ESP",
+        "crest": "https://crests.football-data.org/760.svg",
+        "flag": "🇪🇸"
+      },
+      "goals": 5,
+      "assists": 1,
+      "penalties": 1
+    },
+    {
       "name": "Ousmane Dembélé",
       "team": {
         "name": "France",
@@ -3528,18 +3543,6 @@
         "tla": "BRA",
         "crest": "https://crests.football-data.org/764.svg",
         "flag": "🇧🇷"
-      },
-      "goals": 4,
-      "assists": 1,
-      "penalties": 0
-    },
-    {
-      "name": "Mikel Oyarzabal",
-      "team": {
-        "name": "Spain",
-        "tla": "ESP",
-        "crest": "https://crests.football-data.org/760.svg",
-        "flag": "🇪🇸"
       },
       "goals": 4,
       "assists": 1,
