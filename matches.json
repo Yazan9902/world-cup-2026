@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-15T05:55:24+00:00",
+  "updatedAt": "2026-07-15T08:10:52+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -3386,10 +3386,10 @@
       "stageKey": "THIRD_PLACE",
       "matchday": null,
       "home": {
-        "name": "TBD",
-        "tla": "",
-        "crest": "",
-        "flag": "🏳️"
+        "name": "France",
+        "tla": "FRA",
+        "crest": "https://crests.football-data.org/773.svg",
+        "flag": "🇫🇷"
       },
       "away": {
         "name": "TBD",
@@ -3416,10 +3416,10 @@
       "stageKey": "FINAL",
       "matchday": null,
       "home": {
-        "name": "TBD",
-        "tla": "",
-        "crest": "",
-        "flag": "🏳️"
+        "name": "Spain",
+        "tla": "ESP",
+        "crest": "https://crests.football-data.org/760.svg",
+        "flag": "🇪🇸"
       },
       "away": {
         "name": "TBD",
