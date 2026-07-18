@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-18T22:09:34+00:00",
+  "updatedAt": "2026-07-18T23:10:34+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -3400,10 +3400,10 @@
         "crest": "https://crests.football-data.org/770.svg",
         "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
       },
-      "status": "live",
+      "status": "finished",
       "score": {
-        "home": 0,
-        "away": 4
+        "home": 4,
+        "away": 6
       },
       "ht": {
         "home": 0,
@@ -3412,7 +3412,7 @@
       "pens": null,
       "aet": false,
       "winner": "AWAY_TEAM",
-      "minute": 69
+      "minute": null
     },
     {
       "id": 537390,
@@ -3454,8 +3454,8 @@
         "crest": "https://crests.football-data.org/773.svg",
         "flag": "🇫🇷"
       },
-      "goals": 8,
-      "assists": 3,
+      "goals": 10,
+      "assists": 4,
       "penalties": 1
     },
     {
@@ -3483,6 +3483,18 @@
       "penalties": 0
     },
     {
+      "name": "Jude Bellingham",
+      "team": {
+        "name": "England",
+        "tla": "ENG",
+        "crest": "https://crests.football-data.org/770.svg",
+        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+      },
+      "goals": 7,
+      "assists": 1,
+      "penalties": 0
+    },
+    {
       "name": "Harry Kane",
       "team": {
         "name": "England",
@@ -3495,15 +3507,15 @@
       "penalties": 2
     },
     {
-      "name": "Jude Bellingham",
+      "name": "Ousmane Dembélé",
       "team": {
-        "name": "England",
-        "tla": "ENG",
-        "crest": "https://crests.football-data.org/770.svg",
-        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+        "name": "France",
+        "tla": "FRA",
+        "crest": "https://crests.football-data.org/773.svg",
+        "flag": "🇫🇷"
       },
       "goals": 6,
-      "assists": 1,
+      "assists": 2,
       "penalties": 0
     },
     {
@@ -3517,18 +3529,6 @@
       "goals": 5,
       "assists": 1,
       "penalties": 1
-    },
-    {
-      "name": "Ousmane Dembélé",
-      "team": {
-        "name": "France",
-        "tla": "FRA",
-        "crest": "https://crests.football-data.org/773.svg",
-        "flag": "🇫🇷"
-      },
-      "goals": 5,
-      "assists": 2,
-      "penalties": 0
     },
     {
       "name": "Julián Quiñones",
@@ -3639,6 +3639,18 @@
       "penalties": 0
     },
     {
+      "name": "Bradley Barcola",
+      "team": {
+        "name": "France",
+        "tla": "FRA",
+        "crest": "https://crests.football-data.org/773.svg",
+        "flag": "🇫🇷"
+      },
+      "goals": 3,
+      "assists": 1,
+      "penalties": 0
+    },
+    {
       "name": "Yoane Wissa",
       "team": {
         "name": "Congo DR",
@@ -3669,18 +3681,6 @@
         "tla": "CAN",
         "crest": "https://crests.football-data.org/canada.svg",
         "flag": "🇨🇦"
-      },
-      "goals": 3,
-      "assists": 0,
-      "penalties": 0
-    },
-    {
-      "name": "Matheus Cunha",
-      "team": {
-        "name": "Brazil",
-        "tla": "BRA",
-        "crest": "https://crests.football-data.org/764.svg",
-        "flag": "🇧🇷"
       },
       "goals": 3,
       "assists": 0,
