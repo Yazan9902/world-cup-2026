@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-18T21:14:37+00:00",
+  "updatedAt": "2026-07-18T22:09:34+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -3403,13 +3403,16 @@
       "status": "live",
       "score": {
         "home": 0,
-        "away": 1
+        "away": 4
       },
-      "ht": null,
+      "ht": {
+        "home": 0,
+        "away": 4
+      },
       "pens": null,
       "aet": false,
       "winner": "AWAY_TEAM",
-      "minute": 14
+      "minute": 69
     },
     {
       "id": 537390,
