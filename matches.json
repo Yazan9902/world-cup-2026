@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T20:27:04+00:00",
+  "updatedAt": "2026-07-19T21:26:18+00:00",
   "competition": "FIFA World Cup 2026",
   "count": 104,
   "matches": [
@@ -3433,7 +3433,7 @@
         "crest": "https://crests.football-data.org/762.png",
         "flag": "🇦🇷"
       },
-      "status": "live",
+      "status": "upcoming",
       "score": {
         "home": 0,
         "away": 0
@@ -3445,7 +3445,7 @@
       "pens": null,
       "aet": false,
       "winner": "DRAW",
-      "minute": 86
+      "minute": null
     }
   ],
   "scorers": [
